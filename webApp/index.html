@@ -1,0 +1,27 @@
+<html>
+<head>
+    <link href="css/commons.css">
+</head>
+<body>
+    <div id="header"></div>
+    <div id="body"></div>
+    <div id="footer"></div>
+</body>
+</html>
+<script src="js/lib/jquery-2.1.4.min.js"></script>
+<script src="js/lib/angular.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        var header = $("#header");
+        alert(1)
+        if(header.length > 0){
+            alert(2)
+            var headHtml = $.ajax({
+                url:"header.html",
+                async:false
+            });
+            header.html(headHtml);
+        }
+    })
+</script>
+
