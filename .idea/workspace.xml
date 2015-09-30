@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6583a936-c76c-4f77-80ae-af6485034cec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webApp/index.html" afterPath="$PROJECT_DIR$/webApp/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wb.iws" />
@@ -51,7 +50,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="gh-pages" />
+        <entry key="$PROJECT_DIR$" value="0.0.2" />
       </map>
     </option>
   </component>
@@ -423,12 +422,19 @@
       <option name="number" value="Default" />
       <updated>1443633642667</updated>
       <workItem from="1443633649092" duration="2272000" />
-      <workItem from="1443636339500" duration="297000" />
+      <workItem from="1443636339500" duration="368000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化">
+      <created>1443636676748</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1443636676748</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2569000" />
+    <option name="totallyTimeSpent" value="2640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -436,6 +442,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -461,6 +468,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
