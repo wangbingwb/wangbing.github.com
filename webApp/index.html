@@ -21,6 +21,7 @@
             var headHtml = $.ajax({
                 url:url+"header.html",
                 async:true,
+                dataType:"text/html",
                 success:function(data){
                     header.html(data);
                 }
