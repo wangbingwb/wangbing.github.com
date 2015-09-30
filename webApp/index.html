@@ -9,19 +9,22 @@
 </body>
 </html>
 <script src="js/lib/jquery-2.1.4.min.js"></script>
-<script src="js/lib/angular.min.js"></script>
+<!--<script src="js/lib/angular.min.js"></script>-->
 <script type="text/javascript">
     $(function(){
+        var url = location.href.match(".*/wb/webApp/")+"";
+
         var header = $("#header");
-        alert(1)
         if(header.length > 0){
             
             var headHtml = $.ajax({
-                url:"header.html",
-                async:false
+                url:url+"header.html",
+                async:true,
+                success:function(data){
+                    header.html(data);
+                }
             });
 
-            header.html(headHtml);
         }
     })
 </script>
