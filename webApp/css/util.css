@@ -1,0 +1,83 @@
+.wb-ut-show-message{
+    background-color: #DAE3EE;
+    height: 20%;
+    width: 20%;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    min-height: 125px;
+    min-width: 200px;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 6px 6px 6px -3px #000;
+    font-family: "微软雅黑";
+    display: none;
+}
+.wb-ut-show-message .title{
+    height: 40%;
+    width: 100%;
+}
+.wb-ut-show-message .title-icon{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    background: url("../images/message.png") no-repeat center center;
+    background-size: auto 100%;
+}
+.wb-ut-show-message .content{
+    height: 50%;
+    width: 80%;
+    padding:0 10% 0 10%;
+}
+.wb-ut-show-message .content .text{
+    padding-top: 10%;
+    text-align: center;
+    height: 60%;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+
+.wb-ut-show-error{
+    background-color: #FCE5B5;
+    height: 20%;
+    width: 20%;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    min-height: 125px;
+    min-width: 200px;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 6px 6px 6px -3px #000;
+    font-family: "微软雅黑";
+    display: none;
+}
+.wb-ut-show-error .title{
+    height: 40%;
+    width: 100%;
+}
+.wb-ut-show-error .title-icon{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    background: url("../images/warn.png") no-repeat center center;
+    background-size: auto 100%;
+}
+.wb-ut-show-error .content{
+    height: 50%;
+    width: 80%;
+    padding:0 10% 0 10%;
+}
+.wb-ut-show-error .content .text{
+    padding-top: 10%;
+    text-align: center;
+    height: 60%;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

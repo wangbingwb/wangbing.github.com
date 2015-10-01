@@ -1,32 +1,93 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-    <link href="css/commons.css">
+    <link href="css/commons.css" rel="stylesheet">
+    <link href="css/util.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+    <script src="js/lib/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="js/util.js" type="text/javascript"></script>
 </head>
 <body>
+    <!--头部导航-->
     <div id="header"></div>
-    <div id="body"></div>
+    <!--主体-->
+    <div class="main">
+        <!--左侧导航-->
+        <div id="cateloglist"></div>
+        <!--正文-->
+        <div id="body">
+            <script>
+                $(function(){
+                    util.showMessage("等待开发中...")
+                })
+            </script>
+        </div>
+    </div>
+    <!--页脚-->
     <div id="footer"></div>
 </body>
 </html>
-<script src="js/lib/jquery-2.1.4.min.js"></script>
 <!--<script src="js/lib/angular.min.js"></script>-->
 <script type="text/javascript">
     $(function(){
+        //url根目录
         var url = location.href.match(".*/wb/webApp/")+"";
 
+        $(window).bind("resize",function(){
+            auto_iconFix()
+        })
+
+        //加载header
         var header = $("#header");
         if(header.length > 0){
-            
-            var headHtml = $.ajax({
+            $.ajax({
                 url:url+"header.html",
                 async:true,
-                dataType:"text/html",
+                dataType:"html",
                 success:function(data){
                     header.html(data);
+                },
+                error:function(data){
+                    util.showError("服务器开了小差!")
                 }
             });
+        }
 
+        //加载list
+        var cateloglist = $("#cateloglist");
+        if(header.length > 0){
+            $.ajax({
+                url:url+"cateloglist.html",
+                async:true,
+                dataType:"html",
+                success:function(data){
+                    cateloglist.html(data);
+                    auto_iconFix()
+                },
+                error:function(data){
+                    util.showError("服务器开了小差!")
+                }
+            });
+        }
+        //加载页脚
+        var footer = $("#footer");
+        if(header.length > 0){
+            $.ajax({
+                url:url+"footer.html",
+                async:true,
+                dataType:"html",
+                success:function(data){
+                    footer.html(data);
+                },
+                error:function(data){
+                    util.showError("服务器开了小差!")
+                }
+            });
+        }
+
+        var auto_iconFix = function(){
+            var width = $("#cateloglist").width();
+            $("div.blog-icon").css("height",0.8*width+"px").css("width",width+"px")
         }
     })
 </script>
