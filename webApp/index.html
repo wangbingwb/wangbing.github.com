@@ -16,11 +16,11 @@
         <div id="cateloglist"></div>
         <!--正文-->
         <div id="body">
-            <script>
-                $(function(){
-                    util.showMessage("等待开发中...")
-                })
-            </script>
+            <!--<script>-->
+                <!--$(function(){-->
+                    <!--util.showMessage("等待开发中...")-->
+                <!--})-->
+            <!--</script>-->
         </div>
     </div>
     <!--页脚-->
@@ -84,6 +84,10 @@
                 }
             });
         }
+
+        setTimeout(function(){
+            util.showMessage("等待开发中...")
+        },1000)
 
         var auto_iconFix = function(){
             var width = $("#cateloglist").width();
