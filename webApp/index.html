@@ -12,15 +12,28 @@
     <div id="header"></div>
     <!--主体-->
     <div class="main">
-        <!--左侧导航-->
-        <div id="cateloglist"></div>
-        <!--正文-->
-        <div id="body">
-            <!--<script>-->
-                <!--$(function(){-->
-                    <!--util.showMessage("等待开发中...")-->
-                <!--})-->
-            <!--</script>-->
+        <div class="table">
+            <div class="table-row">
+                <div class="table-cell vertical-top">
+                    <!--左侧导航-->
+                    <div class="curtain display">
+                        <div id="cateloglist">
+                        </div>
+                        <div class="hide">
+                            <div class="table size-full">
+                                <div class="cell">
+                                    <div class="flag">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div></div>
+                <div class="table-cell vertical-top">
+                    <!--正文-->
+                    <div id="body">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!--页脚-->
@@ -61,7 +74,7 @@
                 async:true,
                 dataType:"html",
                 success:function(data){
-                    cateloglist.html(data);
+                    cateloglist.append(data);
                     auto_iconFix()
                 },
                 error:function(data){
@@ -85,14 +98,19 @@
             });
         }
 
-        setTimeout(function(){
-            util.showMessage("等待开发中...")
-        },1000)
+//        setTimeout(function(){
+//            util.showMessage("等待开发中...")
+//        },1000)
 
         var auto_iconFix = function(){
             var width = $("#cateloglist").width();
             $("div.blog-icon").css("height",0.8*width+"px").css("width",width+"px")
         }
+
+        //事件绑定
+        $(".curtain .hide .flag").bind("click",function(){
+            $(".curtain").toggleClass("display");
+        })
     })
 </script>
 

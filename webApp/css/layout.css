@@ -9,11 +9,13 @@
     height: 100%;
     width: 100%;
 }
+
 #header .container .catelog{
     width: 100%;
     height: 100%;
     color: #FFFFFF;
     display: block;
+    transition: all 1s;
 }
 
 #header .container .catelog ul{
@@ -54,13 +56,59 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
+.curtain{
+    width: 220px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+.curtain .hide{
+    position: absolute;
+    /*background-color: red;*/
+    height: 100%;
+    width: 20px;
+    right: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+.curtain .hide .table{
+    display: table;
+}
+.curtain .hide .cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+.curtain .hide .flag{
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    width: 100%;
+}
+.curtain.display{
+    width: 20px;
+}
+.curtain.display #cateloglist{
+    left: -200px;
+}
 #cateloglist{
     vertical-align: top;
     font-size: initial;
     display: inline-block;
     width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
 }
+
+#cateloglist .table-cell{
+    border: 1px solid #000;
+    border-right-width:0px;
+    line-height: 30px;
+}
+#cateloglist .table-cell:nth-child(1){
+    border-left-width:0px;
+}
+
 #cateloglist .left-list{
     height: auto;
     width: 100%;
@@ -82,14 +130,14 @@
 }
 .main{
     font-size: 0px;
-    margin-left: 50px;
+    margin-left: 30px;
     padding-top: 50px;
 }
 #body{
     vertical-align: top;
     font-size: initial;
     display: inline-block;
-    width: 70%;
+    padding: 0px 5%;
 }
 #footer{
     text-align: center;

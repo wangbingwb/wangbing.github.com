@@ -20,13 +20,7 @@ a{
 }
 .table-cell{
     vertical-align: middle;
-    line-height: 30px;
     display: table-cell;
-    border: 1px solid #000;
-    border-right-width:0px;
-}
-.table-cell:nth-child(1){
-    border-left-width:0px;
 }
 .font-size14{
     font-size: 14px;
@@ -122,4 +116,13 @@ a{
 }
 .line-h30{
     line-height: 30px;
+}
+.vertical-top{
+    vertical-align: top;
+}
+.vertical-bottom{
+    vertical-align: bottom;
+}
+.vertical-center{
+    vertical-align: middle;
 }
