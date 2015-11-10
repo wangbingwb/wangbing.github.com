@@ -21,7 +21,7 @@ gulp.task("clean",function(){
     del(["webApp/dist/css/*","webApp/dist/js/*"]);
 })
 
-//cssÎÄ¼þÑ¹Ëõ
+//css
 gulp.task("styles",function(){
     gulp.src("css/*.css")
         .pipe(concat("common.min.css"))
@@ -30,7 +30,7 @@ gulp.task("styles",function(){
         .pipe(gulp.dest("webApp/dist/css"))
         .pipe(notify({ message:"styles task completed"}))
 })
-//js½Å±¾Ñ¹Ëõ
+//js
 gulp.task("scripts",function(){
     gulp.src("js/*.js")
         .pipe(concat("base.min.js"))
@@ -39,7 +39,7 @@ gulp.task("scripts",function(){
         .pipe(notify({ message:"scripts task completed"}))
 })
 //gulp.task("htmls",function(){
-//    gulp.src('html/*.html') // ÒªÑ¹ËõµÄhtmlÎÄ¼þ
-//        .pipe(minifyHtml()) //Ñ¹Ëõ
+//    gulp.src('html/*.html') // ÒªÑ¹ï¿½ï¿½ï¿½ï¿½htmlï¿½Ä¼ï¿½
+//        .pipe(minifyHtml()) //Ñ¹ï¿½ï¿½
 //        .pipe(gulp.dest('dist/html'));
 //})
