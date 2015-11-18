@@ -23,3 +23,30 @@
     </div>
 
 </div>
+<div class="info">
+    <div class="blog-icon">
+        <img src="images/blog.png" width="200">
+    </div>
+    <div class="search">
+        <div class="filter table size-full vertical-center">
+            <div class="table-cell">
+                <input class="key" type="text" placeholder="搜索..." id="key"
+                ><a class="icon-seach" ng-click="search()">
+                    <div class="icon"></div>
+                </a>
+            </div>
+        </div>
+        <div class="display">
+            <div class="table size-full">
+                <div class="table-cell text-center">
+                    <ul class="guide text-left">
+                        <li ng-repeat="record in recordList | filter:key">
+                            <a ng-href="record.link">{{ record.title }}</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a class="flag" ng-click="hide()"></a>

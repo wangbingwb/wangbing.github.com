@@ -1,15 +1,14 @@
 #header{
-    width: 30px;
     height: 100%;
-    background-color: #303030;
     position: fixed;
-    z-index: 10;
+    /*z-index: 10;*/
 }
 #header .container{
     height: 100%;
-    width: 100%;
+    width: 30px;
+    float: left;
+    background-color: #303030;
 }
-
 #header .container .catelog{
     width: 100%;
     height: 100%;
@@ -56,88 +55,126 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.curtain{
-    width: 220px;
-    overflow: hidden;
-    position: relative;
-    display: inline-block;
-}
-.curtain .hide{
-    position: absolute;
-    /*background-color: red;*/
+.info{
+    background-color: #ECECEC;;
     height: 100%;
-    width: 20px;
-    right: 0px;
-    top: 0px;
-    overflow: hidden;
-}
-.curtain .hide .table{
-    display: table;
-}
-.curtain .hide .cell{
-    display: table-cell;
-    vertical-align: middle;
-}
-.curtain .hide .flag{
-    height: 100px;
-    background-color: blue;
-    display: inline-block;
-    width: 100%;
-}
-.curtain.display{
-    width: 20px;
-}
-.curtain.display #cateloglist{
-    left: -200px;
-}
-#cateloglist{
-    vertical-align: top;
-    font-size: initial;
-    display: inline-block;
     width: 200px;
-    overflow: hidden;
-    white-space: nowrap;
-    position: relative;
-}
-
-#cateloglist .table-cell{
-    border: 1px solid #000;
-    border-right-width:0px;
-    line-height: 30px;
-}
-#cateloglist .table-cell:nth-child(1){
-    border-left-width:0px;
-}
-
-#cateloglist .left-list{
-    height: auto;
-    width: 100%;
-}
-#cateloglist .left-list .blog-icon{
-}
-#cateloglist .left-list .blog-icon img{
-    height: 100%;
-    width: 100%;
-}
-#cateloglist .left-list .title{
-    font-weight: bold;
-    font-size: 2em;
-    text-align: center;
-}
-#cateloglist .left-list .content{
-    width: 100%;
-    text-align: center;
-}
-.main{
-    font-size: 0px;
     margin-left: 30px;
+    padding-top: 30px;
+    overflow: hidden;
+    box-shadow: -20px 0px 40px -20px black inset;
+}
+#header .flag{
+    height: 50px;
+    width: 15px;
+    position: absolute;
+    right: 0px;
+    top: 45%;
+    background:url("../images/jiantou.png");
+    border: 1px solid dimgrey;
+    border-left-width: 0px;
+    background-size: 100% 100%;
+    border-radius: 0px 5px 5px 0px;
+    transform:rotate(180deg);
+    transition: all .5s;
+}
+#header .flag.hide{
+    border: 1px solid dimgrey;
+    border-radius: 0px 5px 5px 0px;
+    transform:rotate(0deg) translateX(17px);
+}
+#header a.flag:hover{
+    background-color: #D4D4D4;;
+}
+.info .blog-icon{
+    width: 200px;
+}
+.info .search{
+    /*background-color: #FD8;*/
+    height: 300px;
+    width: 200px;
+}
+.info .search .filter{
+    height: 15%;
+    /*background-color: #2e9ad0;*/
+    text-align: center;
+}
+.info .search .filter .border{
+}
+.info .search .filter input{
+    border: 0px solid blue;
+    display: inline-block;
+    width: 120px;
+    height: 25px;
+    vertical-align: bottom;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.info .search .filter .key{
+}
+.info .search .filter .icon-seach{
+    overflow: hidden;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.info .search .filter a.icon-seach:active{
+    box-shadow: 2px 2px 1px -1px black inset;
+}
+.info .search .filter .icon-seach .icon{
+    top: -121px;
+    left: -123px;
+}
+.info .search .display{
+    height: 85%;
+}
+.info .search .display ul.guide{
+    list-style: none;
+    height: 90%;
+    width: 80%;
+    display: inline-block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: white;
+    border-radius: 5px;
+}
+.info .search .display ul.guide::-webkit-scrollbar{
+    height: 10px;
+    width: 10px;
+}
+.info .search .display ul.guide::-webkit-scrollbar-track{
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 6px 0px black inset;
+    background-color: #F5F5F5;
+}
+.info .search .display ul.guide::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: rgb(154, 154, 154);
+    box-shadow: 0px 0px 6px 0px black inset;
+}
+.info .search .display ul.guide li{
+    padding-left: 5px;
+}
+.info .search .display ul.guide li a{
+    color: rgb(98, 99, 99);
+}
+#main{
+    font-size: 0px;
+    margin-left: 230px;
     padding-top: 50px;
+    transition: all .5s;
+}
+#main.full{
+    margin-left: 30px;
 }
 #body{
     vertical-align: top;
     font-size: initial;
     display: inline-block;
-    padding: 0px 5%;
+    width: 800px;
 }
 #footer{
     text-align: center;

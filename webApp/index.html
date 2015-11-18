@@ -1,4 +1,4 @@
-<html>
+<html id="index" ng-controller="indexController">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <link href="css/commons.css" rel="stylesheet">
@@ -7,55 +7,26 @@
     <script src="js/lib/jquery-2.1.4.min.js" type="text/javascript"></script>
     <script src="js/util.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/lib/ckeditor/ckeditor.js"></script>
+    <script src="js/lib/angular-1.2.2/angular.min.js" type="text/javascript"></script>
 </head>
 <body>
     <!--头部导航-->
-    <div id="header"></div>
+    <div id="header">
+    </div>
     <!--主体-->
-    <div class="main">
-        <div class="table">
-            <div class="table-row">
-                <div class="table-cell vertical-top">
-                    <!--左侧导航-->
-                    <div class="curtain display">
-                        <div id="cateloglist">
-                        </div>
-                        <div class="hide">
-                            <div class="table size-full">
-                                <div class="cell">
-                                    <div class="flag">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div></div>
-                <div class="table-cell vertical-top">
-                    <!--正文-->
-                    <div id="body">
-                        <p style="text-align:center">adaadaadaadaadaadaadaadaada sda &nbsp;as asdasdsasd</p>
+    <div id="main">
+        <div class="table size-w-full">
+            <div class="table-cell text-center">
+                <!--正文-->
+                <div id="body">
+                    <p style="text-align: center;"><strong><span style="font-size:28px">第一个日志</span></strong></p>
 
-                        <p>asdasd &nbsp;das asd a asdfasdsadasdasasdfasdsadasdasasdfasdsadasdasasdfasdsadasdasasdfasdsadasdasasdfasdsadasdass;dasf ads&nbsp;</p>
+                    <p>欢迎来到我博客！</p>
 
-                        <p>ads ads&nbsasdfasdsadasdasasdfasdsadasdasasdfasdsadasdasasdfasdsadasdasasdfds&nbsasdfasdsadasdasasdfasdsadasdasasdfasdsadasdasasdfasdsadasdasasdfds&nbsasdfasdsadasdasasdfasdsadasdasasdfasdsadasdasasdfasdsadasdasasdfds&nbsasdfasdsadasdasasdfasdsadasdasasdfasdsadasdasasdfasdsadasdasasdfds&nbsasdfasdsadasdasasdfasdsadasdasasdfasdsadasdasasdfasdsadasdasasdfds&nbsasdfasdsadasdasasdfasdsadasdasasdfasdsadasdasasdfasdsadasdasasdfasdsadasdasasdfasdsadasdasasdfasdsadasdasp;</p>
+                    <p>这是我的第一个博客日志。</p>
 
-                        <p>ads fds aa asdfasdsadasdasasdfasdsadasdasasdfasdsadasdasdsf as df asdfasdsadasdas asd</p>
-                        asdfasdsadasdas
-                        <ol>
-                            <li>as<span style="font-size:72px">d f asdf<span style="color:#FFD700"> asdfkjllllllllllllll sd &nbsp; </span>&nbsp;</span></li>
-                        </ol>
-
-                        <p>awda s</p>
-
-                        <ol>
-                            <li>asdasd</li>
-                            <li>dasd</li>
-                            <li>adasd</li>
-                            <li>adssdasdsad asdasd</li>
-                        </ol>
-
-                        <!--<textarea rows="30" cols="50" name="editor01">请输入.</textarea>-->
-                        <!--<script type="text/javascript">CKEDITOR.replace('editor01');</script>-->
-                    </div>
+                    <textarea rows="30" cols="50" name="editor01">请输入.</textarea>
+                    <script type="text/javascript">CKEDITOR.replace('editor01');</script>
                 </div>
             </div>
         </div>
@@ -64,15 +35,10 @@
     <div id="footer"></div>
 </body>
 </html>
-<!--<script src="js/lib/angular.min.js"></script>-->
 <script type="text/javascript">
     $(function(){
         //url根目录
         var url = location.href.match(".*/wb/webApp/")+"";
-
-        $(window).bind("resize",function(){
-            auto_iconFix()
-        })
 
         //加载header
         var header = $("#header");
@@ -83,23 +49,7 @@
                 dataType:"html",
                 success:function(data){
                     header.html(data);
-                },
-                error:function(data){
-                    util.showError("服务器开了小差!")
-                }
-            });
-        }
-
-        //加载list
-        var cateloglist = $("#cateloglist");
-        if(header.length > 0){
-            $.ajax({
-                url:url+"cateloglist.html",
-                async:true,
-                dataType:"html",
-                success:function(data){
-                    cateloglist.append(data);
-                    auto_iconFix()
+                    angular.bootstrap(document.getElementById("index"),["index"])
                 },
                 error:function(data){
                     util.showError("服务器开了小差!")
@@ -121,20 +71,34 @@
                 }
             });
         }
+    })
 
-//        setTimeout(function(){
-//            util.showMessage("等待开发中...")
-//        },1000)
-
-        var auto_iconFix = function(){
-            var width = $("#cateloglist").width();
-            $("div.blog-icon").css("height",0.8*width+"px").css("width",width+"px")
+    angular.module("index",[]).controller("indexController",function($scope){
+        $scope.recordList = [];
+        $scope.info = "asaasdasd";
+        for(var i = 0; i<31; i++){
+            var item = {};
+            item.title = "title"+i;
+            item.link = "aaaaa.html";
+            $scope.recordList.push(item);
+        }
+        $scope.search = function(){
+            var key = $("#key").val();
+            $scope.key = key;
+        }
+        $scope.hide = function(){
+            var obj = $("a.flag.hide");
+            if(obj.length > 0){
+                $("#header .info").animate({width:"200px"},400,"linear");
+                $("a.flag.hide").removeClass("hide");
+                $("#main").removeClass("full");
+            }else{
+                $("#header .info").animate({width:"0px"},400,"linear");
+                $("a.flag").addClass("hide");
+                $("#main").addClass("full");
+            }
         }
 
-        //事件绑定
-        $(".curtain .hide .flag").bind("click",function(){
-            $(".curtain").toggleClass("display");
-        })
     })
 </script>
 
