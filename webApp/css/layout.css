@@ -34,8 +34,11 @@
     white-space: nowrap;
     overflow: hidden;
 }
-#header .container .catelog ul li:hover{
+#header .container .catelog ul li.extend:hover{
     width: 150px;
+    background-color: #BE709D;
+}
+#header .container .catelog ul li:hover{
     background-color: #BE709D;
 }
 .show-panel{
@@ -81,7 +84,8 @@
 #header .flag.hide{
     border: 1px solid dimgrey;
     border-radius: 0px 5px 5px 0px;
-    transform:rotate(0deg) translateX(17px);
+    transform:rotate(0deg) translateX(16px);
+    border-left-width: 0px;
 }
 #header a.flag:hover{
     background-color: #D4D4D4;;
@@ -163,12 +167,12 @@
 }
 #main{
     font-size: 0px;
-    margin-left: 230px;
+    margin-left: 250px;
     padding-top: 50px;
     transition: all .5s;
 }
 #main.full{
-    margin-left: 30px;
+    margin-left: 50px;
 }
 #body{
     vertical-align: top;

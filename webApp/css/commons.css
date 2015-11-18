@@ -81,11 +81,11 @@ a{
     background-size: 100% 100%;
     position: relative;
 }
-.icon-main{
+.icon-home{
     height: 30px;
     width: 30px;
 }
-.icon-main .icon{
+.icon-home .icon{
     left: -120px;
 }
 .icon-qq{
@@ -110,6 +110,14 @@ a{
 .icon-seach .icon{
     top: -120px;
     left: -120px;
+}
+.icon-write{
+    height: 30px;
+    width: 30px;
+}
+.icon-write .icon{
+    top: -90px;
+    left: -60px;
 }
 .pad-20{
     padding: 20px;
