@@ -1,0 +1,8 @@
+.table{
+    display: table;
+    word-wrap:break-word;
+    table-layout:fixed;
+}
+.table-cell{
+    display: table-cell;
+}
