@@ -18,9 +18,13 @@
         <div class="content-wrapper table">
             <aside id="sidebar" class="table-cell">asdasd</aside>
             <div id="content" class="table-cell">
-                <ul>
-                    <li ng-repeat="info in list">{{ info.name }}</li>
+                <ul id="list">
+                    <li ng-repeat="info in list">
+                        <div class="title"><a href="{{ info.tag }}" ng-click="view(info)">{{ info.name | analysis:'title' }}</a></div>
+                        <div class="time">  Create at {{ info.name | analysis:'time'}}</div>
+                    </li>
                 </ul>
+                <div id="showpanel"></div>
             </div>
         </div>
     </div>

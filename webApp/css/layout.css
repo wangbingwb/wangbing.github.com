@@ -13,9 +13,16 @@ body{
     border-top: solid 1px #fff;
     padding-top: 30px;
 }
-
 #main .content-wrapper{
     margin: 0px auto;
+}
+#sidebar{
+    box-shadow: 1px 2px 3px #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px;
+    width: 200px;
+    height: 500px;
 }
 @media(max-width: 320px){
     #main{
@@ -29,17 +36,46 @@ body{
     #main .content-wrapper{
         width: 90%;
     }
+    #sidebar{
+        display: none;
+    }
 }
 @media(min-width: 1000px){
     #main .content-wrapper{
         width: 950px;
     }
 }
-#sidebar{
-    box-shadow: 1px 2px 3px #ddd;
+
+#main .content-wrapper #content ul{
+    list-style: none;
+}
+#main .content-wrapper #content ul li{
     border-radius: 5px;
+    margin-bottom: 1px;
+    padding-left: 1em;
     background-color: #fff;
-    padding: 20px;
-    width: 200px;
-    height: 500px;
+    display: block;
+}
+#main .content-wrapper #content ul li .title{
+    font-size: 30px;
+    line-height: 45px;
+    color: #414256;;
+}
+#main .content-wrapper #content ul li .time{
+    padding-left: 1em;
+    line-height: 15px;
+    font-size: 15px;
+    color: #929292;;
+}
+#main .content-wrapper #content ul li:hover{
+    background-color: #EFE8E8;
+}
+#main .content-wrapper #content ul li:hover .title{
+
+}
+#main .content-wrapper #content ul li:hover .time{
+
+}
+#showpanel{
+    display: none;
 }
