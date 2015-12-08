@@ -9,7 +9,7 @@ var index = angular.module("index",[]).controller("indexController",function($sc
 
     $scope.getSublist = function(subDir){
         $http({
-            url:rootUrl+"/"+subDir,
+            url:rootUrl+"/"+subDir+"?ref=gh-pages",
             method:'post',
             data:"json"
         }).success(function(data){
@@ -20,7 +20,7 @@ var index = angular.module("index",[]).controller("indexController",function($sc
     }
 
     $http({
-        url:rootUrl,
+        url:rootUrl+"?ref=gh-pages",
         method:'post',
         data:"json"
     }).success(function(data){
