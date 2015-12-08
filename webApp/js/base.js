@@ -1,29 +1,21 @@
 var rootUrl = "http://api.github.com/repos/wangbingwb/wb/contents/webApp/blog"
-$(function(){
-    angular.bootstrap(document.getElementById("index"),["index"])
-    })
+var list = {name:"asd"};
+var showlist = function(list){
+    list = list;
+    console.log(list);
+}
 
-var index = angular.module("index",[]).controller("indexController",function($scope,$http){
+var index = angular.module("app",[]).controller("indexController",["$scope","$http",function($scope,$http){
 
-    $scope.list = [];
+    //$scope.getSublist = function(subDir){
+    //    $http.jsonp(rootUrl+"/"+subDir+"?ref=gh-pages&callback=showlist").success(function(data){
+    //        angular.forEach(data.data, function(item){
+    //            $scope.list.push(item);
+    //        });
+    //    })
+    //}
 
-    $scope.getSublist = function(subDir){
-        $http({
-            url:rootUrl+"/"+subDir+"?ref=gh-pages",
-            method:'post',
-            data:"json"
-        }).success(function(data){
-            angular.forEach(data.data, function(item){
-                $scope.list.push(item);
-            });
-        })
-    }
-
-    $http({
-        url:rootUrl+"?ref=gh-pages",
-        method:'post',
-        data:"json"
-    }).success(function(data){
+    $http.jsonp(rootUrl+"?ref=gh-pages&callback=showlist").success(function(data){
         //响应成功
         if (data.message != undefined && data.message == "Not Found"){
 
@@ -32,7 +24,7 @@ var index = angular.module("index",[]).controller("indexController",function($sc
                 if (item.type == "file"){
                     $scope.list.push(item);
                 }else if (item.type == "dir"){
-                    $scope.getSublist(item.name);
+                    //$scope.getSublist(item.name);
                 }
             });
             angular.forEach($scope.list, function(item){
@@ -41,8 +33,6 @@ var index = angular.module("index",[]).controller("indexController",function($sc
             });
         }
     });
-
-
 
     $scope.view = function(item){
         $http({
@@ -54,8 +44,6 @@ var index = angular.module("index",[]).controller("indexController",function($sc
             $("#list").hide();
         });
     }
-
-    $scope.getSubList(name)
 
     //$scope.list =
     //    [
@@ -140,7 +128,9 @@ var index = angular.module("index",[]).controller("indexController",function($sc
     //            }
     //        }
     //    ]
-})
+}])
+
+index.val
 index.filter("analysis",function(){
     return function(input,type){
         var regExp = /\d{4}-\d{2}-\d{2}-.*/g;
