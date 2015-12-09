@@ -6,7 +6,7 @@
     var express = require('express');
     var app = express();
 
-    app.use("/wb/webApp", express.static(__dirname + '\\webApp'));
+    app.use("/wb", express.static(__dirname));
 
     // 创建服务端
     http.createServer(app).listen('3000', function() {
