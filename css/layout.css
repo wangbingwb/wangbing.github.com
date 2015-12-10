@@ -44,9 +44,13 @@ body{
     #main .content-wrapper{
         width: 950px;
     }
+    #main .content-wrapper #content{
+        padding-left: 1em;
+    }
 }
 
 #main .content-wrapper #content ul{
+    padding: 0px;
     list-style: none;
 }
 #main .content-wrapper #content ul li{
@@ -78,4 +82,11 @@ body{
 }
 #showpanel{
     display: none;
+}
+#showpanel #title{
+    text-align: center;
+    font-size: 2em;
+}
+#showpanel #body{
+
 }

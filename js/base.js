@@ -1,7 +1,10 @@
 $(function() {
     var rootUrl = "http://api.github.com/repos/wangbingwb/wb/contents/blog"
-    var html = window.location.href;
-    console.log(html)
+    var href = window.location.href;
+    var dircount = 4;
+    var lastHref = "";
+    var currentPage = 1;
+    var currentList = [];
     var globeList = [
         {
             "name": "2013-04-09-一个新的开始",
@@ -67,24 +70,7 @@ $(function() {
                 "html": "https://github.com/wangbingwb/wangbing/blob/gh-pages/md/2014-02-11-Hello%20World"
             }
         },
-        {
-            "name": "test1",
-            "path": "md/test1",
-            "sha": "7c995404a26a20d00878f14541fc2691ae270867",
-            "size": 0,
-            "url": "https://api.github.com/repos/wangbingwb/wangbing/contents/md/test1?ref=gh-pages",
-            "html_url": "https://github.com/wangbingwb/wangbing/tree/gh-pages/md/test1",
-            "git_url": "https://api.github.com/repos/wangbingwb/wangbing/git/trees/7c995404a26a20d00878f14541fc2691ae270867",
-            "download_url": null,
-            "type": "dir",
-            "_links": {
-                "self": "https://api.github.com/repos/wangbingwb/wangbing/contents/md/test1?ref=gh-pages",
-                "git": "https://api.github.com/repos/wangbingwb/wangbing/git/trees/7c995404a26a20d00878f14541fc2691ae270867",
-                "html": "https://github.com/wangbingwb/wangbing/tree/gh-pages/md/test1"
-            }
-        }
     ];
-    var dircount = 4;
 
     var service = {
         getFileList: function (url) {
@@ -111,8 +97,7 @@ $(function() {
 //service.getFileList(rootUrl+"/html");
 //service.getFileList(rootUrl+"/java");
 
-    var currentPage = 1;
-    var currentList = [];
+
     var getInfo = function (input, type) {
         var regExp = /\d{4}-\d{2}-\d{2}-.*/g;
         if (regExp.test(input)) {
@@ -132,7 +117,8 @@ $(function() {
             }
         }
     }
-    var showItem = function () {
+    var showItem = function (page) {
+        currentPage = page;
         if (globeList.length < currentPage * 10) {
             currentList = globeList.slice((currentPage - 1) * 10);
         } else {
@@ -141,40 +127,72 @@ $(function() {
         $("#content ul").html("");
         for (var i in currentList) {
             currentList[i].index = i;
-            var li = "<li><div class='title'><a href='#!"+currentList[i].path+"' index='"+i+"'>" + getInfo(currentList[i].name, "title") + "</a></div><div class='time'>" + getInfo(currentList[i].name, "time") + "</div></li>";
+            var li = "<li><div class='title'><a href='#!"+currentList[i].path+"'>" + getInfo(currentList[i].name, "title") + "</a></div><div class='time'>" + getInfo(currentList[i].name, "time") + "</div></li>";
             $("#content ul").append(li);
         }
-        $("#content ul li a").each(function(){
-            $(this).bind("click",function(){
-                var index = $(this).attr("index");
+        $("#showpanel").hide();
+        $("#list").show();
+    }
+
+    var setTitleAndBody = function(name){
+        $("#title").html(name.substring(11));
+        for (var i in globeList){
+            if(globeList[i].name == name){
                 $.ajax({
                     type: "GET",
-                    url: currentList[index].download_url,
+                    url: globeList[i].download_url,
                     //dataType: "jsonp",
                     //jsonp: "callback",
                     //jsonpCallback: "callback",
                     success: function (data) {
-                        $("#list").hide()
-                        $("#showpanel").html(data)
-                        $("#showpanel").show();
+                        $("#body").html(data);
                     }
                 });
-            })
-        })
+            }
+        }
     }
 
-    var loading = function () {
-        if (dircount < 4) {
-            setTimeout("loading", 200)
-        } else {
+    setInterval(function(){
+        console.log("--")
+        var temp = window.location.href
+        if (lastHref != temp){
+            lastHref = temp;
+            if (/#!search=.+/.test(lastHref)){
+                var key = (lastHref.match(/#!search=.+/)+"").substring(9);
+                console.log(key)
+            }else if (/\d{4}-\d{2}-\d{2}-.+/.test(lastHref)){
+                var name = (lastHref.match(/\d{4}-\d{2}-\d{2}-.+/)+"").substring(11);
+                if ($("#title").html != name){
+                    setTitleAndBody(lastHref.match(/\d{4}-\d{2}-\d{2}-.+/)+"");
+                    $("#list").hide();
+                    $("#showpanel").show();
+                }
+            }else {
+                showItem(1);
+            }
+        }
+        if (dircount >= 4) {
             globeList.sort();
             globeList.reverse();
-            showItem();
+            showItem(1);
+            dircount--;
         }
-    }();
+
+
+    },200)
+
+    //function onWidthChange()
+    //{
+    //    console.log("====")
+    //    if( $(window).width() > 600 ) {
+    //        /* 这里是要执行的代码 */
+    //
+    //    }
+    //    setTimeout(onWidthChange,1000);
+    //};
+    //onWidthChange()
 
 })
-
 
 
 
