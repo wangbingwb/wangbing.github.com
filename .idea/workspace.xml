@@ -2,9 +2,676 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52405f0a-f1a3-47ca-9e9a-1dbca1e9058d" name="Default" comment="init">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webApp/js/base.js" afterPath="$PROJECT_DIR$/webApp/js/base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webApp/index.html" afterPath="$PROJECT_DIR$/webApp/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/favorite.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/search-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/base.css" afterPath="$PROJECT_DIR$/css/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/base.js" afterPath="$PROJECT_DIR$/js/base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/layout.css" afterPath="$PROJECT_DIR$/css/layout.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/write.html" afterPath="$PROJECT_DIR$/write.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-animate.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-animate.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-animate.min.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-animate.min.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-animate.min.js.map" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-animate.min.js.map" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-cookies.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-cookies.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-cookies.min.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-cookies.min.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-cookies.min.js.map" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-cookies.min.js.map" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-csp.css" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-csp.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-loader.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-loader.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-loader.min.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-loader.min.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-loader.min.js.map" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-loader.min.js.map" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-mocks.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-mocks.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-resource.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-resource.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-resource.min.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-resource.min.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-resource.min.js.map" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-resource.min.js.map" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-route.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-route.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-route.min.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-route.min.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-route.min.js.map" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-route.min.js.map" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-sanitize.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-sanitize.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-sanitize.min.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-sanitize.min.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-sanitize.min.js.map" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-sanitize.min.js.map" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-scenario.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-scenario.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-touch.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-touch.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-touch.min.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-touch.min.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-touch.min.js.map" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular-touch.min.js.map" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular.min.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular.min.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular.min.js.map" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/angular.min.js.map" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\errors.json" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/errors.json" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_af-na.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_af-na.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_af-za.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_af-za.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_af.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_af.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_am-et.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_am-et.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_am.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_am.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-001.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ar-001.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-ae.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ar-ae.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-bh.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ar-bh.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-dz.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ar-dz.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-eg.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ar-eg.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-iq.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ar-iq.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-jo.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ar-jo.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-kw.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ar-kw.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-lb.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ar-lb.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-ly.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ar-ly.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-ma.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ar-ma.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-om.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ar-om.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-qa.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ar-qa.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-sa.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ar-sa.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-sd.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ar-sd.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-sy.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ar-sy.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-tn.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ar-tn.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-ye.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ar-ye.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ar.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_bg-bg.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_bg-bg.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_bg.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_bg.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_bn-bd.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_bn-bd.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_bn-in.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_bn-in.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_bn.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_bn.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ca-ad.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ca-ad.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ca-es.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ca-es.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ca.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ca.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_cs-cz.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_cs-cz.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_cs.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_cs.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_da-dk.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_da-dk.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_da.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_da.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_de-at.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_de-at.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_de-be.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_de-be.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_de-ch.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_de-ch.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_de-de.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_de-de.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_de-li.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_de-li.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_de-lu.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_de-lu.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_de.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_de.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_el-cy.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_el-cy.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_el-gr.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_el-gr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_el.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_el.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-as.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-as.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-au.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-au.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-bb.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-bb.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-be.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-be.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-bm.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-bm.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-bw.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-bw.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-bz.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-bz.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-ca.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-ca.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-dsrt-us.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-dsrt-us.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-dsrt.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-dsrt.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-fm.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-fm.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-gb.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-gb.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-gu.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-gu.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-gy.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-gy.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-hk.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-hk.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-ie.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-ie.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-in.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-in.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-iso.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-iso.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-jm.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-jm.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-mh.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-mh.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-mp.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-mp.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-mt.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-mt.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-mu.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-mu.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-na.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-na.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-nz.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-nz.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-ph.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-ph.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-pk.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-pk.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-pr.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-pr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-pw.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-pw.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-sg.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-sg.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-tc.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-tc.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-tt.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-tt.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-um.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-um.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-us.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-us.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-vg.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-vg.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-vi.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-vi.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-za.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-za.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-zw.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en-zw.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_en.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-419.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-419.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-ar.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-ar.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-bo.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-bo.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-cl.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-cl.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-co.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-co.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-cr.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-cr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-do.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-do.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-ea.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-ea.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-ec.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-ec.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-es.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-es.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-gq.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-gq.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-gt.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-gt.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-hn.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-hn.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-ic.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-ic.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-mx.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-mx.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-ni.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-ni.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-pa.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-pa.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-pe.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-pe.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-pr.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-pr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-py.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-py.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-sv.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-sv.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-us.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-us.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-uy.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-uy.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-ve.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es-ve.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_es.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_et-ee.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_et-ee.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_et.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_et.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_eu-es.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_eu-es.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_eu.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_eu.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fa-af.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fa-af.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fa-ir.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fa-ir.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fa.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fa.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fi-fi.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fi-fi.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fi.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fi.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fil-ph.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fil-ph.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fil.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fil.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-be.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-be.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-bf.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-bf.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-bi.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-bi.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-bj.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-bj.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-bl.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-bl.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-ca.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-ca.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-cd.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-cd.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-cf.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-cf.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-cg.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-cg.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-ch.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-ch.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-ci.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-ci.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-cm.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-cm.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-dj.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-dj.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-fr.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-fr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-ga.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-ga.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-gf.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-gf.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-gn.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-gn.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-gp.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-gp.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-gq.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-gq.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-km.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-km.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-lu.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-lu.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-mc.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-mc.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-mf.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-mf.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-mg.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-mg.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-ml.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-ml.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-mq.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-mq.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-ne.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-ne.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-re.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-re.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-yt.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr-yt.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_fr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_gl-es.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_gl-es.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_gl.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_gl.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_gsw-ch.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_gsw-ch.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_gsw.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_gsw.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_gu-in.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_gu-in.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_gu.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_gu.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_he-il.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_he-il.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_he.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_he.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_hi-in.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_hi-in.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_hi.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_hi.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_hr-hr.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_hr-hr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_hr.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_hr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_hu-hu.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_hu-hu.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_hu.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_hu.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_id-id.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_id-id.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_id.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_id.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_in.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_in.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_is-is.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_is-is.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_is.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_is.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_it-it.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_it-it.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_it-sm.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_it-sm.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_it.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_it.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_iw.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_iw.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ja-jp.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ja-jp.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ja.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ja.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_kn-in.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_kn-in.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_kn.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_kn.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ko-kr.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ko-kr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ko.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ko.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ln-cd.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ln-cd.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ln.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ln.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_lt-lt.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_lt-lt.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_lt.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_lt.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_lv-lv.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_lv-lv.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_lv.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_lv.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ml-in.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ml-in.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ml.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ml.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_mr-in.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_mr-in.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_mr.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_mr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ms-my.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ms-my.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ms.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ms.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_mt-mt.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_mt-mt.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_mt.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_mt.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_nl-cw.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_nl-cw.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_nl-nl.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_nl-nl.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_nl-sx.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_nl-sx.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_nl.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_nl.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_no.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_no.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_or-in.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_or-in.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_or.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_or.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_pl-pl.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_pl-pl.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_pl.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_pl.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_pt-br.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_pt-br.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_pt-pt.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_pt-pt.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_pt.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_pt.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ro-ro.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ro-ro.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ro.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ro.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ru-ru.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ru-ru.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ru.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ru.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sk-sk.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_sk-sk.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sk.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_sk.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sl-si.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_sl-si.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sl.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_sl.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sq-al.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_sq-al.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sq.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_sq.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sr-cyrl-rs.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_sr-cyrl-rs.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sr-latn-rs.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_sr-latn-rs.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sr.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_sr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sv-se.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_sv-se.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sv.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_sv.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sw-tz.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_sw-tz.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sw.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_sw.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ta-in.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ta-in.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ta.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ta.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_te-in.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_te-in.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_te.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_te.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_th-th.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_th-th.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_th.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_th.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_tl.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_tl.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_tr-tr.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_tr-tr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_tr.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_tr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_uk-ua.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_uk-ua.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_uk.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_uk.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ur-pk.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ur-pk.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ur.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_ur.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_vi-vn.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_vi-vn.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_vi.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_vi.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_zh-cn.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_zh-cn.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_zh-hans-cn.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_zh-hans-cn.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_zh-hk.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_zh-hk.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_zh-tw.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_zh-tw.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_zh.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_zh.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_zu-za.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_zu-za.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_zu.js" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/i18n/angular-locale_zu.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\version.json" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/version.json" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\version.txt" afterPath="$PROJECT_DIR$/js/lib/angular-1.2.2/version.txt" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\CHANGES.md" afterPath="$PROJECT_DIR$/js/lib/ckeditor/CHANGES.md" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\LICENSE.md" afterPath="$PROJECT_DIR$/js/lib/ckeditor/LICENSE.md" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\README.md" afterPath="$PROJECT_DIR$/js/lib/ckeditor/README.md" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\adapters\jquery.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/adapters/jquery.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\build-config.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/build-config.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\ckeditor.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/ckeditor.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\config.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/config.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\contents.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/contents.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\af.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/af.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\ar.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/ar.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\bg.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/bg.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\bn.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/bn.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\bs.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/bs.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\ca.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/ca.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\cs.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/cs.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\cy.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/cy.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\da.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/da.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\de.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/de.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\el.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/el.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\en-au.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/en-au.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\en-ca.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/en-ca.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\en-gb.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/en-gb.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\en.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/en.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\eo.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/eo.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\es.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/es.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\et.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/et.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\eu.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/eu.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\fa.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/fa.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\fi.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/fi.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\fo.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/fo.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\fr-ca.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/fr-ca.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\fr.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/fr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\gl.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/gl.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\gu.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/gu.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\he.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/he.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\hi.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/hi.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\hr.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/hr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\hu.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/hu.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\id.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/id.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\is.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/is.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\it.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/it.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\ja.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/ja.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\ka.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/ka.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\km.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/km.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\ko.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/ko.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\ku.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/ku.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\lt.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/lt.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\lv.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/lv.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\mk.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/mk.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\mn.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/mn.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\ms.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/ms.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\nb.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/nb.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\nl.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/nl.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\no.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/no.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\pl.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/pl.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\pt-br.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/pt-br.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\pt.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/pt.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\ro.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/ro.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\ru.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/ru.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\si.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/si.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\sk.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/sk.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\sl.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/sl.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\sq.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/sq.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\sr-latn.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/sr-latn.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\sr.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/sr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\sv.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/sv.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\th.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/th.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\tr.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/tr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\tt.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/tt.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\ug.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/ug.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\uk.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/uk.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\vi.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/vi.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\zh-cn.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/zh-cn.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\lang\zh.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/lang/zh.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\a11yhelp.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\_translationstatus.txt" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\af.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\ar.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\bg.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\ca.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\cs.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\cy.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\da.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\de.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\el.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\en-gb.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\en.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\eo.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\es.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\et.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\fa.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\fi.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\fo.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\fr-ca.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\fr.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\gl.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\gu.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\he.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\hi.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\hr.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\hu.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\id.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\it.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\ja.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\km.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\ko.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\ku.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\lt.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\lv.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\mk.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\mn.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\nb.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\nl.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\no.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\pl.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\pt-br.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\pt.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\ro.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\ru.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\si.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\sk.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\sl.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\sq.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\sr-latn.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\sr.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\sv.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\th.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\tr.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\tt.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\ug.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\uk.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\vi.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\zh-cn.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\zh.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\about\dialogs\about.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/about/dialogs/about.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\about\dialogs\hidpi\logo_ckeditor.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\about\dialogs\logo_ckeditor.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/about/dialogs/logo_ckeditor.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\clipboard\dialogs\paste.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/clipboard/dialogs/paste.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\colordialog\dialogs\colordialog.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/colordialog/dialogs/colordialog.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\dialog\dialogDefinition.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/dialog/dialogDefinition.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\div\dialogs\div.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/div/dialogs/div.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\find\dialogs\find.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/find/dialogs/find.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\flash\dialogs\flash.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/flash/dialogs/flash.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\flash\images\placeholder.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/flash/images/placeholder.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\forms\dialogs\button.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/forms/dialogs/button.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\forms\dialogs\checkbox.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/forms/dialogs/checkbox.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\forms\dialogs\form.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/forms/dialogs/form.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\forms\dialogs\hiddenfield.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/forms/dialogs/hiddenfield.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\forms\dialogs\radio.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/forms/dialogs/radio.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\forms\dialogs\select.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/forms/dialogs/select.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\forms\dialogs\textarea.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/forms/dialogs/textarea.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\forms\dialogs\textfield.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/forms/dialogs/textfield.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\forms\images\hiddenfield.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/forms/images/hiddenfield.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\icons.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/icons.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\icons_hidpi.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/icons_hidpi.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\iframe\dialogs\iframe.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/iframe/dialogs/iframe.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\iframe\images\placeholder.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/iframe/images/placeholder.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\image\dialogs\image.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/image/dialogs/image.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\image\images\noimage.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/image/images/noimage.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\link\dialogs\anchor.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/link/dialogs/anchor.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\link\dialogs\link.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/link/dialogs/link.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\link\images\anchor.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/link/images/anchor.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\link\images\hidpi\anchor.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/link/images/hidpi/anchor.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\liststyle\dialogs\liststyle.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/liststyle/dialogs/liststyle.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\magicline\images\hidpi\icon-rtl.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\magicline\images\hidpi\icon.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/magicline/images/hidpi/icon.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\magicline\images\icon-rtl.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/magicline/images/icon-rtl.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\magicline\images\icon.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/magicline/images/icon.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\pagebreak\images\pagebreak.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/pagebreak/images/pagebreak.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\pastefromword\filter\default.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/pastefromword/filter/default.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\preview\preview.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/preview/preview.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\scayt\LICENSE.md" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/scayt/LICENSE.md" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\scayt\README.md" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/scayt/README.md" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\scayt\dialogs\options.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/scayt/dialogs/options.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\scayt\dialogs\toolbar.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/scayt/dialogs/toolbar.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\showblocks\images\block_address.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/showblocks/images/block_address.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\showblocks\images\block_blockquote.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/showblocks/images/block_blockquote.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\showblocks\images\block_div.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/showblocks/images/block_div.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\showblocks\images\block_h1.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/showblocks/images/block_h1.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\showblocks\images\block_h2.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/showblocks/images/block_h2.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\showblocks\images\block_h3.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/showblocks/images/block_h3.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\showblocks\images\block_h4.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/showblocks/images/block_h4.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\showblocks\images\block_h5.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/showblocks/images/block_h5.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\showblocks\images\block_h6.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/showblocks/images/block_h6.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\showblocks\images\block_p.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/showblocks/images/block_p.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\showblocks\images\block_pre.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/showblocks/images/block_pre.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\dialogs\smiley.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/dialogs/smiley.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\angel_smile.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/angel_smile.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\angel_smile.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/angel_smile.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\angry_smile.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/angry_smile.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\angry_smile.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/angry_smile.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\broken_heart.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/broken_heart.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\broken_heart.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/broken_heart.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\confused_smile.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/confused_smile.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\confused_smile.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/confused_smile.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\cry_smile.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/cry_smile.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\cry_smile.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/cry_smile.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\devil_smile.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/devil_smile.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\devil_smile.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/devil_smile.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\embaressed_smile.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/embaressed_smile.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\embarrassed_smile.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/embarrassed_smile.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\embarrassed_smile.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/embarrassed_smile.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\envelope.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/envelope.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\envelope.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/envelope.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\heart.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/heart.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\heart.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/heart.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\kiss.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/kiss.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\kiss.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/kiss.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\lightbulb.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/lightbulb.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\lightbulb.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/lightbulb.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\omg_smile.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/omg_smile.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\omg_smile.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/omg_smile.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\regular_smile.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/regular_smile.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\regular_smile.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/regular_smile.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\sad_smile.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/sad_smile.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\sad_smile.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/sad_smile.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\shades_smile.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/shades_smile.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\shades_smile.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/shades_smile.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\teeth_smile.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/teeth_smile.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\teeth_smile.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/teeth_smile.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\thumbs_down.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/thumbs_down.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\thumbs_down.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/thumbs_down.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\thumbs_up.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/thumbs_up.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\thumbs_up.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/thumbs_up.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\tongue_smile.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/tongue_smile.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\tongue_smile.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/tongue_smile.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\tounge_smile.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/tounge_smile.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\whatchutalkingabout_smile.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\whatchutalkingabout_smile.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\wink_smile.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/wink_smile.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\smiley\images\wink_smile.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/smiley/images/wink_smile.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\_translationstatus.txt" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\af.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/af.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\ar.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/ar.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\bg.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/bg.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\ca.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/ca.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\cs.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/cs.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\cy.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/cy.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\da.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/da.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\de.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/de.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\el.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/el.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\en-gb.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\en.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/en.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\eo.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/eo.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\es.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/es.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\et.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/et.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\fa.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/fa.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\fi.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/fi.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\fr-ca.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\fr.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/fr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\gl.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/gl.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\he.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/he.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\hr.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/hr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\hu.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/hu.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\id.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/id.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\it.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/it.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\ja.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/ja.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\km.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/km.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\ko.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/ko.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\ku.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/ku.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\lt.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/lt.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\lv.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/lv.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\nb.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/nb.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\nl.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/nl.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\no.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/no.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\pl.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/pl.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\pt-br.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\pt.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/pt.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\ru.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/ru.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\si.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/si.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\sk.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/sk.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\sl.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/sl.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\sq.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/sq.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\sv.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/sv.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\th.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/th.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\tr.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/tr.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\tt.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/tt.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\ug.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/ug.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\uk.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/uk.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\vi.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/vi.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\zh-cn.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\lang\zh.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/lang/zh.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\specialchar\dialogs\specialchar.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/specialchar/dialogs/specialchar.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\table\dialogs\table.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/table/dialogs/table.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\tabletools\dialogs\tableCell.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/tabletools/dialogs/tableCell.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\templates\dialogs\templates.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/templates/dialogs/templates.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\templates\dialogs\templates.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/templates/dialogs/templates.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\templates\templates\default.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/templates/templates/default.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\templates\templates\images\template1.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/templates/templates/images/template1.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\templates\templates\images\template2.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/templates/templates/images/template2.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\templates\templates\images\template3.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/templates/templates/images/template3.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\wsc\LICENSE.md" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/wsc/LICENSE.md" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\wsc\README.md" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/wsc/README.md" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\wsc\dialogs\ciframe.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/wsc/dialogs/ciframe.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\wsc\dialogs\tmpFrameset.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\wsc\dialogs\wsc.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/wsc/dialogs/wsc.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\wsc\dialogs\wsc.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/wsc/dialogs/wsc.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\plugins\wsc\dialogs\wsc_ie.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/plugins/wsc/dialogs/wsc_ie.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\css\samples.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/css/samples.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\img\github-top.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/img/github-top.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\img\header-bg.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/img/header-bg.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\img\header-separator.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/img/header-separator.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\img\logo.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/img/logo.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\img\navigation-tip.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/img/navigation-tip.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\index.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/index.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\js\sample.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/js/sample.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\js\sf.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/js/sf.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\ajax.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/ajax.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\api.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/api.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\appendto.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/appendto.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\assets\inlineall\logo.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/assets/inlineall/logo.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\assets\outputxhtml\outputxhtml.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\assets\posteddata.php" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/assets/posteddata.php" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\assets\sample.jpg" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/assets/sample.jpg" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\assets\uilanguages\languages.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/assets/uilanguages/languages.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\datafiltering.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/datafiltering.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\dialog\assets\my_dialog.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/dialog/assets/my_dialog.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\dialog\dialog.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/dialog/dialog.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\divreplace.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/divreplace.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\enterkey\enterkey.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/enterkey/enterkey.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.fla" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.swf" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\htmlwriter\assets\outputforflash\swfobject.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\htmlwriter\outputforflash.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/htmlwriter/outputforflash.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\htmlwriter\outputhtml.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/htmlwriter/outputhtml.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\index.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/index.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\inlineall.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/inlineall.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\inlinebycode.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/inlinebycode.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\inlinetextarea.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/inlinetextarea.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\jquery.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/jquery.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\magicline\magicline.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/magicline/magicline.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\readonly.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/readonly.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\replacebyclass.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/replacebyclass.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\replacebycode.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/replacebycode.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\sample.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/sample.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\sample.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/sample.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\sample_posteddata.php" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/sample_posteddata.php" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\tabindex.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/tabindex.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\toolbar\toolbar.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/toolbar/toolbar.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\uicolor.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/uicolor.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\uilanguages.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/uilanguages.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\wysiwygarea\fullpage.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/wysiwygarea/fullpage.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\old\xhtmlstyle.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/old/xhtmlstyle.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\toolbarconfigurator\css\fontello.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/toolbarconfigurator/css/fontello.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\toolbarconfigurator\font\LICENSE.txt" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\toolbarconfigurator\font\config.json" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/toolbarconfigurator/font/config.json" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\toolbarconfigurator\font\fontello.eot" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/toolbarconfigurator/font/fontello.eot" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\toolbarconfigurator\font\fontello.svg" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/toolbarconfigurator/font/fontello.svg" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\toolbarconfigurator\font\fontello.ttf" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\toolbarconfigurator\font\fontello.woff" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/toolbarconfigurator/font/fontello.woff" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\toolbarconfigurator\index.html" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/toolbarconfigurator/index.html" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\toolbarconfigurator\js\abstracttoolbarmodifier.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\toolbarconfigurator\js\fulltoolbareditor.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\toolbarconfigurator\js\toolbarmodifier.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\toolbarconfigurator\js\toolbartextmodifier.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\toolbarconfigurator\lib\codemirror\LICENSE" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/toolbarconfigurator/lib/codemirror/LICENSE" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\toolbarconfigurator\lib\codemirror\codemirror.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\toolbarconfigurator\lib\codemirror\codemirror.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\toolbarconfigurator\lib\codemirror\javascript.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\toolbarconfigurator\lib\codemirror\neo.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\dialog.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/dialog.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\dialog_ie.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/dialog_ie.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\dialog_ie7.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/dialog_ie7.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\dialog_ie8.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/dialog_ie8.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\dialog_iequirks.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/dialog_iequirks.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\editor.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/editor.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\editor_gecko.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/editor_gecko.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\editor_ie.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/editor_ie.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\editor_ie7.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/editor_ie7.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\editor_ie8.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/editor_ie8.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\editor_iequirks.css" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/editor_iequirks.css" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\icons.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/icons.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\icons_hidpi.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/icons_hidpi.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\images\arrow.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/images/arrow.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\images\close.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/images/close.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\images\hidpi\close.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/images/hidpi/close.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\images\hidpi\lock-open.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/images/hidpi/lock-open.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\images\hidpi\lock.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/images/hidpi/lock.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\images\hidpi\refresh.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/images/hidpi/refresh.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\images\lock-open.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/images/lock-open.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\images\lock.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/images/lock.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\images\refresh.png" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/images/refresh.png" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\images\spinner.gif" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/images/spinner.gif" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\skins\moono\readme.md" afterPath="$PROJECT_DIR$/js/lib/ckeditor/skins/moono/readme.md" />
+      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\ckeditor\styles.js" afterPath="$PROJECT_DIR$/js/lib/ckeditor/styles.js" />
     </list>
     <ignored path="wb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,40 +695,40 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webApp/index.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+            <state vertical-scroll-proportion="-12.892858">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5099648">
+              <caret line="203" column="36" selection-start-line="203" selection-start-column="36" selection-end-line="203" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webApp/css/base.css">
+        <entry file="file://$PROJECT_DIR$/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webApp/css/layout.css">
+      <file leaf-file-name="base.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/base.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webApp/js/base.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36221838">
-              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+              <caret line="302" column="36" selection-start-line="302" selection-start-column="36" selection-end-line="302" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -95,6 +762,12 @@
         <option value="$PROJECT_DIR$/webApp/blog/java/2015-12-5-javatest" />
         <option value="$PROJECT_DIR$/webApp/index.html" />
         <option value="$PROJECT_DIR$/webApp/js/base.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/css/base.css" />
+        <option value="$PROJECT_DIR$/write.html" />
+        <option value="$PROJECT_DIR$/js/base.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/layout.css" />
       </list>
     </option>
   </component>
@@ -113,10 +786,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="12" />
-    <option name="width" value="1452" />
-    <option name="height" value="867" />
+    <option name="x" value="419" />
+    <option name="y" value="4" />
+    <option name="width" value="1093" />
+    <option name="height" value="1014" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -141,7 +814,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -170,7 +844,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webApp" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -184,33 +858,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webApp" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wangbing.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -224,44 +876,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wangbing.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,12 +893,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\wb\js\lib\markdown" />
+      <recent name="D:\workspace\wb" />
       <recent name="D:\workspace\wb\webApp\blog\android" />
       <recent name="D:\workspace\wb\webApp\blog\html" />
       <recent name="D:\workspace\wb\webApp\blog\java" />
-      <recent name="D:\workspace\wb\webApp\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\wb\images" />
+      <recent name="D:\workspace\wb" />
+      <recent name="D:\workspace\wb\webApp\blog\other" />
       <recent name="D:\workspace\wb\webApp" />
     </key>
   </component>
@@ -557,7 +1182,12 @@
       <workItem from="1449380005585" duration="598000" />
       <workItem from="1449500232471" duration="3864000" />
       <workItem from="1449535509351" duration="99000" />
-      <workItem from="1449576487289" duration="13842000" />
+      <workItem from="1449576487289" duration="13862000" />
+      <workItem from="1449664476151" duration="9624000" />
+      <workItem from="1449749081088" duration="10764000" />
+      <workItem from="1449759942344" duration="158000" />
+      <workItem from="1449834478143" duration="11582000" />
+      <workItem from="1450352568784" duration="7916000" />
     </task>
     <task id="LOCAL-00001" summary="布局">
       <created>1447848105414</created>
@@ -589,11 +1219,29 @@
       <option name="project" value="LOCAL" />
       <updated>1449586256545</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="init">
+      <created>1449590379793</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1449590379793</updated>
+    </task>
+    <task id="LOCAL-00007" summary="init">
+      <created>1449673586271</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1449673586271</updated>
+    </task>
+    <task id="LOCAL-00008" summary="init">
+      <created>1449760002063</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1449760002063</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57228000" />
+    <option name="totallyTimeSpent" value="97292000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -605,33 +1253,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="12" width="1452" height="867" extended-state="0" />
+    <frame x="419" y="4" width="1093" height="1014" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24731183" sideWeight="0.49713466" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2462585" sideWeight="0.49713466" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5114613" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1755102" sideWeight="0.48853868" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1755102" sideWeight="0.48853868" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789117" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23994254" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27686352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -656,301 +1304,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webApp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/js/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/js/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/write.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/js/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="40" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/images/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/write.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/js/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="40" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/images/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="159" column="44" selection-start-line="159" selection-start-column="44" selection-end-line="159" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="136" column="30" selection-start-line="136" selection-start-column="30" selection-end-line="136" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/js/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1287129">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/images/blog.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/images/message.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/images/warn.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/images/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/write.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/css/util.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/blog/2015-12-06-test">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19757366">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/blog/java/2015-12-05-javatest">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32928944">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/blog/html/2015-12-05-htmltest">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/blog/android/2015-12-01-androidtest">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32928944">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/css/layout.css">
+    <entry file="file://$PROJECT_DIR$/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
@@ -958,7 +1312,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/index.html">
+    <entry file="file://$PROJECT_DIR$/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
@@ -966,10 +1328,348 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webApp/js/base.js">
+    <entry file="file://$PROJECT_DIR$/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36221838">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/write.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="40" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/write.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="40" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="159" column="44" selection-start-line="159" selection-start-column="44" selection-end-line="159" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="136" column="30" selection-start-line="136" selection-start-column="30" selection-end-line="136" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1287129">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/blog.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/message.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/warn.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/util.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/java/2015-12-05-javatest">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32928944">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/android/2015-12-01-androidtest">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32928944">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/other/2015-12-06-test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3615917">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/html/2015-12-05-htmltest">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24568966">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5323276">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/write.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36848485">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/search-icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/favorite.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="302" column="36" selection-start-line="302" selection-start-column="36" selection-end-line="302" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.892858">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5099648">
+          <caret line="203" column="36" selection-start-line="203" selection-start-column="36" selection-end-line="203" selection-end-column="36" />
           <folding />
         </state>
       </provider>

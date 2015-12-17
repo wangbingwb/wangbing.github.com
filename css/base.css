@@ -13,3 +13,23 @@ a{
 a:hover{
     color: #3FAAF9;
 }
+.size-full{
+    height: 100%;
+    width: 100%;
+}
+.width-full{
+    width: 100%;
+}
+.height-full{
+    height: 100%;
+}
+.text-center{
+    text-align: center;
+    vertical-align: middle;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
