@@ -75,11 +75,11 @@ body{
     vertical-align: top;
 }
 
-#main .content-wrapper #content ul{
+#main .content-wrapper #content #list>ul{
     padding: 0px;
     list-style: none;
 }
-#main .content-wrapper #content ul li{
+#main .content-wrapper #content #list>ul>li{
     position: relative;
     border-radius: 5px;
     margin-bottom: 1px;
@@ -88,7 +88,7 @@ body{
     background-color: #fff;
     display: block;
 }
-#main .content-wrapper #content ul li:before{
+#main .content-wrapper #content #list>ul>li:before{
     content: "";
     display: none;
     height: 20px;
@@ -101,10 +101,10 @@ body{
     top: 0px;
     transition: left 1s, top 1s;
 }
-#main .content-wrapper #content ul li:hover:before{
+#main .content-wrapper #content #list>ul>li:hover:before{
     display: block;
 }
-#main .content-wrapper #content ul li:after{
+#main .content-wrapper #content #list>ul>li:after{
     content: "";
     display: none;
     height: 20px;
@@ -116,27 +116,64 @@ body{
     right: 0px;
     bottom: 0px;
 }
-#main .content-wrapper #content ul li:hover:after{
+#main .content-wrapper #content #list>ul>li:hover:after{
     display: block;
 }
-#main .content-wrapper #content ul li .title{
+#main .content-wrapper #content #list>ul>li .title{
     font-size: 30px;
     line-height: 45px;
     color: #414256;;
 }
-#main .content-wrapper #content ul li .time{
+#main .content-wrapper #content #list>ul>li .time{
     padding-left: 1em;
     line-height: 15px;
     font-size: 15px;
     color: #929292;
     border-bottom: 1px solid #EAEAEA;
 }
-#main .content-wrapper #content ul li:hover .title{
+#main .content-wrapper #content #list>ul>li:hover .title{
 
 }
-#main .content-wrapper #content ul li:hover .time{
+#main .content-wrapper #content #list>ul>li:hover .time{
 
 }
+#main .content-wrapper #content #list>div{
+    height: 50px;
+    text-align: center;
+}
+#main .content-wrapper #content #list>div>ul{
+    display: inline-block;
+    height: 100%;
+    margin-top: 10px;
+    list-style: none;
+}
+#main .content-wrapper #content #list>div>ul>li{
+    padding: 0px;
+    display: inline-block;
+    width: 35px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #D4D4D4;
+    text-align: center;
+    margin-left:2px;
+}
+#main .content-wrapper #content #list>div>ul>li>a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#main .content-wrapper #content #list>div>ul>li:hover{
+    background-color: #B5B5B5;
+}
+#main .content-wrapper #content #list>div>ul>li:nth-child(1){
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#main .content-wrapper #content #list>div>ul>li:nth-last-child(1){
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 #showpanel{
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -226,4 +263,19 @@ body{
 #write textarea{
     height: 100%;
     width: 100%;
+}
+
+#footer{
+    margin-top:50px;
+    height: 50px;
+}
+#footer ul{
+    margin: 0px;
+    text-align: center;
+    display: block;
+    list-style: none;
+}
+#footer ul li{
+    font-size: 10px;
+    display: inline-block;
 }

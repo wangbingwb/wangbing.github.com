@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .table{
     display: table;
     word-wrap:break-word;
