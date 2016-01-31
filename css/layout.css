@@ -121,7 +121,7 @@ body{
 }
 #main .content-wrapper #content #list>ul>li .title{
     font-size: 30px;
-    line-height: 45px;
+    line-height: 35px;
     color: #414256;;
 }
 #main .content-wrapper #content #list>ul>li .time{
@@ -153,9 +153,12 @@ body{
     width: 35px;
     height: 30px;
     line-height: 30px;
-    background-color: #D4D4D4;
+    background-color: #F9E2E2;
     text-align: center;
     margin-left:2px;
+}
+#main .content-wrapper #content #list>div>ul>li.selected{
+    background-color: #2E7BCF;
 }
 #main .content-wrapper #content #list>div>ul>li>a{
     display: block;
@@ -173,42 +176,23 @@ body{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-
-#showpanel{
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    padding-top: 10px;
-    padding-left: 5%;
-    padding-right: 5%;
-    min-height: 500px;
-    display: none;
-    /*background-color: #FFFFFF;*/
-    /*box-shadow: 1px 2px 3px #ddd;*/
-}
-#showpanel #title{
-    text-align: center;
-    font-size: 2em;
-}
-#showpanel #body{
-
-}
-#loader{
+.loader{
     height: 100px;
 }
-#loader .block{
+.loader .block{
     border-radius: 50px;
     display: inline-block;
     background-color: #929292;;
     height: 15px;
     width: 15px;
 }
-#loader .block:nth-child(1){
+.loader .block:nth-child(1){
     animation: left 2s infinite;
 }
-#loader .block:nth-child(2){
+.loader .block:nth-child(2){
     animation: middle 2s infinite;
 }
-#loader .block:nth-child(3){
+.loader .block:nth-child(3){
     animation: right 2s infinite;
 }
 @keyframes left {
