@@ -1,7 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    cursor: hand;
 }
 .table{
     display: table;
@@ -14,6 +13,7 @@
 a{
     color: black;
     text-decoration: none;
+    cursor: hand;
 }
 a:hover{
     color: #3FAAF9;
@@ -37,4 +37,31 @@ a:hover{
 }
 .text-left{
     text-align: left;
+}
+.h_10{
+   height: 10px;
+}
+.h_20{
+    height: 20px;
+}
+.h_30{
+    height: 30px;
+}
+.h_40{
+    height: 40px;
+}
+.h_50{
+    height: 50px;
+}
+.h_60{
+    height: 60px;
+}
+.color_red{
+    color: red;
+}
+.color_blue{
+    color: blue;
+}
+.color_green{
+    color: green;
 }

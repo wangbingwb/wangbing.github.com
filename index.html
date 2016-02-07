@@ -5,11 +5,20 @@
     <link href="css/base.css" rel="stylesheet">
     <link href="css/util.css" rel="stylesheet">
     <link href="css/layout.css" rel="stylesheet">
+    <link href="css/editormd.preview.min.css" rel="stylesheet">
     <script src="js/lib/jquery-2.1.4.min.js" type="text/javascript"></script>
     <!--<script src="js/util.js" type="text/javascript"></script>-->
     <!--<script type="text/javascript" src="js/lib/ckeditor/ckeditor.js"></script>-->
+
+    <script src="editor/lib/marked.min.js" type="text/javascript"></script>
+    <script src="editor/lib/prettify.min.js" type="text/javascript"></script>
+    <script src="editor/lib/raphael.min.js" type="text/javascript"></script>
+    <script src="editor/lib/underscore.min.js" type="text/javascript"></script>
+    <script src="editor/lib/sequence-diagram.min.js" type="text/javascript"></script>
+    <script src="editor/lib/flowchart.min.js" type="text/javascript"></script>
+    <script src="editor/lib/jquery.flowchart.min.js" type="text/javascript"></script>
+    <script src="js/lib/editormd.min.js" type="text/javascript"></script>
     <script src="js/lib/angular.min.js" type="text/javascript"></script>
-    <script src="js/lib/markdown.min.js" type="text/javascript"></script>
     <script src="js/base.js" type="text/javascript"></script>
 </head>
     <body ng-controller="BodyCtrl">
@@ -29,8 +38,9 @@
                     <!-- list-->
                     <div id="list" ng-if="vm.isDoFind && vm.isFinish">
                         <ul>
-                            <li ng-repeat="item in result">
-                                <div class='title'><a href="" ng-click="view($index)">{{$index+1}}{{item.title}}</a></div>
+                            <li ng-repeat="item in result" ng-click="view($index)">
+
+                                <div class='title'><a href="" ng-click="view($index)">{{item.title}}</a></div>
                                 <div class='time'>{{item.time}}</div>
                             </li>
                         </ul>
@@ -39,15 +49,21 @@
                                 <li ng-repeat="page in pages" ng-class="{true:'selected'}[page.isSelect]" ng-click="selectPage(page.action)">{{page.name}}</li>
                             </ul>
                         </div>
-                        <div ng-if="!(vm.totalCount > vm.pageSize)">
+                        <div ng-if="!(vm.totalCount > 0)">
                             <p>未找到记录</p>
                         </div>
                     </div>
 
                     <!-- 文章-->
                     <div ng-if="!vm.isDoFind && vm.isFinish">
-                        <div id="title">asdasdasdasdasd</div>
-                        <div id="body">asdfasdfasdf</div>
+                        <div class="article table size-full text-center h_60">
+                            <div class="title table-cell">{{ article.title }}
+                                <div class="time">{{ article.time }}</div>
+                                <div class="type">标签 <span ng-class="{'java':'color_red','other':'color_blue'}[article.type]">{{ article.type }}</span></div>
+                            </div>
+                        </div>
+                        <textarea id="articleBody" style="display:none;"  ng-model="article.content" ng-change="toView()"></textarea>
+                        <div id="articleBody-view"></div>
                     </div>
 
                     <div ng-if="!vm.isFinish" class="loader text-center">
@@ -68,4 +84,3 @@
         </div>
     </body>
 </html>
-

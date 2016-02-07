@@ -1,697 +1,431 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52405f0a-f1a3-47ca-9e9a-1dbca1e9058d" name="Default" comment="init">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/simditor-2.3.6/images/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/other/2015-12-06-HelloWorld" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/simditor-2.3.6/styles/editor.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/simditor-2.3.6/styles/fonticon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/simditor-2.3.6/scripts/hotkeys.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/simditor-2.3.6/scripts/hotkeys.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/simditor-2.3.6/scripts/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/list.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/markdown.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/marked.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/simditor-2.3.6/scripts/module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/simditor-2.3.6/scripts/module.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/simditor-marked.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/simditor-2.3.6/styles/simditor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/simditor-2.3.6/scripts/simditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/simditor-2.3.6/scripts/simditor.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/simditor-2.3.6/styles/simditor.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/simditor-2.3.6/scripts/uploader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/simditor-2.3.6/scripts/uploader.min.js" />
-      <change type="DELETED" beforePath="D:\workspace\wb\blog\other\2015-12-06-test" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\CHANGES.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\adapters\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\build-config.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\ckeditor.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\config.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\contents.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\af.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\ar.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\bg.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\bn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\bs.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\ca.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\cs.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\cy.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\da.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\de.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\el.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\en-au.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\en-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\en-gb.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\en.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\eo.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\es.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\et.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\eu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\fa.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\fi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\fo.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\fr-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\fr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\gl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\gu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\he.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\hi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\hr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\hu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\id.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\is.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\it.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\ja.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\ka.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\km.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\ko.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\ku.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\lt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\lv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\mk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\mn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\ms.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\nb.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\nl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\no.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\pl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\pt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\ro.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\ru.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\si.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\sk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\sl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\sq.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\sr-latn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\sr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\sv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\th.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\tr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\tt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\ug.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\uk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\vi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\lang\zh.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\a11yhelp.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\_translationstatus.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\af.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\ar.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\bg.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\ca.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\cs.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\cy.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\da.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\de.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\el.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\en-gb.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\en.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\eo.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\es.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\et.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\fa.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\fi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\fo.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\fr-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\fr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\gl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\gu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\he.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\hi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\hr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\hu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\id.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\it.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\ja.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\km.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\ko.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\ku.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\lt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\lv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\mk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\mn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\nb.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\nl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\no.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\pl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\pt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\ro.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\ru.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\si.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\sk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\sl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\sq.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\sr-latn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\sr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\sv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\th.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\tr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\tt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\ug.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\uk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\vi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\a11yhelp\dialogs\lang\zh.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\about\dialogs\about.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\about\dialogs\hidpi\logo_ckeditor.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\about\dialogs\logo_ckeditor.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\clipboard\dialogs\paste.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\colordialog\dialogs\colordialog.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\dialog\dialogDefinition.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\div\dialogs\div.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\find\dialogs\find.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\flash\dialogs\flash.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\flash\images\placeholder.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\forms\dialogs\button.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\forms\dialogs\checkbox.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\forms\dialogs\form.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\forms\dialogs\hiddenfield.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\forms\dialogs\radio.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\forms\dialogs\select.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\forms\dialogs\textarea.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\forms\dialogs\textfield.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\forms\images\hiddenfield.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\icons.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\icons_hidpi.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\iframe\dialogs\iframe.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\iframe\images\placeholder.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\image\dialogs\image.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\image\images\noimage.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\link\dialogs\anchor.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\link\dialogs\link.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\link\images\anchor.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\link\images\hidpi\anchor.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\liststyle\dialogs\liststyle.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\magicline\images\hidpi\icon-rtl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\magicline\images\hidpi\icon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\magicline\images\icon-rtl.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\magicline\images\icon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\pagebreak\images\pagebreak.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\pastefromword\filter\default.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\preview\preview.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\scayt\LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\scayt\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\scayt\dialogs\options.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\scayt\dialogs\toolbar.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\showblocks\images\block_address.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\showblocks\images\block_blockquote.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\showblocks\images\block_div.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\showblocks\images\block_h1.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\showblocks\images\block_h2.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\showblocks\images\block_h3.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\showblocks\images\block_h4.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\showblocks\images\block_h5.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\showblocks\images\block_h6.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\showblocks\images\block_p.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\showblocks\images\block_pre.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\dialogs\smiley.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\angel_smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\angel_smile.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\angry_smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\angry_smile.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\broken_heart.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\broken_heart.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\confused_smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\confused_smile.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\cry_smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\cry_smile.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\devil_smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\devil_smile.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\embaressed_smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\embarrassed_smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\embarrassed_smile.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\envelope.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\envelope.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\heart.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\heart.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\kiss.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\kiss.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\lightbulb.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\lightbulb.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\omg_smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\omg_smile.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\regular_smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\regular_smile.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\sad_smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\sad_smile.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\shades_smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\shades_smile.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\teeth_smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\teeth_smile.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\thumbs_down.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\thumbs_down.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\thumbs_up.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\thumbs_up.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\tongue_smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\tongue_smile.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\tounge_smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\whatchutalkingabout_smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\whatchutalkingabout_smile.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\wink_smile.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\smiley\images\wink_smile.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\_translationstatus.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\af.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\ar.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\bg.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\ca.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\cs.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\cy.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\da.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\de.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\el.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\en-gb.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\en.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\eo.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\es.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\et.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\fa.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\fi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\fr-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\fr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\gl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\he.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\hr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\hu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\id.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\it.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\ja.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\km.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\ko.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\ku.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\lt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\lv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\nb.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\nl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\no.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\pl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\pt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\ru.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\si.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\sk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\sl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\sq.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\sv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\th.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\tr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\tt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\ug.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\uk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\vi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\lang\zh.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\specialchar\dialogs\specialchar.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\table\dialogs\table.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\tabletools\dialogs\tableCell.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\templates\dialogs\templates.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\templates\dialogs\templates.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\templates\templates\default.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\templates\templates\images\template1.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\templates\templates\images\template2.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\templates\templates\images\template3.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\wsc\LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\wsc\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\wsc\dialogs\ciframe.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\wsc\dialogs\tmpFrameset.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\wsc\dialogs\wsc.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\wsc\dialogs\wsc.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\plugins\wsc\dialogs\wsc_ie.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\css\samples.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\img\github-top.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\img\header-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\img\header-separator.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\img\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\img\navigation-tip.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\js\sample.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\js\sf.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\ajax.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\api.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\appendto.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\assets\inlineall\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\assets\outputxhtml\outputxhtml.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\assets\posteddata.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\assets\sample.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\assets\uilanguages\languages.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\datafiltering.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\dialog\assets\my_dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\dialog\dialog.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\divreplace.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\enterkey\enterkey.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.fla" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\htmlwriter\assets\outputforflash\outputforflash.swf" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\htmlwriter\assets\outputforflash\swfobject.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\htmlwriter\outputforflash.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\htmlwriter\outputhtml.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\inlineall.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\inlinebycode.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\inlinetextarea.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\jquery.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\magicline\magicline.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\readonly.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\replacebyclass.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\replacebycode.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\sample.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\sample.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\sample_posteddata.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\tabindex.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\toolbar\toolbar.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\uicolor.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\uilanguages.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\wysiwygarea\fullpage.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\old\xhtmlstyle.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\toolbarconfigurator\css\fontello.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\toolbarconfigurator\font\LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\toolbarconfigurator\font\config.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\toolbarconfigurator\font\fontello.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\toolbarconfigurator\font\fontello.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\toolbarconfigurator\font\fontello.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\toolbarconfigurator\font\fontello.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\toolbarconfigurator\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\toolbarconfigurator\js\abstracttoolbarmodifier.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\toolbarconfigurator\js\fulltoolbareditor.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\toolbarconfigurator\js\toolbarmodifier.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\toolbarconfigurator\js\toolbartextmodifier.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\toolbarconfigurator\lib\codemirror\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\toolbarconfigurator\lib\codemirror\codemirror.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\toolbarconfigurator\lib\codemirror\codemirror.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\toolbarconfigurator\lib\codemirror\javascript.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\toolbarconfigurator\lib\codemirror\neo.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\samples\toolbarconfigurator\lib\codemirror\show-hint.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\dialog_ie.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\dialog_ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\dialog_ie8.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\dialog_iequirks.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\editor.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\editor_gecko.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\editor_ie.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\editor_ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\editor_ie8.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\editor_iequirks.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\icons.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\icons_hidpi.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\images\arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\images\close.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\images\hidpi\close.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\images\hidpi\lock-open.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\images\hidpi\lock.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\images\hidpi\refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\images\lock-open.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\images\lock.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\images\refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\images\spinner.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\skins\moono\readme.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\ckeditor\styles.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-animate.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-animate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-animate.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-cookies.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-cookies.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-cookies.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-csp.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-loader.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-loader.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-loader.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-mocks.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-resource.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-resource.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-resource.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-route.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-route.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-route.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-sanitize.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-sanitize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-sanitize.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-scenario.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-touch.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-touch.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular-touch.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\errors.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_af-na.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_af-za.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_af.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_am-et.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_am.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-001.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-ae.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-bh.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-dz.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-eg.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-iq.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-jo.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-kw.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-lb.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-ly.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-ma.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-om.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-qa.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-sa.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-sd.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-sy.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-tn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar-ye.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ar.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_bg-bg.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_bg.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_bn-bd.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_bn-in.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_bn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ca-ad.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ca-es.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ca.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_cs-cz.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_cs.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_da-dk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_da.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_de-at.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_de-be.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_de-ch.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_de-de.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_de-li.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_de-lu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_de.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_el-cy.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_el-gr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_el.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-as.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-au.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-bb.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-be.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-bm.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-bw.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-bz.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-dsrt-us.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-dsrt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-fm.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-gb.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-gu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-gy.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-hk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-ie.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-in.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-iso.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-jm.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-mh.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-mp.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-mt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-mu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-na.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-nz.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-ph.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-pk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-pr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-pw.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-sg.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-tc.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-tt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-um.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-us.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-vg.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-vi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-za.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en-zw.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_en.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-419.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-ar.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-bo.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-cl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-co.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-cr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-do.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-ea.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-ec.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-es.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-gq.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-gt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-hn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-ic.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-mx.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-ni.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-pa.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-pe.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-pr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-py.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-sv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-us.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-uy.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es-ve.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_es.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_et-ee.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_et.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_eu-es.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_eu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fa-af.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fa-ir.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fa.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fi-fi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fil-ph.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fil.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-be.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-bf.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-bi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-bj.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-bl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-cd.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-cf.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-cg.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-ch.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-ci.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-cm.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-dj.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-fr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-ga.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-gf.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-gn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-gp.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-gq.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-km.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-lu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-mc.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-mf.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-mg.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-ml.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-mq.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-ne.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-re.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr-yt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_fr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_gl-es.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_gl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_gsw-ch.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_gsw.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_gu-in.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_gu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_he-il.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_he.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_hi-in.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_hi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_hr-hr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_hr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_hu-hu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_hu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_id-id.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_id.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_in.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_is-is.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_is.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_it-it.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_it-sm.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_it.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_iw.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ja-jp.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ja.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_kn-in.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_kn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ko-kr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ko.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ln-cd.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ln.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_lt-lt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_lt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_lv-lv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_lv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ml-in.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ml.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_mr-in.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_mr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ms-my.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ms.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_mt-mt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_mt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_nl-cw.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_nl-nl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_nl-sx.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_nl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_no.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_or-in.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_or.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_pl-pl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_pl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_pt-pt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_pt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ro-ro.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ro.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ru-ru.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ru.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sk-sk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sl-si.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sq-al.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sq.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sr-cyrl-rs.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sr-latn-rs.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sv-se.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sw-tz.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_sw.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ta-in.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ta.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_te-in.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_te.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_th-th.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_th.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_tl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_tr-tr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_tr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_uk-ua.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_uk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ur-pk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_ur.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_vi-vn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_vi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_zh-hans-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_zh-hk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_zh-tw.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_zh.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_zu-za.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\i18n\angular-locale_zu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\version.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\version.txt" afterPath="" />
+    <list default="true" id="52405f0a-f1a3-47ca-9e9a-1dbca1e9058d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/logos/editormd-favicon-16x16.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/logos/editormd-favicon-24x24.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/logos/editormd-favicon-32x32.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/logos/editormd-favicon-48x48.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/logos/editormd-favicon-64x64.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/logos/editormd-logo-114x114.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/logos/editormd-logo-120x120.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/logos/editormd-logo-144x144.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/logos/editormd-logo-16x16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/logos/editormd-logo-180x180.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/logos/editormd-logo-240x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/logos/editormd-logo-24x24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/logos/editormd-logo-320x320.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/logos/editormd-logo-32x32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/logos/editormd-logo-48x48.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/logos/editormd-logo-57x57.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/logos/editormd-logo-64x64.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/logos/editormd-logo-72x72.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/logos/editormd-logo-96x96.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/fonts/editormd-logo.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/editormd-logo.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/fonts/editormd-logo.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/editormd-logo.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/fonts/editormd-logo.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/editormd-logo.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/loading@2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/loading@3x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/images/logos/vi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/write.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/java/2015-12-05-javatest.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/other/2016-02-07-HelloWorld.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/3024-day.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/3024-night.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/AUTHORS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/selection/active-line.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addons.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/ambiance-mobile.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/ambiance.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/scroll/annotatescrollbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/hint/anyword-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/apl/apl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/asterisk/asterisk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/base16-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/base16-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/blackboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/fold/brace-fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/clike/clike.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/clojure/clojure.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/edit/closebrackets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/edit/closetag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/cobalt.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/cobol/cobol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/code-block-dialog/code-block-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/lib/codemirror.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/lib/codemirror.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/codemirror.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/codemirror.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/lint/coffeescript-lint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/coffeescript/coffeescript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/colorforth.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/runmode/colorize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/fold/comment-fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/comment/comment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/commonlisp/commonlisp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/comment/continuecomment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/edit/continuelist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/hint/css-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/lint/css-lint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/css/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/cypher/cypher.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/d/d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/dart/dart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/dialog/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/dialog/dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/diff/diff.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/django/django.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/dockerfile/dockerfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/dtd/dtd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/dylan/dylan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/ebnf/ebnf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/ecl/ecl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/eclipse.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/fonts/editormd-logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/editormd-logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/css/editormd.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/css/editormd.logo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/css/editormd.logo.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/css/editormd.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/editormd.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/css/editormd.preview.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/editormd.preview.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/css/editormd.preview.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/eiffel/eiffel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/elegant.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoji-dialog/emoji-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/emoji-dialog/emoji.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/languages/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/erlang-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/erlang/erlang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/flowchart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/fold/foldcode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/fold/foldgutter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/fold/foldgutter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/forth/forth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/fortran/fortran.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/display/fullscreen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/display/fullscreen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/gas/gas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/gfm/gfm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/gherkin/gherkin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/go/go.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/goto-line-dialog/goto-line-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/groovy/groovy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/haml/haml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/wrap/hardwrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/haskell/haskell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/haxe/haxe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/help-dialog/help-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/help-dialog/help.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/html-entities-dialog/html-entities-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/html-entities-dialog/html-entities.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/hint/html-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/htmlembedded/htmlembedded.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/htmlmixed/htmlmixed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/http/http.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/idl/idl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/image-dialog/image-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/fold/indent-fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/apl/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/asterisk/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/clike/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/clojure/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/cobol/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/coffeescript/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/commonlisp/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/css/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/cypher/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/d/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/dart/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/diff/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/django/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/dockerfile/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/dtd/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/dylan/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/ebnf/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/ecl/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/eiffel/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/erlang/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/forth/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/fortran/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/gas/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/gfm/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/gherkin/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/go/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/groovy/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/haml/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/haskell/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/haxe/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/htmlembedded/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/htmlmixed/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/http/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/idl/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/jade/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/javascript/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/jinja2/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/julia/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/kotlin/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/livescript/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/lua/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/markdown/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/mirc/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/mllike/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/modelica/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/nginx/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/ntriples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/octave/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/pascal/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/pegjs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/perl/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/php/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/pig/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/properties/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/puppet/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/python/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/q/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/r/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/rpm/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/rpm/changes/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/rst/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/ruby/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/rust/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/sass/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/scheme/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/shell/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/sieve/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/slim/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/smalltalk/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/smarty/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/smartymixed/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/solr/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/soy/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/sparql/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/spreadsheet/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/sql/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/stex/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/stylus/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/tcl/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/textile/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/tiddlywiki/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/tiki/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/toml/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/tornado/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/turtle/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/vb/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/vbscript/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/velocity/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/verilog/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/xml/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/xquery/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/yaml/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/z80/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/jade/jade.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/hint/javascript-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/lint/javascript-lint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/javascript/javascript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/jinja2/jinja2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/jquery.flowchart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/javascript/json-ld.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/lint/json-lint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/julia/julia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/kotlin/kotlin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/css/less.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/css/less_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/lesser-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/link-dialog/link-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/lint/lint.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/lint/lint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/livescript/livescript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/mode/loadmode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/lua/lua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/selection/mark-selection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/fold/markdown-fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/markdown/markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/marked.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/search/match-highlighter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/edit/matchbrackets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/search/matchesonscrollbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/search/matchesonscrollbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/edit/matchtags.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/mbo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/mdn-like.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/merge/merge.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/merge/merge.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/meta.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/midnight.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/mirc/mirc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/mllike/mllike.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/modelica/modelica.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/modes.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/monokai.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/mode/multiplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/mode/multiplex_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/neat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/neo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/nginx/nginx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/night.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/ntriples/ntriples.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/octave/octave.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/mode/overlay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/display/panel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/paraiso-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/paraiso-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/pascal/pascal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/pastel-on-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/pegjs/pegjs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/perl/perl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/php/php.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/pig/pig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/display/placeholder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/plugin-template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/preformatted-text-dialog/preformatted-text-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/prettify.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/properties/properties.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/puppet/puppet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/python/python.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/q/q.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/r/r.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/raphael.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/reference-link-dialog/reference-link-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/rpm/rpm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/rst/rst.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/ruby/ruby.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/rubyblue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/display/rulers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/runmode/runmode-standalone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/runmode/runmode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/runmode/runmode.node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/rust/rust.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/sass/sass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/clike/scala.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/scheme/scheme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/scroll/scrollpastend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/css/scss.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/css/scss_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/search/search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/search/searchcursor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/selection/selection-pointer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/sequence-diagram.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/shell/shell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/hint/show-hint.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/hint/show-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/sieve/sieve.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/mode/simple.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/scroll/simplescrollbars.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/scroll/simplescrollbars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/slim/slim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/smalltalk/smalltalk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/smarty/smarty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/smartymixed/smartymixed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/solarized.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/solr/solr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/soy/soy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/sparql/sparql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/spreadsheet/spreadsheet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/hint/sql-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/sql/sql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/stex/stex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/stylus/stylus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/table-dialog/table-dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/tcl/tcl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/tern/tern.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/tern/tern.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/plugins/test-plugin/test-plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/css/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/gfm/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/haml/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/javascript/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/markdown/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/php/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/ruby/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/shell/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/slim/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/stex/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/textile/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/verilog/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/xml/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/xquery/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/textile/textile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/the-matrix.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/tiddlywiki/tiddlywiki.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/tiddlywiki/tiddlywiki.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/tiki/tiki.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/tiki/tiki.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/toml/toml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/tomorrow-night-bright.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/tomorrow-night-eighties.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/tornado/tornado.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/edit/trailingspace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/turtle/turtle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/twilight.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/javascript/typescript.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/underscore.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/vb/vb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/vbscript/vbscript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/velocity/velocity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/verilog/verilog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/vibrant-ink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/tern/worker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/fold/xml-fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/hint/xml-hint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/xml/xml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/xq-dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/xq-light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/xquery/xquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/addon/lint/yaml-lint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/yaml/yaml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/mode/z80/z80.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/lib/codemirror/theme/zenburn.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/languages/zh-tw.js" />
+      <change type="DELETED" beforePath="D:\workspace\wb\blog\java\2015-12-05-javatest" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\wb\blog\other\2015-12-06-HelloWorld" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\markdown.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\marked.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\simditor-2.3.6\images\image.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\simditor-2.3.6\scripts\hotkeys.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\simditor-2.3.6\scripts\hotkeys.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\simditor-2.3.6\scripts\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\simditor-2.3.6\scripts\module.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\simditor-2.3.6\scripts\module.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\simditor-2.3.6\scripts\simditor.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\simditor-2.3.6\scripts\simditor.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\simditor-2.3.6\scripts\uploader.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\simditor-2.3.6\scripts\uploader.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\simditor-2.3.6\styles\editor.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\simditor-2.3.6\styles\fonticon.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\simditor-2.3.6\styles\simditor.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\simditor-2.3.6\styles\simditor.scss" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\wb\js\lib\simditor-marked.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/base.css" afterPath="$PROJECT_DIR$/css/base.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/base.js" afterPath="$PROJECT_DIR$/js/base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/layout.css" afterPath="$PROJECT_DIR$/css/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/list.json" afterPath="$PROJECT_DIR$/list.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/write.html" afterPath="$PROJECT_DIR$/write.html" />
-      <change type="MOVED" beforePath="D:\workspace\wb\webApp\js\lib\angular-1.2.2\angular.min.js" afterPath="$PROJECT_DIR$/js/lib/angular.min.js" />
     </list>
     <ignored path="wb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -717,21 +451,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="base.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6785714">
-              <caret line="11" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7392996">
+              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="write.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/write.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.179402">
-              <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+            <state vertical-scroll-proportion="-15.678572">
+              <caret line="40" column="82" selection-start-line="40" selection-start-column="82" selection-end-line="40" selection-end-column="82" />
+              <folding>
+                <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.607142">
+              <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -767,18 +523,26 @@
         <option value="$PROJECT_DIR$/webApp/js/base.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/blog/other/2015-12-06-test" />
-        <option value="$PROJECT_DIR$/list.json" />
         <option value="$PROJECT_DIR$/blog/other/2015-12-06-HelloWorld" />
-        <option value="$PROJECT_DIR$/css/base.css" />
-        <option value="$PROJECT_DIR$/js/base.js" />
-        <option value="$PROJECT_DIR$/css/layout.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$USER_HOME$/Desktop/Simditor.html" />
         <option value="$PROJECT_DIR$/js/lib/simditor-1.0.5/index.html" />
         <option value="$PROJECT_DIR$/js/lib/simditor-2.3.6/styles/simditor.css" />
         <option value="$PROJECT_DIR$/js/lib/simditor-marked.js" />
         <option value="$PROJECT_DIR$/js/lib/marked.js" />
+        <option value="$PROJECT_DIR$/blog/java/2015-12-05-javatest" />
+        <option value="$USER_HOME$/Desktop/Simple example - Editor.md examples.html" />
+        <option value="$PROJECT_DIR$/write1.html" />
+        <option value="$PROJECT_DIR$/blog/write.html" />
         <option value="$PROJECT_DIR$/write.html" />
+        <option value="$PROJECT_DIR$/js/lib/editormd.min.js" />
+        <option value="$PROJECT_DIR$/js/base.js" />
+        <option value="$PROJECT_DIR$/blog/other/2015-12-06-HelloWorld.md" />
+        <option value="$PROJECT_DIR$/blog/java/2015-12-05-javatest.md" />
+        <option value="$PROJECT_DIR$/css/base.css" />
+        <option value="$PROJECT_DIR$/blog/other/2016-02-07-HelloWorld.md" />
+        <option value="$PROJECT_DIR$/list.json" />
+        <option value="$PROJECT_DIR$/css/layout.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -797,10 +561,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="211" />
-    <option name="y" value="7" />
-    <option name="width" value="1188" />
-    <option name="height" value="1017" />
+    <option name="x" value="497" />
+    <option name="y" value="53" />
+    <option name="width" value="1295" />
+    <option name="height" value="932" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -825,6 +589,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -853,7 +618,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -867,25 +632,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wangbing.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="editor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -916,12 +663,29 @@
               <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="other" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wangbing.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -953,18 +717,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\wb\js\lib" />
-      <recent name="D:\workspace\wb\js\lib\markdown" />
+      <recent name="D:\workspace\wb\css" />
+      <recent name="D:\workspace\wb\images" />
+      <recent name="D:\workspace\wb\editor\css" />
+      <recent name="D:\workspace\wb\editor" />
       <recent name="D:\workspace\wb" />
-      <recent name="D:\workspace\wb\webApp\blog\android" />
-      <recent name="D:\workspace\wb\webApp\blog\html" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\wb\js\lib" />
-      <recent name="D:\workspace\wb\images" />
       <recent name="D:\workspace\wb" />
-      <recent name="D:\workspace\wb\webApp\blog\other" />
-      <recent name="D:\workspace\wb\webApp" />
+      <recent name="D:\workspace\wb\blog" />
+      <recent name="D:\workspace\wb\js\lib" />
+      <recent name="D:\workspace\wb\lib\codemirror" />
+      <recent name="D:\workspace\wb\images" />
     </key>
   </component>
   <component name="RunManager">
@@ -1265,7 +1029,11 @@
       <workItem from="1451210036051" duration="12915000" />
       <workItem from="1452432055379" duration="481000" />
       <workItem from="1454225826704" duration="17394000" />
-      <workItem from="1454248120236" duration="8013000" />
+      <workItem from="1454248120236" duration="8165000" />
+      <workItem from="1454418944627" duration="8570000" />
+      <workItem from="1454503998637" duration="10911000" />
+      <workItem from="1454760463006" duration="8124000" />
+      <workItem from="1454818240619" duration="9191000" />
     </task>
     <task id="LOCAL-00001" summary="布局">
       <created>1447848105414</created>
@@ -1327,11 +1095,17 @@
       <option name="project" value="LOCAL" />
       <updated>1451229723796</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="init">
+      <created>1454256644558</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1454256644558</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149279000" />
+    <option name="totallyTimeSpent" value="186227000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1343,16 +1117,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="211" y="7" width="1188" height="1017" extended-state="0" />
+    <frame x="497" y="53" width="1295" height="932" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25536722" sideWeight="0.49713466" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2825" sideWeight="0.49713466" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5114613" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33972913" sideWeight="0.48853868" order="7" side_tool="false" content_ui="tabs" />
@@ -1361,16 +1136,15 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24113475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2582996" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1405,27 +1179,48 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/write.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="40" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="40" />
-          <folding />
+          <caret line="56" column="65" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="269" column="26" selection-start-line="269" selection-start-column="26" selection-end-line="269" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/other/2016-02-07-HelloWorld.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1433,16 +1228,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="61" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1478,7 +1270,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="159" column="44" selection-start-line="159" selection-start-column="44" selection-end-line="159" selection-end-column="44" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1494,7 +1288,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1510,7 +1306,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1526,7 +1324,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1558,20 +1358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2015-12-01-androidtest">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32928944">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/html/2015-12-05-htmltest">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24568966">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1616,7 +1402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1648,25 +1433,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/other/2015-12-06-HelloWorld">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18095239">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/markdown.min.js">
+    <entry file="file://$PROJECT_DIR$/editor/plugins/help-dialog/help.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/layout.css">
+    <entry file="file://$PROJECT_DIR$/editor/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="123" column="22" selection-start-line="123" selection-start-column="22" selection-end-line="123" selection-end-column="22" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/write.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4858681">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/lib/editormd.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.025572006">
+          <caret line="2" column="12536" selection-start-line="2" selection-start-column="12536" selection-end-line="2" selection-end-column="12536" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38212436">
+          <caret line="1197" column="14" selection-start-line="1197" selection-start-column="14" selection-end-line="1197" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/editormd.preview.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1674,99 +1479,52 @@
     <entry file="file://$PROJECT_DIR$/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="6" />
+          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/base.js">
+    <entry file="file://$PROJECT_DIR$/blog/other/2016-02-07-HelloWorld.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.9310346">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/java/2015-12-05-javatest">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3015873">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/list.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Simditor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5314685">
-          <caret line="16" column="81" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/simditor-2.3.6/styles/fonticon.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2108014">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#38#9131#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/simditor-2.3.6/styles/editor.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3671095">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-15.607142">
+          <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6785714">
-          <caret line="11" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/simditor-2.3.6/styles/simditor.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="297" column="20" selection-start-line="297" selection-start-column="20" selection-end-line="297" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/simditor-marked.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93968254">
-          <caret line="146" column="14" selection-start-line="146" selection-start-column="14" selection-end-line="146" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/marked.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93968254">
-          <caret line="1284" column="9" selection-start-line="1284" selection-start-column="9" selection-end-line="1284" selection-end-column="9" />
+        <state vertical-scroll-proportion="-15.678572">
+          <caret line="40" column="82" selection-start-line="40" selection-start-column="82" selection-end-line="40" selection-end-column="82" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/write.html">
+    <entry file="file://$PROJECT_DIR$/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.179402">
-          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7392996">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
           <folding />
         </state>
       </provider>
