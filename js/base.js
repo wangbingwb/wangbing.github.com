@@ -14,6 +14,8 @@ var BodyCtrl = function ($scope,ContentService,$sce) {
         $scope.vm.isFinish = false;
         ContentService.getList($scope.vm).success(function (data) {
             if (data.resultList.length > 0){
+                //按时间倒序
+                data.resultList.sort(function(a,b){return a.time< b.time?1:-1})
                 //过滤
                 var temp = [];
                 for(var i in data.resultList){

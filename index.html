@@ -60,7 +60,7 @@
                         <div class="article table size-full text-center h_60">
                             <div class="title table-cell">{{ article.title }}
                                 <div class="time">{{ article.time }}</div>
-                                <div class="type">标签 <span ng-class="{'java':'color_red','other':'color_blue'}[article.type]">{{ article.type }}</span></div>
+                                <div class="type">标签 <span ng-class="{'java':'color_red','other':'color_blue','android':'color_green'}[article.type]">{{ article.type }}</span></div>
                             </div>
                         </div>
                         <textarea id="articleBody" style="display:none;"  ng-model="article.content" ng-change="toView()"></textarea>
