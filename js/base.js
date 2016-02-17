@@ -56,6 +56,8 @@ var BodyCtrl = function ($scope,ContentService,$sce) {
             //console.log(data)
             setTimeout("toHtmlView()",10)
             $scope.vm.isFinish = true;
+        }).error(function(){
+            $scope.doFind();
         });
     }
 

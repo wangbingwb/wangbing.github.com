@@ -24,6 +24,11 @@
 </head>
     <body ng-controller="BodyCtrl">
         <div id="header">
+            <div class="nav">
+                <ul>
+                    <li><a ng-click="doFind()">主页</a></li>
+                </ul>
+            </div>
             <div class="search">
                 <input type="text" id="key" ng-model="vm.key" ng-keypress="doSearch($event)">
             </div>
