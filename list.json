@@ -6,5 +6,7 @@
     {"time":"2016-02-13","title":"仿ios回弹listview","type":"android"},
     {"time":"2016-02-17","title":"简单的自定义dialog","type":"android"},
     {"time":"2016-02-19","title":"使用注解自动注入View","type":"android"},
-    {"time":"2016-02-20","title":"学习-简单的Service使用","type":"android"}
+    {"time":"2016-02-20","title":"学习-简单的Service使用","type":"android"},
+    {"time":"2016-02-22","title":"学习-简单的BroadcastReceiver使用","type":"android"},
+    {"time":"2016-02-23","title":"学习-简单的BroadcastReceiver使用2","type":"android"}
   ]}

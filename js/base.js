@@ -92,6 +92,10 @@ var BodyCtrl = function ($scope,ContentService,$sce) {
         console.log($scope.pages)
     };
 
+    $scope.navshow = true;
+    $scope.dohide = function(){
+        $scope.navshow = !$scope.navshow;
+    }
 }
 
 angular.module("index", [])
