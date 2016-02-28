@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52405f0a-f1a3-47ca-9e9a-1dbca1e9058d" name="Default" comment="init">
-      <change type="DELETED" beforePath="D:\workspace\wb\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\.idea\projectCodeStyle.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\.idea\uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\.idea\wangbing.github.com.iml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\wb\.idea\workspace.xml" afterPath="" />
+    <list default="true" id="95d729e3-0713-4cd5-a28a-f90437b7a109" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/javascript/2016-02-25-js读写cookie.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/android/2016-02-26-自动完成文本框AutoCompleteTextView.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/base.js" afterPath="$PROJECT_DIR$/js/base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/list.json" afterPath="$PROJECT_DIR$/list.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wb.iws" />
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,69 +23,16 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="ExportToHTMLSettings">
-    <option name="OUTPUT_DIRECTORY" value="D:\workspace\wb\exportToHTML" />
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="wb" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="layout.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/layout.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="170" column="22" selection-start-line="170" selection-start-column="22" selection-end-line="170" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/base.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/list.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45833334">
-              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-02-24-制作9Patch图片.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/android/2016-02-24-制作9Patch图片.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.464286">
-              <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-02-23-学习-简单的BroadcastReceiver使用2.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/android/2016-02-23-学习-简单的BroadcastReceiver使用2.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="32" column="43" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -102,7 +42,27 @@
         <entry file="file://$PROJECT_DIR$/js/base.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+              <caret line="129" column="39" selection-start-line="129" selection-start-column="39" selection-end-line="129" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.821428">
+              <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-02-26-自动完成文本框AutoCompleteTextView.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/android/2016-02-26-自动完成文本框AutoCompleteTextView.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.0363636">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,11 +72,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="0.0.4" />
-      </map>
-    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -126,47 +81,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/webApp/cateloglist.html" />
-        <option value="$PROJECT_DIR$/webApp/css/commons.css" />
-        <option value="$PROJECT_DIR$/webApp/header.html" />
-        <option value="$PROJECT_DIR$/webApp/write.html" />
-        <option value="$PROJECT_DIR$/webApp/css/base.css" />
-        <option value="$PROJECT_DIR$/webApp/css/layout.css" />
-        <option value="$PROJECT_DIR$/webApp/blog/2015-12-6-test" />
-        <option value="$PROJECT_DIR$/webApp/blog/java/2015-12-5-javatest" />
-        <option value="$PROJECT_DIR$/webApp/index.html" />
-        <option value="$PROJECT_DIR$/webApp/js/base.js" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/blog/other/2015-12-06-test" />
-        <option value="$PROJECT_DIR$/blog/other/2015-12-06-HelloWorld" />
-        <option value="$USER_HOME$/Desktop/Simditor.html" />
-        <option value="$PROJECT_DIR$/js/lib/simditor-1.0.5/index.html" />
-        <option value="$PROJECT_DIR$/js/lib/simditor-2.3.6/styles/simditor.css" />
-        <option value="$PROJECT_DIR$/js/lib/simditor-marked.js" />
-        <option value="$PROJECT_DIR$/js/lib/marked.js" />
-        <option value="$PROJECT_DIR$/blog/java/2015-12-05-javatest" />
-        <option value="$USER_HOME$/Desktop/Simple example - Editor.md examples.html" />
-        <option value="$PROJECT_DIR$/write1.html" />
-        <option value="$PROJECT_DIR$/blog/write.html" />
-        <option value="$PROJECT_DIR$/js/lib/editormd.min.js" />
-        <option value="$PROJECT_DIR$/blog/other/2015-12-06-HelloWorld.md" />
-        <option value="$PROJECT_DIR$/blog/java/2015-12-05-javatest.md" />
-        <option value="$PROJECT_DIR$/blog/other/2016-02-07-HelloWorld.md" />
-        <option value="$PROJECT_DIR$/blog/other/2016-02-12-2015自我总结.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-02-13-仿ios回弹listview.md" />
-        <option value="$PROJECT_DIR$/write.html" />
-        <option value="$PROJECT_DIR$/blog/android/2016-02-17-简单的自定义dialog.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-02-19-使用注解自动注入View.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-02-20-学习-简单的Service使用.md" />
-        <option value="$PROJECT_DIR$/js/base.js" />
-        <option value="$PROJECT_DIR$/css/base.css" />
-        <option value="$PROJECT_DIR$/css/layout.css" />
+        <option value="$PROJECT_DIR$/teat.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/blog/android/2016-02-22-学习-简单的BroadcastReceiver使用.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-02-23-学习-简单的BroadcastReceiver使用2.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-02-24-制作9Patch图片.md" />
+        <option value="$PROJECT_DIR$/js/base.js" />
+        <option value="$PROJECT_DIR$/blog/javascript/2016-02-25-js读写cookie.md" />
+        <option value="$PROJECT_DIR$/blog/android/2016-02-26-自动完成文本框AutoCompleteTextView.md" />
         <option value="$PROJECT_DIR$/list.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -174,23 +94,16 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="NamedScopeManager">
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="406" />
-    <option name="y" value="30" />
+    <option name="x" value="482" />
+    <option name="y" value="49" />
     <option name="width" value="1577" />
     <option name="height" value="958" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -217,13 +130,13 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wangbing.github.com" />
+              <option name="myItemId" value="wb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wangbing.github.com" />
+              <option name="myItemId" value="wb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -233,7 +146,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wangbing.github.com" />
+              <option name="myItemId" value="wb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -247,21 +160,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wangbing.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="wb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wangbing.github.com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -279,7 +178,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wangbing.github.com" />
+              <option name="myItemId" value="wb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -291,13 +190,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="javascript" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wangbing.github.com" />
+              <option name="myItemId" value="wb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -306,16 +205,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wangbing.github.com" />
+              <option name="myItemId" value="wb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -324,6 +219,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -336,46 +235,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="coding_rules" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="93" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="102" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="102" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="895" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="101" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="108" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="107" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="889" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\wb\blog\android" />
-      <recent name="D:\workspace\wb\images" />
-      <recent name="D:\workspace\wb\css" />
-      <recent name="D:\workspace\wb\editor\css" />
-      <recent name="D:\workspace\wb\editor" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspace\wb" />
-      <recent name="D:\workspace\wb\blog" />
-      <recent name="D:\workspace\wb\js\lib" />
-      <recent name="D:\workspace\wb\lib\codemirror" />
-      <recent name="D:\workspace\wb\images" />
     </key>
   </component>
   <component name="RunManager">
@@ -538,258 +411,51 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="52405f0a-f1a3-47ca-9e9a-1dbca1e9058d" name="Default" comment="" />
-      <created>1447484377359</created>
+      <changelist id="95d729e3-0713-4cd5-a28a-f90437b7a109" name="Default" comment="" />
+      <created>1456643149558</created>
       <option name="number" value="Default" />
-      <updated>1447484377359</updated>
-      <workItem from="1447484380507" duration="169000" />
-      <workItem from="1447484581254" duration="93000" />
-      <workItem from="1447582074783" duration="803000" />
-      <workItem from="1447584584511" duration="274000" />
-      <workItem from="1447584882108" duration="33000" />
-      <workItem from="1447585007855" duration="2166000" />
-      <workItem from="1447588007736" duration="480000" />
-      <workItem from="1447588512562" duration="8614000" />
-      <workItem from="1447672746800" duration="10211000" />
-      <workItem from="1447764400198" duration="10382000" />
-      <workItem from="1447845236699" duration="5566000" />
-      <workItem from="1447859115344" duration="34000" />
-      <workItem from="1449380005585" duration="598000" />
-      <workItem from="1449500232471" duration="3864000" />
-      <workItem from="1449535509351" duration="99000" />
-      <workItem from="1449576487289" duration="13862000" />
-      <workItem from="1449664476151" duration="9624000" />
-      <workItem from="1449749081088" duration="10764000" />
-      <workItem from="1449759942344" duration="158000" />
-      <workItem from="1449834478143" duration="11582000" />
-      <workItem from="1450352568784" duration="8172000" />
-      <workItem from="1450437068798" duration="1958000" />
-      <workItem from="1450440850133" duration="313000" />
-      <workItem from="1450441982057" duration="58000" />
-      <workItem from="1450442215443" duration="74000" />
-      <workItem from="1450442363760" duration="2083000" />
-      <workItem from="1450532814826" duration="639000" />
-      <workItem from="1450600074949" duration="725000" />
-      <workItem from="1450600831365" duration="464000" />
-      <workItem from="1450604402207" duration="705000" />
-      <workItem from="1450605139128" duration="157000" />
-      <workItem from="1450605328560" duration="117000" />
-      <workItem from="1450605476253" duration="5611000" />
-      <workItem from="1450611165395" duration="24000" />
-      <workItem from="1451210036051" duration="12915000" />
-      <workItem from="1452432055379" duration="481000" />
-      <workItem from="1454225826704" duration="17394000" />
-      <workItem from="1454248120236" duration="8165000" />
-      <workItem from="1454418944627" duration="8570000" />
-      <workItem from="1454503998637" duration="10911000" />
-      <workItem from="1454760463006" duration="8124000" />
-      <workItem from="1454818240619" duration="10755000" />
-      <workItem from="1455365364223" duration="3179000" />
-      <workItem from="1455425091836" duration="7588000" />
-      <workItem from="1455541778578" duration="2862000" />
-      <workItem from="1455588990650" duration="1207000" />
-      <workItem from="1455618923586" duration="7467000" />
-      <workItem from="1455720279991" duration="3620000" />
-      <workItem from="1455806691470" duration="1894000" />
-      <workItem from="1455881113189" duration="2838000" />
-      <workItem from="1455953139977" duration="1434000" />
-      <workItem from="1455984294511" duration="1089000" />
-      <workItem from="1456033877244" duration="1953000" />
-      <workItem from="1456146250618" duration="2999000" />
-      <workItem from="1456231227075" duration="7473000" />
-      <workItem from="1456328643296" duration="1714000" />
-      <workItem from="1456408527848" duration="3413000" />
+      <updated>1456643149558</updated>
+      <workItem from="1456643153195" duration="4303000" />
+      <workItem from="1456655968448" duration="5093000" />
     </task>
-    <task id="LOCAL-00001" summary="布局">
-      <created>1447848105414</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1447848105414</updated>
-    </task>
-    <task id="LOCAL-00002" summary="第一个blog&#10;">
-      <created>1447850279681</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1447850279681</updated>
-    </task>
-    <task id="LOCAL-00003" summary="init">
-      <created>1449535559578</created>
-      <option name="number" value="00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1449535559578</updated>
-    </task>
-    <task id="LOCAL-00004" summary="init">
-      <created>1449586061656</created>
-      <option name="number" value="00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1449586061656</updated>
-    </task>
-    <task id="LOCAL-00005" summary="init">
-      <created>1449586256545</created>
-      <option name="number" value="00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1449586256545</updated>
-    </task>
-    <task id="LOCAL-00006" summary="init">
-      <created>1449590379793</created>
-      <option name="number" value="00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1449590379793</updated>
-    </task>
-    <task id="LOCAL-00007" summary="init">
-      <created>1449673586271</created>
-      <option name="number" value="00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1449673586271</updated>
-    </task>
-    <task id="LOCAL-00008" summary="init">
-      <created>1449760002063</created>
-      <option name="number" value="00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1449760002063</updated>
-    </task>
-    <task id="LOCAL-00009" summary="init">
-      <created>1450362537617</created>
-      <option name="number" value="00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1450362537617</updated>
-    </task>
-    <task id="LOCAL-00010" summary="init">
-      <created>1451229723796</created>
-      <option name="number" value="00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1451229723796</updated>
-    </task>
-    <task id="LOCAL-00011" summary="init">
-      <created>1454256644558</created>
-      <option name="number" value="00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1454256644558</updated>
-    </task>
-    <task id="LOCAL-00012" summary="init">
-      <created>1454855275193</created>
-      <option name="number" value="00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1454855275193</updated>
-    </task>
-    <task id="LOCAL-00013" summary="init">
-      <created>1454855617519</created>
-      <option name="number" value="00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1454855617519</updated>
-    </task>
-    <task id="LOCAL-00014" summary="init">
-      <created>1454855972659</created>
-      <option name="number" value="00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1454855972659</updated>
-    </task>
-    <task id="LOCAL-00015" summary="init">
-      <created>1455372512788</created>
-      <option name="number" value="00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1455372512788</updated>
-    </task>
-    <task id="LOCAL-00016" summary="init">
-      <created>1455543731962</created>
-      <option name="number" value="00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1455543731963</updated>
-    </task>
-    <task id="LOCAL-00017" summary="init">
-      <created>1455634265608</created>
-      <option name="number" value="00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1455634265608</updated>
-    </task>
-    <task id="LOCAL-00018" summary="init">
-      <created>1455723927942</created>
-      <option name="number" value="00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1455723927942</updated>
-    </task>
-    <task id="LOCAL-00019" summary="init">
-      <created>1455901393473</created>
-      <option name="number" value="00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1455901393473</updated>
-    </task>
-    <task id="LOCAL-00020" summary="init">
-      <created>1455901672389</created>
-      <option name="number" value="00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1455901672389</updated>
-    </task>
-    <task id="LOCAL-00021" summary="init">
-      <created>1455986288382</created>
-      <option name="number" value="00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1455986288382</updated>
-    </task>
-    <task id="LOCAL-00022" summary="init">
-      <created>1456413388505</created>
-      <option name="number" value="00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1456413388505</updated>
-    </task>
-    <task id="LOCAL-00023" summary="init">
-      <created>1456588650642</created>
-      <option name="number" value="00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1456588650642</updated>
-    </task>
-    <task id="LOCAL-00024" summary="init">
-      <created>1456588666551</created>
-      <option name="number" value="00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1456588666551</updated>
-    </task>
-    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238521000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="9396000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="406" y="30" width="1577" height="958" extended-state="0" />
-    <editor active="false" />
+    <frame x="482" y="49" width="1577" height="958" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2825" sideWeight="0.49713466" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5114613" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35794744" sideWeight="0.48853868" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789117" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30916283" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24917601" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -802,17 +468,8 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="布局" />
-    <MESSAGE value="第一个blog&#10;" />
-    <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="3" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -820,437 +477,91 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/base.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/other/2016-02-07-HelloWorld.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/base.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/write.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="40" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="159" column="44" selection-start-line="159" selection-start-column="44" selection-end-line="159" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="136" column="30" selection-start-line="136" selection-start-column="30" selection-end-line="136" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/warn.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/util.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5323276">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/search-icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/message.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/jiantou.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/favorite.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/blog.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/ask.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/angular.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/function.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2587302">
-          <caret line="66" column="66" selection-start-line="66" selection-start-column="66" selection-end-line="66" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/editor/plugins/help-dialog/help.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/editor/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lib/editormd.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.025572006">
-          <caret line="2" column="12536" selection-start-line="2" selection-start-column="12536" selection-end-line="2" selection-end-column="12536" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/editormd.preview.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/write.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/other/2016-02-07-HelloWorld.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/other/2016-02-12-2015自我总结.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-02-13-仿ios回弹listview.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/write.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-02-17-简单的自定义dialog.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45603272">
-          <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-02-19-使用注解自动注入View.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8936605">
-          <caret line="106" column="3" selection-start-line="106" selection-start-column="3" selection-end-line="106" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-02-20-学习-简单的Service使用.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-02-22-学习-简单的BroadcastReceiver使用.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6984127">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-02-23-学习-简单的BroadcastReceiver使用2.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="170" column="22" selection-start-line="170" selection-start-column="22" selection-end-line="170" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-02-24-制作9Patch图片.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.464286">
-          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.083333336">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <caret line="129" column="39" selection-start-line="129" selection-start-column="39" selection-end-line="129" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/list.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45833334">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>wangbing.github.com</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81217617">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="129" column="39" selection-start-line="129" selection-start-column="39" selection-end-line="129" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/javascript/2016-02-25-js读写cookie.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27142859">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.821428">
+          <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-02-26-自动完成文本框AutoCompleteTextView.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0363636">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

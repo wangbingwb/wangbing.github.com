@@ -9,5 +9,7 @@
     {"time":"2016-02-20","title":"学习-简单的Service使用","type":"android"},
     {"time":"2016-02-22","title":"学习-简单的BroadcastReceiver使用","type":"android"},
     {"time":"2016-02-23","title":"学习-简单的BroadcastReceiver使用2","type":"android"},
-    {"time":"2016-02-24","title":"制作9Patch图片","type":"android"}
+    {"time":"2016-02-24","title":"制作9Patch图片","type":"android"},
+    {"time":"2016-02-25","title":"js读写cookie","type":"javascript"},
+    {"time":"2016-02-26","title":"自动完成文本框AutoCompleteTextView","type":"android"}
   ]}

@@ -1,7 +1,7 @@
 //日志目录api接口
 var rootUrl = "http://api.github.com/repos/wangbingwb/wb/contents/blog"
 
-var BodyCtrl = function ($scope,ContentService,$sce) {
+var BodyCtrl = function ($scope,ContentService,CookieService,$sce) {
     $scope.vm = {
         isDoFind:true,
         isFinish:false,
@@ -92,14 +92,15 @@ var BodyCtrl = function ($scope,ContentService,$sce) {
         console.log($scope.pages)
     };
 
-    $scope.navshow = true;
+    $scope.navshow = CookieService.getNavShow(true);
     $scope.dohide = function(){
         $scope.navshow = !$scope.navshow;
+        CookieService.setNavShow($scope.navshow);
     }
 }
 
 angular.module("index", [])
-    .controller("BodyCtrl", ["$scope","ContentService","$sce",BodyCtrl])
+    .controller("BodyCtrl", ["$scope","ContentService","CookieService","$sce",BodyCtrl])
     .factory("ContentService", ['$http', function ($http) {
         var service = {};
         service.getList = function (data) {
@@ -114,6 +115,26 @@ angular.module("index", [])
                 method: 'GET',
                 url: url
             });
+        };
+        return service;
+    }])
+    .factory("CookieService", ['$http', function ($http) {
+        var service = {};
+        service.setNavShow = function (flag) {
+            var now=new Date();
+            now.setTime(now.getTime()+30*24*60*60*1000)
+            var cookie= "NavShow="+flag+";path=/;expires="+now.toUTCString();
+            document.cookie = cookie;
+        };
+        service.getNavShow = function (def) {
+            console.log(document.cookie)
+            var ck = document.cookie.split(";");
+            for (var i in ck){
+                if(ck[i].split("=")[0] == "NavShow"){
+                    return ck[i].split("=")[1]
+                }
+            }
+            return def;
         };
         return service;
     }])
