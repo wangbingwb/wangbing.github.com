@@ -20,6 +20,7 @@
     <script src="editor/lib/jquery.flowchart.min.js" type="text/javascript"></script>
     <script src="js/lib/editormd.min.js" type="text/javascript"></script>
     <script src="js/lib/angular.min.js" type="text/javascript"></script>
+    <script src="js/lib/angular-animate.min.js" type="text/javascript"></script>
     <script src="js/base.js" type="text/javascript"></script>
 </head>
     <body ng-controller="BodyCtrl">
@@ -27,10 +28,10 @@
             <div class="nav" ng-class="{true:'show'}[navshow]">
                 <ul>
                     <li><a ng-click="doFind()">主页</a></li>
-                    <li><a ng-click="doFind()">QQ</a></li>
-                    <li><a ng-click="doFind()">Mail</a></li>
+                    <li><a>QQ</a></li>
+                    <li><a>Mail</a></li>
                     <li><a href="write.html">记录</a></li>
-                    <li><a ng-click="dohide()">隐藏</a></li>
+                    <li><a ng-click="dohide()">{{nav.hidetip}}</a></li>
                 </ul>
                 <div class="switch"></div>
             </div>
@@ -47,15 +48,18 @@
                 <div id="content" class="table-cell">
 
                     <!-- list-->
-                    <div id="list" ng-if="vm.isDoFind && vm.isFinish">
-                        <ul>
-                            <li ng-repeat="item in result" ng-click="view($index)">
+                    <div id="list" ng-show="vm.isFinish && vm.isDoFind">
+                        <div class="title-list" ng-if="vm.isFinish">
+                            <ul>
+                                <li ng-repeat="item in result" ng-click="view($index)">
 
-                                <div class='title'><a href="" ng-click="view($index)">{{item.title}}</a></div>
-                                <div class='time'>{{item.time}}</div>
-                            </li>
-                        </ul>
-                        <div ng-if="vm.totalCount > vm.pageSize">
+                                    <div class='title'><a href="" ng-click="view($index)">{{item.title}}</a></div>
+                                    <div class='time'>{{item.time}}</div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="page" ng-if="vm.totalCount > vm.pageSize">
                             <ul>
                                 <li ng-repeat="page in pages" ng-class="{true:'selected'}[page.isSelect]" ng-click="selectPage(page.action)">{{page.name}}</li>
                             </ul>

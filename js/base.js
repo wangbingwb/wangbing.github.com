@@ -9,11 +9,15 @@ var BodyCtrl = function ($scope,ContentService,CookieService,$sce) {
         pageNumber:1,
         key:""
     }
+    $scope.nav = {
+
+    }
     $scope.doFind = function(){
         $scope.vm.isDoFind = true;
         $scope.vm.isFinish = false;
         ContentService.getList($scope.vm).success(function (data) {
             if (data.resultList.length > 0){
+
                 //按时间倒序
                 data.resultList.sort(function(a,b){return a.time< b.time?1:-1})
                 //过滤
@@ -26,12 +30,14 @@ var BodyCtrl = function ($scope,ContentService,CookieService,$sce) {
                 data.resultList = temp;
                 $scope.vm.totalCount = data.resultList.length;
 
-                var startIndex = ($scope.vm.pageNumber - 1)*$scope.vm.pageSize
-                var endIndex = ($scope.vm.pageNumber)*$scope.vm.pageSize
+                var startIndex = ($scope.vm.pageNumber - 1)*$scope.vm.pageSize;
+                var endIndex = ($scope.vm.pageNumber)*$scope.vm.pageSize;
                 if (data.resultList.length  < endIndex){
                     endIndex = data.resultList.length;
                 }
-                $scope.result = (data.resultList.slice(startIndex,endIndex))
+
+                $scope.result = (data.resultList.slice(startIndex,endIndex));
+
                 $scope.vm.isFinish = true;
                 $scope.vm.isDoFind = true;
             }
@@ -39,6 +45,9 @@ var BodyCtrl = function ($scope,ContentService,CookieService,$sce) {
         });
     }
     $scope.doFind();
+    $scope.add = function(){
+        $scope.vm.isDoFind = !$scope.vm.isDoFind
+    };
 
     $scope.view = function(index){
         $scope.vm.isDoFind = false;
@@ -93,13 +102,25 @@ var BodyCtrl = function ($scope,ContentService,CookieService,$sce) {
     };
 
     $scope.navshow = CookieService.getNavShow(true);
+    if($scope.navshow == "true"){
+        $scope.navshow = true;
+        $scope.nav.hidetip = "隐藏"
+    }else{
+        $scope.navshow = false;
+        $scope.nav.hidetip = "显示"
+    }
     $scope.dohide = function(){
         $scope.navshow = !$scope.navshow;
         CookieService.setNavShow($scope.navshow);
+        if($scope.navshow){
+            $scope.nav.hidetip = "隐藏"
+        }else{
+            $scope.nav.hidetip = "显示"
+        }
     }
 }
 
-angular.module("index", [])
+angular.module("index", ['ngAnimate'])
     .controller("BodyCtrl", ["$scope","ContentService","CookieService","$sce",BodyCtrl])
     .factory("ContentService", ['$http', function ($http) {
         var service = {};

@@ -154,11 +154,11 @@ body{
     vertical-align: top;
 }
 
-#main .content-wrapper #content #list>ul{
+#main .content-wrapper #content #list .title-list ul{
     padding: 0px;
     list-style: none;
 }
-#main .content-wrapper #content #list>ul>li{
+#main .content-wrapper #content #list .title-list ul>li{
     position: relative;
     border-radius: 5px;
     margin-bottom: 1px;
@@ -167,10 +167,10 @@ body{
     background-color: #fff;
     display: block;
 }
-#main .content-wrapper #content #list>ul>li a{
+#main .content-wrapper #content #list .title-list ul>li a{
     transition: all 1s;
 }
-#main .content-wrapper #content #list>ul>li:before{
+#main .content-wrapper #content  #list .title-list ul>li:before{
     content: "";
     display: block;
     height: 0%;
@@ -182,10 +182,10 @@ body{
     border-radius: 5px;
     position: absolute;
 }
-#main .content-wrapper #content #list>ul>li:hover:before{
+#main .content-wrapper #content  #list .title-list ul>li:hover:before{
     height: 100%;
 }
-#main .content-wrapper #content #list>ul>li:after{
+#main .content-wrapper #content #list .title-list ul>li:after{
     content: "";
     display: block;
     height: 0%;
@@ -196,16 +196,16 @@ body{
     transition: all 1s;
     position: absolute;
 }
-#main .content-wrapper #content #list>ul>li:hover:after{
+#main .content-wrapper #content #list .title-list ul>li:hover:after{
     /*height: 50%;*/
 }
-#main .content-wrapper #content #list>ul>li .title{
+#main .content-wrapper #content #list .title-list ul>li .title{
     font-size: 30px;
     line-height: 35px;
     color: #414256;
     position: relative;
 }
-#main .content-wrapper #content #list>ul>li .time{
+#main .content-wrapper #content #list .title-list ul>li .time{
     padding-left: 1em;
     line-height: 15px;
     font-size: 15px;
@@ -214,18 +214,22 @@ body{
     border-bottom: 1px solid #EAEAEA;
     position: relative;
 }
+#main .content-wrapper #content #list .title-list.left-out{
+    width:100px;
+}
+
 /*分页*/
-#main .content-wrapper #content #list>div{
+#main .content-wrapper #content #list .page{
     height: 50px;
     text-align: center;
 }
-#main .content-wrapper #content #list>div>ul{
+#main .content-wrapper #content #list .page ul{
     display: inline-block;
     height: 100%;
     margin-top: 10px;
     list-style: none;
 }
-#main .content-wrapper #content #list>div>ul>li{
+#main .content-wrapper #content #list .page ul>li{
     padding: 0px;
     display: inline-block;
     width: 35px;
@@ -235,22 +239,22 @@ body{
     text-align: center;
     margin-left:2px;
 }
-#main .content-wrapper #content #list>div>ul>li.selected{
+#main .content-wrapper #content #list .page ul>li.selected{
     background-color: #2E7BCF;
 }
-#main .content-wrapper #content #list>div>ul>li>a{
+#main .content-wrapper #content #list .page ul>li>a{
     display: block;
     height: 100%;
     width: 100%;
 }
-#main .content-wrapper #content #list>div>ul>li:hover{
+#main .content-wrapper #content#list .page ul>li:hover{
     background-color: #B5B5B5;
 }
-#main .content-wrapper #content #list>div>ul>li:nth-child(1){
+#main .content-wrapper #content #list .page ul>li:nth-child(1){
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
-#main .content-wrapper #content #list>div>ul>li:nth-last-child(1){
+#main .content-wrapper #content #list .page ul>li:nth-last-child(1){
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -359,3 +363,24 @@ body{
     bottom: -12px;
     font-size: 12px;
 }
+.title-list.ng-enter{
+    transition: 0.7s linear all;
+    opacity: 0;
+}
+.title-list.ng-enter.ng-enter-active {
+    opacity: 1;
+}
+/*.title-list.ng-leave {*/
+    /*transition: 1s linear all;*/
+    /*opacity: 1;*/
+/*}*/
+/*.title-list.ng-leave.ng-leave-active {*/
+    /*opacity: 0;*/
+/*}*/
+/*.title-list.ng-move{*/
+    /*transition: 5s linear all;*/
+    /*opacity: 0;*/
+/*}*/
+/*.title-list.ng-move.ng-move-active {*/
+    /*opacity: 1;*/
+/*}*/
