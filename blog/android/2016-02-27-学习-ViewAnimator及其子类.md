@@ -1,9 +1,9 @@
-ViewAnimatorÊÇÒ»¸ö»ùÀà£¬Ëü¼Ì³ĞÁËFrameLayout£¬Òò´ËËü±íÏÖ³öFrameLayoutµÄÌØÕ÷£¬¿ÉÒÔ½«¶à¸öviewµş¼ÓÔÚÒ»Æğ¡£ÁíÍâViewAnimatore¶îÍâÔö¼ÓµÄ¹¦ÄÜ£¬ÔÚViewÇĞ»»Ê±¿ÉÒÔ±íÏÖ³ö¶¯»­Ğ§¹û¡£
-##### ViewAnimator¼°Æä×ÓÀà¼Ì³ĞÍ¼ÈçÏÂ:
+ViewAnimatoræ˜¯ä¸€ä¸ªåŸºç±»ï¼Œå®ƒç»§æ‰¿äº†FrameLayoutï¼Œå› æ­¤å®ƒè¡¨ç°å‡ºFrameLayoutçš„ç‰¹å¾ï¼Œå¯ä»¥å°†å¤šä¸ªviewå åŠ åœ¨ä¸€èµ·ã€‚å¦å¤–ViewAnimatoreé¢å¤–å¢åŠ çš„åŠŸèƒ½ï¼Œåœ¨Viewåˆ‡æ¢æ—¶å¯ä»¥è¡¨ç°å‡ºåŠ¨ç”»æ•ˆæœã€‚
+##### ViewAnimatoråŠå…¶å­ç±»ç»§æ‰¿å›¾å¦‚ä¸‹:
 ![](http://osswb.oss-cn-shanghai.aliyuncs.com/image/e61190ef76c6a7ef70345787f9faaf51f3de6605.png)
 
-##### ÊµÀı´úÂë
-###### ²¼¾ÖÎÄ¼ş
+##### å®ä¾‹ä»£ç 
+###### å¸ƒå±€æ–‡ä»¶
 ```java
     <ViewAnimator
         android:id="@+id/viewAnimator"
@@ -17,17 +17,17 @@ ViewAnimatorÊÇÒ»¸ö»ùÀà£¬Ëü¼Ì³ĞÁËFrameLayout£¬Òò´ËËü±íÏÖ³öFrameLayoutµÄÌØÕ÷£¬¿ÉÒÔ
 
     <Button
         android:id="@+id/last"
-        android:text="ÉÏÒ»¸ö"
+        android:text="ä¸Šä¸€ä¸ª"
         android:layout_width="match_parent"
         android:layout_height="50dp" />
     <Button
         android:id="@+id/next"
-        android:text="ÏÂÒ»¸ö"
+        android:text="ä¸‹ä¸€ä¸ª"
         android:layout_width="match_parent"
         android:layout_height="50dp" />
 ```
 
-##### ¶¯»­
+##### åŠ¨ç”»
 slide_in_left.xml
 ```html
 <?xml version="1.0" encoding="utf-8"?>
@@ -43,8 +43,8 @@ slide_in_right.xml
 </set>
 ```
 
-###### ´úÂë
-> Õâ±ßÖ»ÊÇ¼òµ¥µÄÔö¼Ó5¸öTextView
+###### ä»£ç 
+> è¿™è¾¹åªæ˜¯ç®€å•çš„å¢åŠ 5ä¸ªTextView
 
 ```java
         for (int i = 0; i < 5; i++) {
@@ -56,7 +56,7 @@ slide_in_right.xml
         last.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //ÉÏÒ»¸öView
+                //ä¸Šä¸€ä¸ªView
                 viewAnimator.showPrevious();
             }
         });
@@ -64,12 +64,12 @@ slide_in_right.xml
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //ÏÂÒ»¸öView
+                //ä¸‹ä¸€ä¸ªView
                 viewAnimator.showNext();
 
             }
         });
 
 ```
-Ğ§¹ûÈçÏÂ
+æ•ˆæœå¦‚ä¸‹
 ![](http://osswb.oss-cn-shanghai.aliyuncs.com/image/QQ%E6%88%AA%E5%9B%BE20160301230541.jpg)
