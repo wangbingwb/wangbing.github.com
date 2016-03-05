@@ -9,6 +9,10 @@ TextSwitcher和ImageSwitcher是继承自ViewSwitcher。是ViewSwitcher的扩展�
             }
         });
 ```
+切换文字可以这样:
+```java
+        textSwitcher.setText("next")
+```
 
 ##### ImageSwitcher的factory返回的只能是ImageView及其子类
 ```java
@@ -18,6 +22,10 @@ TextSwitcher和ImageSwitcher是继承自ViewSwitcher。是ViewSwitcher的扩展�
                 return new ImageView(MainActivity.this);
             }
         });
+```
+切换图片可以这样:
+```java
+        imageSwitcher.setImageResourse(R.drawable.img)
 ```
 
 - 其他用法与ViewSwitcher类似

@@ -14,5 +14,7 @@
     {"time":"2016-02-26","title":"自动完成文本框AutoCompleteTextView","type":"android"},
     {"time":"2016-02-27","title":"学习-ViewAnimator及其子类","type":"android"},
     {"time":"2016-02-28","title":"学习-ViewSwitcher","type":"android"},
-    {"time":"2016-02-29","title":"学习-ViewSwitcher及其子类","type":"android"}
+    {"time":"2016-02-29","title":"学习-ViewSwitcher及其子类","type":"android"},
+    {"time":"2016-03-01","title":"学习-ViewFlipper自动播放","type":"android"},
+    {"time":"2016-03-02","title":"Toast显示提示信息","type":"android"}
   ]}
