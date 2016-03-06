@@ -16,5 +16,7 @@
     {"time":"2016-02-28","title":"学习-ViewSwitcher","type":"android"},
     {"time":"2016-02-29","title":"学习-ViewSwitcher及其子类","type":"android"},
     {"time":"2016-03-01","title":"学习-ViewFlipper自动播放","type":"android"},
-    {"time":"2016-03-02","title":"Toast显示提示信息","type":"android"}
+    {"time":"2016-03-02","title":"Toast显示提示信息","type":"android"},
+    {"time":"2016-03-03","title":"学习-AdapterViewFlipper简单使用","type":"android"},
+    {"time":"2016-03-04","title":"学习-StackView功能与用法实践","type":"android"}
   ]}
