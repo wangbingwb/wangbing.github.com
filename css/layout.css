@@ -221,9 +221,8 @@ body{
 
 /*分页*/
 #main .content-wrapper #content #list .page{
-    height: 50px;
-    text-align: center;
-    margin: 20px;
+    height: 40px;
+    margin-left: 20px;
 }
 #main .content-wrapper #content #list .page ul{
     display: inline-block;
@@ -234,23 +233,37 @@ body{
 #main .content-wrapper #content #list .page ul>li{
     padding: 0px;
     display: inline-block;
-    width: 35px;
+    width: 30px;
     height: 30px;
     line-height: 30px;
-    background-color: #F9E2E2;
     text-align: center;
     margin-left:2px;
 }
-#main .content-wrapper #content #list .page ul>li.selected{
-    background-color: #2E7BCF;
+#main .content-wrapper #content #list .page ul>li.selected a{
+    background-color: #5B6673;
+    color: #FFFFFF;
 }
 #main .content-wrapper #content #list .page ul>li>a{
     display: block;
     height: 100%;
     width: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    background-color: #E2E2E2;
 }
-#main .content-wrapper #content#list .page ul>li:hover{
-    background-color: #B5B5B5;
+#main .content-wrapper #content #list .page ul>li>a .g{
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #5B6673;
+    border-radius: 15px;
+    transition: all .4s;
+}
+#main .content-wrapper #content #list .page ul>li>a:hover .g{
+    top: 0px;
 }
 #main .content-wrapper #content #list .page ul>li:nth-child(1){
     border-top-left-radius: 5px;
@@ -259,6 +272,9 @@ body{
 #main .content-wrapper #content #list .page ul>li:nth-last-child(1){
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+#main .content-wrapper #content #list .page ul>li:nth-child(2n){
+    transform: translateY(5px);
 }
 .loader{
     height: 100px;
@@ -332,21 +348,6 @@ body{
     height: 100%;
     width: 100%;
 }
-
-#footer{
-    margin-top:50px;
-    height: 50px;
-}
-#footer ul{
-    margin: 0px;
-    text-align: center;
-    display: block;
-    list-style: none;
-}
-#footer ul li{
-    font-size: 10px;
-    display: inline-block;
-}
 .article .title{
     position: relative;
     font-size: 240%;
@@ -386,3 +387,38 @@ body{
 /*.title-list.ng-move.ng-move-active {*/
     /*opacity: 1;*/
 /*}*/
+#footer{
+    border-top: 1px solid #DCDCDC;
+    height: 100px;
+    width: 70%;
+    margin: 20px auto 0px;;
+    padding-top: 10px;
+}
+#footer>ul{
+    text-align: center;
+    margin-bottom:10px;
+}
+#footer>ul>li{
+    height: 12px;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative;
+}
+#footer>ul>li ul{
+    position: absolute;
+    display: block;
+    margin-top: 5px;
+}
+#footer>ul>li ul li{
+    display: block;
+    height: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: white;
+    transition: all .5s;
+}
+#footer>ul>li:hover ul li{
+    height: 12px;
+}
