@@ -66,7 +66,9 @@ var BodyCtrl = function ($scope,ContentService,CookieService,$sce) {
             setTimeout("toHtmlView()",10)
             $scope.vm.isFinish = true;
         }).error(function(){
-            $scope.doFind();
+            util.showMessage("提示","未能获取到内容",function(){
+                $scope.doFind();
+            })
         });
     }
 

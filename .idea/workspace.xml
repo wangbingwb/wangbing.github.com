@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95d729e3-0713-4cd5-a28a-f90437b7a109" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/android/2016-03-07-学习-AdapterView及子类介绍使用.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/list.json" afterPath="$PROJECT_DIR$/list.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/base.js" afterPath="$PROJECT_DIR$/js/base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/util.js" afterPath="$PROJECT_DIR$/js/util.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wb.iws" />
@@ -26,45 +27,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="list.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-03-04-学习-StackView功能与用法实践.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/android/2016-03-04-学习-StackView功能与用法实践.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/layout.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="276" column="27" selection-start-line="276" selection-start-column="27" selection-end-line="276" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="65" column="68" selection-start-line="65" selection-start-column="68" selection-end-line="65" selection-end-column="68" />
+            <state vertical-scroll-proportion="-14.928572">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/base.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5783866">
+              <caret line="55" column="64" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/function.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1447588685051" expanded="true" signature="203:264" placeholder="..." />
+                <marker date="1447588685051" expanded="true" signature="290:333" placeholder="..." />
+                <marker date="1447588685051" expanded="true" signature="381:502" placeholder="..." />
+                <marker date="1447588685051" expanded="true" signature="540:623" placeholder="..." />
+                <marker date="1447588685051" expanded="true" signature="667:751" placeholder="..." />
+                <marker date="1447588685051" expanded="true" signature="829:909" placeholder="..." />
+                <marker date="1447588685051" expanded="true" signature="945:1053" placeholder="..." />
+                <marker date="1447588685051" expanded="true" signature="1154:1234" placeholder="..." />
+                <marker date="1447588685051" expanded="true" signature="1271:1380" placeholder="..." />
+                <marker date="1447588685051" expanded="true" signature="1484:1564" placeholder="..." />
+                <marker date="1447588685051" expanded="true" signature="1601:1709" placeholder="..." />
+                <marker date="1447588685051" expanded="true" signature="1817:1909" placeholder="..." />
+                <marker date="1447588685051" expanded="true" signature="1947:1986" placeholder="..." />
+                <marker date="1447588685051" expanded="true" signature="2028:2088" placeholder="..." />
+                <marker date="1447588685051" expanded="true" signature="2134:2203" placeholder="..." />
+                <marker date="1447588685051" expanded="true" signature="2420:2514" placeholder="..." />
+                <marker date="1447588685051" expanded="true" signature="2552:2591" placeholder="..." />
+                <marker date="1447588685051" expanded="true" signature="2633:2693" placeholder="..." />
+                <marker date="1447588685051" expanded="true" signature="2739:2806" placeholder="..." />
+                <marker date="1447588685051" expanded="true" signature="3072:3148" placeholder="..." />
+                <marker date="1447588685051" expanded="true" signature="3384:3461" placeholder="..." />
+                <marker date="1447588685051" expanded="true" signature="3701:3778" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="util.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/util.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <marker date="1457366900549" expanded="true" signature="151:221" placeholder="..." />
+                <marker date="1457366900549" expanded="true" signature="251:311" placeholder="..." />
+                <marker date="1457366900549" expanded="true" signature="342:459" placeholder="..." />
+                <marker date="1457366900549" expanded="true" signature="489:541" placeholder="..." />
+                <marker date="1457366900549" expanded="true" signature="584:614" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,7 +114,6 @@
         <option value="$PROJECT_DIR$/blog/android/2016-02-26-自动完成文本框AutoCompleteTextView.md" />
         <option value="$PROJECT_DIR$/js/lib/angular-animate.min.js" />
         <option value="$PROJECT_DIR$/js/lib/angular-animate.js" />
-        <option value="$PROJECT_DIR$/js/base.js" />
         <option value="$PROJECT_DIR$/blog/android/2016-02-27-学习-ViewAnimator及其子类.md" />
         <option value="$PROJECT_DIR$/blog/dome.md" />
         <option value="$PROJECT_DIR$/blog/android/2016-02-29-学习-ViewSwitcher及其子类.md" />
@@ -97,8 +123,10 @@
         <option value="$PROJECT_DIR$/blog/android/2016-03-03-学习-AdapterViewFlipper简单使用.md" />
         <option value="$PROJECT_DIR$/list.json" />
         <option value="$PROJECT_DIR$/blog/android/2016-03-04-学习-StackView功能与用法实践.md" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/layout.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/util.js" />
+        <option value="$PROJECT_DIR$/js/base.js" />
       </list>
     </option>
   </component>
@@ -117,10 +145,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="109" />
-    <option name="y" value="20" />
+    <option name="x" value="210" />
+    <option name="y" value="108" />
     <option name="width" value="1498" />
-    <option name="height" value="929" />
+    <option name="height" value="950" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -176,20 +204,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -519,7 +533,7 @@
       <workItem from="1457019262457" duration="895000" />
       <workItem from="1457182010920" duration="4700000" />
       <workItem from="1457235393901" duration="29121000" />
-      <workItem from="1457360462163" duration="307000" />
+      <workItem from="1457360462163" duration="5917000" />
     </task>
     <task id="LOCAL-00001" summary="do">
       <created>1456669913989</created>
@@ -593,15 +607,21 @@
       <option name="project" value="LOCAL" />
       <updated>1457280033744</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="do">
+      <created>1457360792143</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1457360792143</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69430000" />
+    <option name="totallyTimeSpent" value="75040000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="109" y="20" width="1498" height="929" extended-state="0" />
-    <editor active="false" />
+    <frame x="210" y="108" width="1498" height="950" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -610,23 +630,23 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16562107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16136919" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2760779" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2760779" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -658,25 +678,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/list.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-03-04-学习-StackView功能与用法实践.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -882,13 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/android/2016-02-17-简单的自定义dialog.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.7307692">
@@ -996,16 +990,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/list.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-1.3571428">
           <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80344826">
-          <caret line="302" column="9" selection-start-line="267" selection-start-column="7" selection-end-line="302" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1020,18 +1007,81 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="68" selection-start-line="65" selection-start-column="68" selection-end-line="65" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="276" column="27" selection-start-line="276" selection-start-column="27" selection-end-line="276" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45310014">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="n#script#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1447588685051" expanded="true" signature="203:264" placeholder="..." />
+            <marker date="1447588685051" expanded="true" signature="290:333" placeholder="..." />
+            <marker date="1447588685051" expanded="true" signature="381:502" placeholder="..." />
+            <marker date="1447588685051" expanded="true" signature="540:623" placeholder="..." />
+            <marker date="1447588685051" expanded="true" signature="667:751" placeholder="..." />
+            <marker date="1447588685051" expanded="true" signature="829:909" placeholder="..." />
+            <marker date="1447588685051" expanded="true" signature="945:1053" placeholder="..." />
+            <marker date="1447588685051" expanded="true" signature="1154:1234" placeholder="..." />
+            <marker date="1447588685051" expanded="true" signature="1271:1380" placeholder="..." />
+            <marker date="1447588685051" expanded="true" signature="1484:1564" placeholder="..." />
+            <marker date="1447588685051" expanded="true" signature="1601:1709" placeholder="..." />
+            <marker date="1447588685051" expanded="true" signature="1817:1909" placeholder="..." />
+            <marker date="1447588685051" expanded="true" signature="1947:1986" placeholder="..." />
+            <marker date="1447588685051" expanded="true" signature="2028:2088" placeholder="..." />
+            <marker date="1447588685051" expanded="true" signature="2134:2203" placeholder="..." />
+            <marker date="1447588685051" expanded="true" signature="2420:2514" placeholder="..." />
+            <marker date="1447588685051" expanded="true" signature="2552:2591" placeholder="..." />
+            <marker date="1447588685051" expanded="true" signature="2633:2693" placeholder="..." />
+            <marker date="1447588685051" expanded="true" signature="2739:2806" placeholder="..." />
+            <marker date="1447588685051" expanded="true" signature="3072:3148" placeholder="..." />
+            <marker date="1447588685051" expanded="true" signature="3384:3461" placeholder="..." />
+            <marker date="1447588685051" expanded="true" signature="3701:3778" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.928572">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1457366900549" expanded="true" signature="151:221" placeholder="..." />
+            <marker date="1457366900549" expanded="true" signature="251:311" placeholder="..." />
+            <marker date="1457366900549" expanded="true" signature="342:459" placeholder="..." />
+            <marker date="1457366900549" expanded="true" signature="489:541" placeholder="..." />
+            <marker date="1457366900549" expanded="true" signature="584:614" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5783866">
+          <caret line="55" column="64" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
           <folding />
         </state>
       </provider>
