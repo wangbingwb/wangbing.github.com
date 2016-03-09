@@ -9,6 +9,7 @@ var BodyCtrl = function ($scope,ContentService,CookieService,$sce) {
         pageNumber:1,
         key:""
     }
+
     $scope.nav = {
 
     }
@@ -44,10 +45,6 @@ var BodyCtrl = function ($scope,ContentService,CookieService,$sce) {
             $scope.doPage();
         });
     }
-    $scope.doFind();
-    $scope.add = function(){
-        $scope.vm.isDoFind = !$scope.vm.isDoFind
-    };
 
     $scope.view = function(index){
         $scope.vm.isDoFind = false;
@@ -61,6 +58,7 @@ var BodyCtrl = function ($scope,ContentService,CookieService,$sce) {
                 type:$scope.result[index].type,
                 content:data
             }
+            window.location.href = window.location.href+"#!"+encodeURI(url.substring(5,url.length));
             //$scope.article.content = $sce.trustAsHtml(markdown.toHTML(data));
             //console.log(data)
             setTimeout("toHtmlView()",10)
@@ -71,6 +69,48 @@ var BodyCtrl = function ($scope,ContentService,CookieService,$sce) {
             })
         });
     }
+
+    $scope.init = function(){
+        var href = window.location.href;
+        if (/html#!.*/.test(href)){
+            if(/#!.*\\.md/.test(href)){
+                $scope.vm.isDoFind = false;
+                $scope.vm.isFinish = false;
+                var url = href.match("#!.*\\.md")[0];
+                url = url.substring(2,url.length);
+                url ="blog/"+ url
+                ContentService.getContent(url).success(function (data) {
+                    $scope.article = {
+                        content:data
+                    }
+                    var href = window.location.href;
+                    href = decodeURI(href);
+                    $scope.article.title = href.match("[0-9]{4}-[0-9]{2}-[0-9]{2}-.*\\.md")[0].substring(11,href.match("[0-9]{4}-[0-9]{2}-[0-9]{2}-.*\\.md")[0].length-3);
+                    $scope.article.time = href.match("/[0-9]{4}-[0-9]{2}-[0-9]{2}")[0].substring(1,href.match("/[0-9]{4}-[0-9]{2}-[0-9]{2}")[0].length);
+                    $scope.article.type = href.match("#!.*/")[0].substring(2,href.match("#!.*/")[0].length-1);
+                    //$scope.article.content = $sce.trustAsHtml(markdown.toHTML(data));
+                    console.log( $scope.article)
+                    setTimeout("toHtmlView()",10)
+                    $scope.vm.isFinish = true;
+                }).error(function(){
+                    util.showMessage("提示","未能获取到内容",function(){
+                        $scope.doFind();
+                        window.location.href = window.location.href.match(".*index.html");
+                    })
+                });
+            }else{
+                util.showMessage("提示","未能获取到内容",function(){
+                    $scope.doFind();
+                    window.location.href = window.location.href.match(".*index.html");
+                })
+            }
+        }else{
+            $scope.doFind();
+        }
+    }
+    setTimeout(function(){
+        $scope.init();
+    },10);
 
     $scope.doSearch = function(e){
         if (e.keyCode == 13){
@@ -161,6 +201,62 @@ angular.module("index", ['ngAnimate'])
         };
         return service;
     }])
+    .directive("hello",function(){
+        return {
+            restrict: 'A',
+            replace: true,
+            controller: ["$scope", function($scope){
+                $scope.dateList = [];
+
+                $scope.now = new Date();
+                console.log("当前月"+($scope.now.getMonth()+1))
+
+                //当月总天数
+                var daysCount= new Date($scope.now.getFullYear(),($scope.now.getMonth()+1),0).getDate();
+                //当月第一天星期
+                var dayStart = new Date($scope.now.getFullYear(),($scope.now.getMonth()),1).getDay();
+
+                for (var i = dayStart;i>1;i--){
+                    var cursor = new Date($scope.now.getFullYear(),($scope.now.getMonth()),(2-i));
+                    $scope.dateList.push({
+                        year:cursor.getFullYear(),
+                        month:cursor.getMonth()+1,
+                        day:cursor.getDate(),
+                        isCurrent:false
+                    });
+                }
+                for (var i = 1; i<=daysCount;i++){
+                    var cursor = new Date($scope.now.getFullYear(),($scope.now.getMonth()),i);
+                    $scope.dateList.push({
+                        year:cursor.getFullYear(),
+                        month:cursor.getMonth()+1,
+                        day:cursor.getDate(),
+                        isCurrent:true
+                    });
+                }
+                var dayEnd =new Date($scope.now.getFullYear(),($scope.now.getMonth()),daysCount).getDay();
+                console.log(dayEnd)
+                for(var i = 1;i <= 7-dayEnd;i++){
+                    var cursor = new Date($scope.now.getFullYear(),($scope.now.getMonth()+1),i);
+                    $scope.dateList.push({
+                        year:cursor.getFullYear(),
+                        month:cursor.getMonth()+1,
+                        day:cursor.getDate(),
+                        isCurrent:false
+                    });
+                }
+
+                console.log($scope.dateList)
+
+                $scope.exc = function(){
+                    //var m = $scope.now.get;
+                }
+
+            }],
+            template: '<div class="wb-calender"><div class="content"><ul><li ng-repeat="date in dateList"><a ng-class="{false:&quot;cover&quot;}[date.isCurrent]">{{ date.day}}</a></li></ul></div></div>',
+
+        }
+    })
 
 
 function toHtmlView(){

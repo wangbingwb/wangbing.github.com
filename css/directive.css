@@ -1,0 +1,26 @@
+.wb-calender{
+    width: 210px;
+    overflow: hidden;
+}
+.wb-calender .content{
+    width: 210px;
+}
+.wb-calender .content ul{
+    list-style: none;
+    display: block;
+}
+.wb-calender .content ul li{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+.wb-calender .content ul li a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+}
+.wb-calender .content ul li a.cover{
+    color:#BBBBBB;
+}
