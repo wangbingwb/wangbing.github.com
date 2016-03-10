@@ -212,7 +212,6 @@ angular.module("index", ['ngAnimate'])
             replace: true,
             scope: false,
             controller: ["$scope", function($scope){
-
                 $scope.$watch("writedataList",function(){
                     for(var i in $scope.dateList){
                         for(var j in $scope.writedataList){
@@ -232,7 +231,6 @@ angular.module("index", ['ngAnimate'])
                     }
                 });
                 $scope.now = new Date();
-                //$scope.now.setMonth(4)
                 $scope.exc = function(){
                     $scope.dateList = [];
                     //当月总天数
@@ -303,7 +301,6 @@ angular.module("index", ['ngAnimate'])
             '</div>' +
             '<div class="nav"><ul><li>Su</li><li>Mo</li><li>Tu</li><li>We</li><li>Th</li><li>Fr</li><li>Sa</li></ul></div>' +
             '<div class="content" ng-view><ul><li ng-class="{true:&quot;tag&quot;}[date.isWrite]" ng-repeat="date in dateList"><a ng-class="{false:&quot;cover&quot;}[date.isCurrent]">{{ date.day}}</a></li></ul></div></div>',
-
         }
     })
 
