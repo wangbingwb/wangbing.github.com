@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95d729e3-0713-4cd5-a28a-f90437b7a109" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/directive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/do_write.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/base.js" afterPath="$PROJECT_DIR$/js/base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/directive.css" afterPath="$PROJECT_DIR$/css/directive.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/layout.css" afterPath="$PROJECT_DIR$/css/layout.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wb.iws" />
@@ -30,8 +32,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.142858">
-              <caret line="12" column="85" selection-start-line="12" selection-start-column="85" selection-end-line="12" selection-end-column="85" />
+            <state vertical-scroll-proportion="-19.678572">
+              <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#hello#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -39,21 +41,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/base.js">
+      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="248" column="44" selection-start-line="248" selection-start-column="44" selection-end-line="248" selection-end-column="44" />
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="directive.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="layout.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="425" column="19" selection-start-line="425" selection-start-column="19" selection-end-line="425" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/base.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="2.3393393">
+              <caret line="232" column="19" selection-start-line="232" selection-start-column="19" selection-end-line="232" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.25">
+              <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="directive.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/directive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5135135">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -135,11 +167,11 @@
         <option value="$PROJECT_DIR$/blog/android/2016-03-03-学习-AdapterViewFlipper简单使用.md" />
         <option value="$PROJECT_DIR$/list.json" />
         <option value="$PROJECT_DIR$/blog/android/2016-03-04-学习-StackView功能与用法实践.md" />
-        <option value="$PROJECT_DIR$/css/layout.css" />
         <option value="$PROJECT_DIR$/js/util.js" />
+        <option value="$PROJECT_DIR$/css/directive.css" />
+        <option value="$PROJECT_DIR$/css/layout.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/base.js" />
-        <option value="$PROJECT_DIR$/css/directive.css" />
       </list>
     </option>
   </component>
@@ -158,9 +190,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="612" />
-    <option name="y" value="14" />
-    <option name="width" value="1085" />
+    <option name="x" value="479" />
+    <option name="y" value="5" />
+    <option name="width" value="1170" />
     <option name="height" value="948" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -187,7 +219,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -231,6 +262,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -251,6 +296,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -283,6 +329,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\wb\images" />
       <recent name="D:\workspace\wb\blog\android" />
       <recent name="D:\workspace\wb" />
     </key>
@@ -544,7 +591,8 @@
       <workItem from="1457235393901" duration="29121000" />
       <workItem from="1457360462163" duration="6052000" />
       <workItem from="1457436970773" duration="7555000" />
-      <workItem from="1457529968951" duration="8637000" />
+      <workItem from="1457529968951" duration="8874000" />
+      <workItem from="1457611138774" duration="12732000" />
     </task>
     <task id="LOCAL-00001" summary="do">
       <created>1456669913989</created>
@@ -630,14 +678,20 @@
       <option name="project" value="LOCAL" />
       <updated>1457366939991</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="do">
+      <created>1457543670264</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1457543670264</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91367000" />
+    <option name="totallyTimeSpent" value="104336000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="612" y="14" width="1085" height="948" extended-state="0" />
+    <frame x="479" y="5" width="1170" height="948" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -656,7 +710,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27317074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25225225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -979,13 +1033,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/android/2016-03-01-学习-ViewFlipper自动播放.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7755102">
@@ -1007,28 +1054,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3571428">
-          <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/android/2016-03-04-学习-StackView功能与用法实践.md">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="276" column="27" selection-start-line="276" selection-start-column="27" selection-end-line="276" selection-end-column="27" />
-        </state>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/index.html">
@@ -1048,16 +1081,6 @@
             <marker date="1457366900549" expanded="true" signature="342:459" placeholder="..." />
             <marker date="1457366900549" expanded="true" signature="489:541" placeholder="..." />
             <marker date="1457366900549" expanded="true" signature="584:614" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.142858">
-          <caret line="12" column="85" selection-start-line="12" selection-start-column="85" selection-end-line="12" selection-end-column="85" />
-          <folding>
-            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#hello#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1093,18 +1116,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/base.js">
+    <entry file="file://$PROJECT_DIR$/css/directive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="248" column="44" selection-start-line="248" selection-start-column="44" selection-end-line="248" selection-end-column="44" />
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/directive.css">
+    <entry file="file://$PROJECT_DIR$/list.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5135135">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state vertical-scroll-proportion="-14.25">
+          <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="425" column="19" selection-start-line="425" selection-start-column="19" selection-end-line="425" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.678572">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#div#0;n#hello#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.3393393">
+          <caret line="232" column="19" selection-start-line="232" selection-start-column="19" selection-end-line="232" selection-end-column="19" />
           <folding />
         </state>
       </provider>

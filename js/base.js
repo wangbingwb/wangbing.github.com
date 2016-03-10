@@ -20,7 +20,12 @@ var BodyCtrl = function ($scope,ContentService,CookieService,$sce) {
             if (data.resultList.length > 0){
 
                 //按时间倒序
-                data.resultList.sort(function(a,b){return a.time< b.time?1:-1})
+                data.resultList.sort(function(a,b){return a.time< b.time?1:-1});
+                $scope.writedataList = [];
+                for(var i in data.resultList){
+                    $scope.writedataList.push(data.resultList[i].time);
+                }
+
                 //过滤
                 var temp = [];
                 for(var i in data.resultList){
@@ -201,59 +206,103 @@ angular.module("index", ['ngAnimate'])
         };
         return service;
     }])
-    .directive("hello",function(){
+    .directive("calender",function(){
         return {
             restrict: 'A',
             replace: true,
+            scope: false,
             controller: ["$scope", function($scope){
-                $scope.dateList = [];
 
+                $scope.$watch("writedataList",function(){
+                    for(var i in $scope.dateList){
+                        for(var j in $scope.writedataList){
+                            if ($scope.dateList[i].time == $scope.writedataList[j]){
+                                $scope.dateList[i].isWrite = true;
+                            }
+                        }
+                    }
+                });
+                $scope.$watch("dateList",function(){
+                    for(var i in $scope.dateList){
+                        for(var j in $scope.writedataList){
+                            if ($scope.dateList[i].time == $scope.writedataList[j]){
+                                $scope.dateList[i].isWrite = true;
+                            }
+                        }
+                    }
+                });
                 $scope.now = new Date();
-                console.log("当前月"+($scope.now.getMonth()+1))
-
-                //当月总天数
-                var daysCount= new Date($scope.now.getFullYear(),($scope.now.getMonth()+1),0).getDate();
-                //当月第一天星期
-                var dayStart = new Date($scope.now.getFullYear(),($scope.now.getMonth()),1).getDay();
-
-                for (var i = dayStart;i>1;i--){
-                    var cursor = new Date($scope.now.getFullYear(),($scope.now.getMonth()),(2-i));
-                    $scope.dateList.push({
-                        year:cursor.getFullYear(),
-                        month:cursor.getMonth()+1,
-                        day:cursor.getDate(),
-                        isCurrent:false
-                    });
-                }
-                for (var i = 1; i<=daysCount;i++){
-                    var cursor = new Date($scope.now.getFullYear(),($scope.now.getMonth()),i);
-                    $scope.dateList.push({
-                        year:cursor.getFullYear(),
-                        month:cursor.getMonth()+1,
-                        day:cursor.getDate(),
-                        isCurrent:true
-                    });
-                }
-                var dayEnd =new Date($scope.now.getFullYear(),($scope.now.getMonth()),daysCount).getDay();
-                console.log(dayEnd)
-                for(var i = 1;i <= 7-dayEnd;i++){
-                    var cursor = new Date($scope.now.getFullYear(),($scope.now.getMonth()+1),i);
-                    $scope.dateList.push({
-                        year:cursor.getFullYear(),
-                        month:cursor.getMonth()+1,
-                        day:cursor.getDate(),
-                        isCurrent:false
-                    });
-                }
-
-                console.log($scope.dateList)
-
+                //$scope.now.setMonth(4)
                 $scope.exc = function(){
-                    //var m = $scope.now.get;
+                    $scope.dateList = [];
+                    //当月总天数
+                    var daysCount= new Date($scope.now.getFullYear(),($scope.now.getMonth()+1),0).getDate();
+                    //当月第一天星期
+                    var dayStart = new Date($scope.now.getFullYear(),($scope.now.getMonth()),1).getDay();
+                    console.log("第一天是星期"+ dayStart)
+                    for (var i = dayStart;i>0;i--){
+                        var cursor = new Date($scope.now.getFullYear(),($scope.now.getMonth()),(-i));
+                        $scope.dateList.push({
+                            year:cursor.getFullYear(),
+                            month:cursor.getMonth()+1,
+                            day:cursor.getDate(),
+                            time:cursor.getFullYear()+"-" + ((cursor.getMonth()+1)<10?("0"+(cursor.getMonth()+1)):(cursor.getMonth()+1))+ "-" + (cursor.getDate()<10?("0"+cursor.getDate()):cursor.getDate()),
+                            isCurrent:false
+                        });
+                    }
+                    for (var i = 1; i<=daysCount;i++){
+                        var cursor = new Date($scope.now.getFullYear(),($scope.now.getMonth()),i);
+                        $scope.dateList.push({
+                            year:cursor.getFullYear(),
+                            month:cursor.getMonth()+1,
+                            day:cursor.getDate(),
+                            time:cursor.getFullYear()+"-" + ((cursor.getMonth()+1)<10?("0"+(cursor.getMonth()+1)):(cursor.getMonth()+1))+ "-" + (cursor.getDate()<10?("0"+cursor.getDate()):cursor.getDate()),
+                            isCurrent:true
+                        });
+                    }
+                    var dayEnd =new Date($scope.now.getFullYear(),($scope.now.getMonth()),daysCount).getDay();
+                    console.log("最后一天是星期"+ dayEnd)
+                    for(var i = 1;i < 7-dayEnd;i++){
+                        var cursor = new Date($scope.now.getFullYear(),($scope.now.getMonth()+1),i);
+                        $scope.dateList.push({
+                            year:cursor.getFullYear(),
+                            month:cursor.getMonth()+1,
+                            day:cursor.getDate(),
+                            time:cursor.getFullYear()+"-" + ((cursor.getMonth()+1)<10?("0"+(cursor.getMonth()+1)):(cursor.getMonth()+1))+ "-" + (cursor.getDate()<10?("0"+cursor.getDate()):cursor.getDate()),
+                            isCurrent:false
+                        });
+                    }
+                };
+                $scope.exc();
+                $scope.lastMonth = function(){
+                    $scope.now = new Date($scope.now.getFullYear(),$scope.now.getMonth()-1,$scope.now.getDate());
+                    $scope.exc();
+                }
+                $scope.nextMonth = function(){
+                    $scope.now = new Date($scope.now.getFullYear(),$scope.now.getMonth()+1,$scope.now.getDate());
+                    $scope.exc();
+                }
+                $scope.lastYear = function(){
+                    $scope.now = new Date($scope.now.getFullYear()-1,$scope.now.getMonth(),$scope.now.getDate());
+                    $scope.exc();
+                }
+                $scope.nextYear = function(){
+                    $scope.now = new Date($scope.now.getFullYear()+1,$scope.now.getMonth(),$scope.now.getDate());
+                    $scope.exc();
                 }
 
             }],
-            template: '<div class="wb-calender"><div class="content"><ul><li ng-repeat="date in dateList"><a ng-class="{false:&quot;cover&quot;}[date.isCurrent]">{{ date.day}}</a></li></ul></div></div>',
+            template: '<div class="wb-calender">' +
+            '<div class="ctrl">' +
+            '<ul><li ng-click="lastMonth()"><a>&lt;</a></li>' +
+            '<li ng-click="lastYear()"><a>&lt;&lt;</a></li>' +
+            '<li class="date" ng-view><a>{{now | date:"yyyy-MM"}}</a></li>' +
+            '<li ng-click="nextYear()"><a>&gt;&gt;</a></li>' +
+            '<li ng-click="nextMonth()"><a>&gt;</a></li>' +
+            '</ul>' +
+            '</div>' +
+            '<div class="nav"><ul><li>Su</li><li>Mo</li><li>Tu</li><li>We</li><li>Th</li><li>Fr</li><li>Sa</li></ul></div>' +
+            '<div class="content" ng-view><ul><li ng-class="{true:&quot;tag&quot;}[date.isWrite]" ng-repeat="date in dateList"><a ng-class="{false:&quot;cover&quot;}[date.isCurrent]">{{ date.day}}</a></li></ul></div></div>',
 
         }
     })

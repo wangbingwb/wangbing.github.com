@@ -1,9 +1,11 @@
 .wb-calender{
     width: 210px;
     overflow: hidden;
+    box-shadow: 3px 3px 6px 0px #333333;
 }
 .wb-calender .content{
     width: 210px;
+    background-color: #D8B78D;;
 }
 .wb-calender .content ul{
     list-style: none;
@@ -19,8 +21,57 @@
     height: 100%;
     width: 100%;
     text-align: center;
+    color: #211F16;
     line-height: 30px;
 }
-.wb-calender .content ul li a.cover{
-    color:#BBBBBB;
+.wb-calender .content ul li.tag{
+    background: url("/wb/images/do_write.png") no-repeat center;
+    background-size: 70% 70%;
 }
+.wb-calender .content ul li a.cover{
+    color:#8E8046;
+}
+.wb-calender .nav{
+    height: 30px;
+    background-color: #75886e;
+    border-bottom: 1px solid white;
+}
+.wb-calender .nav ul li{
+    display: inline-block;
+    width: 30px;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+.wb-calender .ctrl{
+    height: 30px;
+    background-color: #E0B0B0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.wb-calender .ctrl ul li{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    width: 30px;
+}
+.wb-calender .ctrl ul li.date{
+    width: 90px;
+    line-height: 30px;
+}
+.wb-calender .ctrl ul li a{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+.wb-calender .ctrl ul li:nth-child(1) a{
+    border-top-left-radius: 5px;
+}
+.wb-calender .ctrl ul li:nth-last-child(1) a{
+    border-top-right-radius: 5px;
+}
+
