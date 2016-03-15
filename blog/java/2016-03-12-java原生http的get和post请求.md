@@ -61,7 +61,7 @@ public static void main(String[] args) {
             urlConnection.setDoInput(true);
             out = new PrintWriter(urlConnection.getOutputStream());
             // 发送请求参数
-            out.print("key=value");
+            out.print("key1=value1&key2=value2");
             // flush输出流的缓冲
             out.flush();
 
