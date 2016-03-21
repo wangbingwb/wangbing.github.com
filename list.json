@@ -30,6 +30,8 @@
     {"time":"2016-03-17","title":"Actionbar自定义标题","type":"android"},
     {"time":"2016-03-18","title":"学习-Notification通知","type":"android"},
     {"time":"2016-03-19","title":"学习-TabHost选项卡简单使用","type":"android"},
+    {"time":"2016-03-20","title":"在布局文件中声明Click事件","type":"android"},
+    {"time":"2016-03-21","title":"学习-popupWindow的简单使用","type":"android"},
     {"time":"2016-01-01","title":"HOLD","type":"other"}
   ],
   "uppublish":[
