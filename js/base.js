@@ -78,7 +78,7 @@ var BodyCtrl = function ($scope,ContentService,CookieService,$sce) {
     $scope.init = function(){
         var href = window.location.href;
         if (/html#!.*/.test(href)){
-            if(/#!.*\\.md/.test(href)){
+            if(/#!.*\.md/.test(href)){
                 $scope.vm.isDoFind = false;
                 $scope.vm.isFinish = false;
                 var url = href.match("#!.*\\.md")[0];
@@ -104,7 +104,7 @@ var BodyCtrl = function ($scope,ContentService,CookieService,$sce) {
                     })
                 });
             }else{
-                util.showMessage("提示","未能获取到内容",function(){
+                util.showMessage("提示","未能获取到内容----",function(){
                     $scope.doFind();
                     window.location.href = window.location.href.match(".*index.html");
                 })
