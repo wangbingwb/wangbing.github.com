@@ -13,6 +13,7 @@ var BodyCtrl = function ($scope,ContentService,CookieService,$sce) {
     $scope.nav = {
 
     }
+
     $scope.doFind = function(){
         $scope.vm.isDoFind = true;
         $scope.vm.isFinish = false;
@@ -104,7 +105,7 @@ var BodyCtrl = function ($scope,ContentService,CookieService,$sce) {
                     })
                 });
             }else{
-                util.showMessage("提示","未能获取到内容----",function(){
+                util.showMessage("提示","未能获取到内容",function(){
                     $scope.doFind();
                     window.location.href = window.location.href.match(".*index.html");
                 })
