@@ -37,6 +37,8 @@
     {"time":"2016-03-24","title":"android基于监听处理的几种方式整理","type":"android"},
     {"time":"2016-03-25","title":"android基于回调的事件处理","type":"android"},
     {"time":"2016-03-26","title":"Configuration类简单认识","type":"android"},
+    {"time":"2016-03-27","title":"学习-简单的监听屏幕方向变化","type":"android"},
+    {"time":"2016-03-28","title":"学习-Handler消息传递简介","type":"android"},
     {"time":"2016-01-01","title":"HOLD","type":"other"}
   ],
   "uppublish":[
