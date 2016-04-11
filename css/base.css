@@ -1,68 +1,111 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-    font-family:"Microsoft YaHei", Verdana, Geneva, sans-serif;
+    font-family: "Microsoft YaHei", Verdana, Geneva, sans-serif;
 }
-.table{
+
+body {
+    scrollbar-arrow-color: #f4ae21; /*三角箭头的颜色*/
+    scrollbar-face-color: #333; /*立体滚动条的颜色*/
+    scrollbar-3dlight-color: #666; /*立体滚动条亮边的颜色*/
+    scrollbar-highlight-color: #666; /*滚动条空白部分的颜色*/
+    scrollbar-shadow-color: #999; /*立体滚动条阴影的颜色*/
+    scrollbar-darkshadow-color: #666; /*立体滚动条强阴影的颜色*/
+    scrollbar-track-color: #666; /*立体滚动条背景颜色*/
+    scrollbar-base-color: #f8f8f8; /*滚动条的基本颜色*/
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+} /* 滚动槽 */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+} /* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.table {
     display: table;
-    word-wrap:break-word;
-    table-layout:fixed;
+    word-wrap: break-word;
+    table-layout: fixed;
 }
-.table-cell{
+
+.table-cell {
     display: table-cell;
 }
-a{
+
+a {
     color: black;
     text-decoration: none;
     cursor: hand;
 }
-a:hover{
+
+a:hover {
     color: #3FAAF9;
 }
-.size-full{
+
+.size-full {
     height: 100%;
     width: 100%;
 }
-.width-full{
+
+.width-full {
     width: 100%;
 }
-.height-full{
+
+.height-full {
     height: 100%;
 }
-.text-center{
+
+.text-center {
     text-align: center;
     vertical-align: middle;
 }
-.text-right{
+
+.text-right {
     text-align: right;
 }
-.text-left{
+
+.text-left {
     text-align: left;
 }
-.h_10{
-   height: 10px;
+
+.h_10 {
+    height: 10px;
 }
-.h_20{
+
+.h_20 {
     height: 20px;
 }
-.h_30{
+
+.h_30 {
     height: 30px;
 }
-.h_40{
+
+.h_40 {
     height: 40px;
 }
-.h_50{
+
+.h_50 {
     height: 50px;
 }
-.h_60{
+
+.h_60 {
     height: 60px;
 }
-.color_red{
+
+.color_red {
     color: red;
 }
-.color_blue{
+
+.color_blue {
     color: blue;
 }
-.color_green{
+
+.color_green {
     color: green;
 }
