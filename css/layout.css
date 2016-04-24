@@ -19,12 +19,16 @@ body{
 }
 #header .search #key{
     height: 30px;
+    width: 100px;
     padding-left: 20px;
     border-radius: 5px;
     border: 1px solid #808080;
     background: url(../images/search-icon.png) no-repeat left center white;
+    transition: width 1s;
 }
-
+#header .search #key:focus{
+    width: 150px;
+}
 #header .nav{
     height: 30px;
     display: inline-block;
@@ -84,6 +88,7 @@ body{
     height: 100%;
     width: 100%;
     color: inherit;
+    font-size: initial;
 }
 #header .nav.show{
     top: 0px;
@@ -424,4 +429,114 @@ body{
 }
 .cal{
     margin-top:10px;
+}
+.lib_list{
+    border-left: 1px solid #777777;;
+
+}
+.lib_list .list_name{
+    height: 30px;
+    width: 120px;
+    color: white;
+    line-height: 30px;
+    padding-left: 10px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    background-color: #777777;
+}
+.lib_list .list_sub{
+    padding: 5px;
+    margin-left: 10px;
+    border-left: 1px solid #777777;
+    transition: all 1s;
+}
+.lib_list .list_sub ul{
+    list-style: none;
+}
+.lib_list .list_sub ul li{
+    position: relative;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 150px;
+    line-height: 30px;
+    border: 1px solid #777777;
+    border-radius: 5px;
+}
+.lib_list .list_sub ul li a{
+    display: block;
+    padding-left: 10px;
+    width: 100%;
+    height: 100%;
+}
+.lib_list .list_sub ul li:before{
+    content: "";
+    height: 1px;
+    width: 5px;
+    background-color:#777777;
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: -6px;
+}
+.lib_list .list_sub ul li:after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 0px;
+    background-color:#777777;
+    top: 15px;
+    right: -62px;
+    transition: all 1s;
+}
+.lib_list .list_sub ul li.selected:after{
+    width: 61px;
+}
+#content .list_index ul{
+    list-style: none;
+}
+#content .list_index ul li{
+    vertical-align: top;
+    height: 300px;
+    width: 220px;
+    margin:0px 5px 5px 0px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+#content .list_index ul li .gif{
+    height: 100%;
+    width: 100%;
+}
+#content .list_index ul li .gif img{
+    height: 100%;
+    width: 100%;
+}
+#content .list_index ul li .info{
+    bottom: -30px;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgba(134, 134, 134, 0.26);
+    transition: all 0.3s;
+}
+#content .list_index ul li:hover .info{
+    bottom: 0px;
+}
+#content .list_index ul li .info .title{
+    position: absolute;
+    left: 5px;
+}
+#content .list_index ul li .info .down_url{
+    position: absolute;
+    right: 5px;
+}
+#content.lib{
+    border-radius: 10px;
+    border-left: 1px solid #777777;;
+}
+
+#layout{
+    margin-top: 15px;
 }

@@ -25,7 +25,7 @@
     <script src="js/base.js" type="text/javascript"></script>
     <script src="js/util.js" type="text/javascript"></script>
 </head>
-    <body ng-controller="BodyCtrl">
+    <body ng-controller="LibCtrl">
 
         <div id="header">
             <div class="nav" ng-class="{true:'show'}[navshow]">
@@ -39,63 +39,52 @@
                 </ul>
                 <div class="switch"></div>
             </div>
-            <div class="search">
-                <input type="text" id="key" ng-model="vm.key" placeholder="搜索" ng-keypress="doSearch($event)">
-            </div>
         </div>
+
         <!--主体-->
         <div id="main">
             <div class="content-wrapper table">
                 <aside id="sidebar" class="table-cell">
-                    <img ng-click="doFind()" src="images/favorite.jpg">
-
-                    <div class="cal"><div calender></div></div>
+                    <div class="lib_list">
+                        <div class="list_name">Android</div>
+                        <div class="list_sub">
+                            <ul>
+                                <li ng-click="selectlib($index)" ng-class="{true:'selected'}[t.checked]" ng-repeat="t in androidLibList"><a>{{t.name}}</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </aside>
-                <div id="content" class="table-cell">
-
-                    <!-- list-->
-                    <div id="list" ng-show="vm.isFinish && vm.isDoFind">
-                        <div class="title-list" ng-if="vm.isFinish">
-                            <ul>
-                                <li ng-repeat="item in result" ng-click="view($index)">
-
-                                    <div class='title'><a href="" ng-click="view($index)">{{item.title}}</a></div>
-                                    <div class='time'>{{item.time}}</div>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="page" ng-if="vm.totalCount > vm.pageSize">
-                            <ul>
-                                <li ng-repeat="page in pages" ng-class="{true:'selected'}[page.isSelect]" ng-click="selectPage(page.action)">
-                                    <a href="javascript:void(0)">{{page.name}}
-                                        <div class="g">{{page.name}}</div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div ng-if="!(vm.totalCount > 0)">
-                            <p>未找到记录</p>
-                        </div>
-                    </div>
-
-                    <!-- 文章-->
-                    <div ng-if="!vm.isDoFind && vm.isFinish">
-                        <div class="article table size-full text-center h_60">
-                            <div class="title table-cell">{{ article.title }}
-                                <div class="time">{{ article.time }}</div>
-                                <div class="type">标签 <span ng-class="{'java':'color_red','other':'color_blue','android':'color_green'}[article.type]">{{ article.type }}</span></div>
+                <div id="content" class="table-cell lib">
+                    <div class="list_index">
+                        <ul>
+                            <li>
+                                <div class="gif"><img src="images/ask.png"></div>
+                                <div class="info">
+                                    <a class="title">自定义View</a>
+                                    <a class="down_url">下载</a>
+                                </div>
+                            </li><li>
+                            <div class="gif"><img src="images/ask.png"></div>
+                            <div class="info">
+                                <a class="title">自定义View</a>
+                                <a class="down_url">下载</a>
                             </div>
-                        </div>
-                        <textarea id="articleBody" style="display:none;"  ng-model="article.content" ng-change="toView()"></textarea>
-                        <div id="articleBody-view"></div>
+                        </li><li>
+                            <div class="gif"><img src="images/ask.png"></div>
+                            <div class="info">
+                                <a class="title">自定义View</a>
+                                <a class="down_url">下载</a>
+                            </div>
+                        </li><li>
+                            <div class="gif"><img src="images/ask.png"></div>
+                            <div class="info">
+                                <a class="title">自定义View</a>
+                                <a class="down_url">下载</a>
+                            </div>
+                        </li>
+                        </ul>
                     </div>
 
-                    <div ng-if="!vm.isFinish" class="loader text-center">
-                        <div class="block"></div>
-                        <div class="block"></div>
-                        <div class="block"></div>
-                    </div>
                 </div>
             </div>
         </div>

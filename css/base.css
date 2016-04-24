@@ -39,9 +39,10 @@ body {
 }
 
 a {
-    color: black;
+    color: black !important;
     text-decoration: none;
     cursor: hand;
+    transition: all 1s;
 }
 
 a:hover {

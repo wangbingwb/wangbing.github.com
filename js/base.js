@@ -1,7 +1,7 @@
 //日志目录api接口
 var rootUrl = "http://api.github.com/repos/wangbingwb/wb/contents/blog"
 
-var BodyCtrl = function ($scope,ContentService,CookieService,$sce) {
+var BodyCtrl = function ($scope,ContentService,CookieService) {
     $scope.vm = {
         isDoFind:true,
         isFinish:false,
@@ -18,32 +18,32 @@ var BodyCtrl = function ($scope,ContentService,CookieService,$sce) {
         $scope.vm.isDoFind = true;
         $scope.vm.isFinish = false;
         ContentService.getList($scope.vm).success(function (data) {
-            if (data.resultList.length > 0){
+            if (data.blog.resultList.length > 0){
 
                 //按时间倒序
-                data.resultList.sort(function(a,b){return a.time< b.time?1:-1});
+                data.blog.resultList.sort(function(a,b){return a.time< b.time?1:-1});
                 $scope.writedataList = [];
-                for(var i in data.resultList){
-                    $scope.writedataList.push(data.resultList[i].time);
+                for(var i in data.blog.resultList){
+                    $scope.writedataList.push(data.blog.resultList[i].time);
                 }
 
                 //过滤
                 var temp = [];
-                for(var i in data.resultList){
-                    if (data.resultList[i].title.match($scope.vm.key)){
-                        temp.push(data.resultList[i]);
+                for(var i in data.blog.resultList){
+                    if (data.blog.resultList[i].title.match($scope.vm.key)){
+                        temp.push(data.blog.resultList[i]);
                     }
                 }
-                data.resultList = temp;
-                $scope.vm.totalCount = data.resultList.length;
+                data.blog.resultList = temp;
+                $scope.vm.totalCount = data.blog.resultList.length;
 
                 var startIndex = ($scope.vm.pageNumber - 1)*$scope.vm.pageSize;
                 var endIndex = ($scope.vm.pageNumber)*$scope.vm.pageSize;
-                if (data.resultList.length  < endIndex){
-                    endIndex = data.resultList.length;
+                if (data.blog.resultList.length  < endIndex){
+                    endIndex = data.blog.resultList.length;
                 }
 
-                $scope.result = (data.resultList.slice(startIndex,endIndex));
+                $scope.result = (data.blog.resultList.slice(startIndex,endIndex));
 
                 $scope.vm.isFinish = true;
                 $scope.vm.isDoFind = true;
@@ -168,8 +168,97 @@ var BodyCtrl = function ($scope,ContentService,CookieService,$sce) {
     }
 }
 
+var LibCtrl = function ($scope,ContentService,CookieService) {
+    $scope.nav = {
+
+    }
+
+    $scope.navshow = CookieService.getNavShow(true);
+    if($scope.navshow == "true"){
+        $scope.navshow = true;
+        $scope.nav.hidetip = "隐藏"
+    }else{
+        $scope.navshow = false;
+        $scope.nav.hidetip = "显示"
+    }
+    $scope.dohide = function(){
+        $scope.navshow = !$scope.navshow;
+        CookieService.setNavShow($scope.navshow);
+        if($scope.navshow){
+            $scope.nav.hidetip = "隐藏"
+        }else{
+            $scope.nav.hidetip = "显示"
+        }
+    }
+
+    $scope.androidLibList = [
+        {name:"文本TextView",type:"textview",checked:true},
+        {name:"对话框Dialog",type:"dialog",checked:false},
+        {name:"图片ImageView",type:"imageview",checked:false},
+        {name:"按钮Button",type:"button",checked:false},
+        {name:"滚动ScrollView",type:"scrollview",checked:false},
+        {name:"列表ListView",type:"listview",checked:false},
+        {name:"布局类Layout",type:"layout",checked:false},
+        {name:"页卡切换TabView",type:"tabview",checked:false},
+        {name:"进度条Process",type:"process",checked:false},
+        {name:"文本TextView",type:"textview",checked:false},
+        {name:"时间控件",type:"dateview",checked:false},
+        {name:"其他控件",type:"otherview",checked:false}
+    ]
+
+    $scope.selectlib = function(index){
+        $scope.androidLibList.forEach(function(item){
+            item.checked=false;
+        })
+        $scope.androidLibList[index].checked=true;
+    }
+}
+
+var WriteCtrl = function ($scope,ContentService,CookieService) {
+    $scope.nav = {
+
+    }
+
+    $scope.navshow = CookieService.getNavShow(true);
+    if($scope.navshow == "true"){
+        $scope.navshow = true;
+        $scope.nav.hidetip = "隐藏"
+    }else{
+        $scope.navshow = false;
+        $scope.nav.hidetip = "显示"
+    }
+    $scope.dohide = function(){
+        $scope.navshow = !$scope.navshow;
+        CookieService.setNavShow($scope.navshow);
+        if($scope.navshow){
+            $scope.nav.hidetip = "隐藏"
+        }else{
+            $scope.nav.hidetip = "显示"
+        }
+    }
+
+    $scope.clip = function(){
+
+        var copyText = $("span.cm-cm-overlay.cm-matchhighlight").text();
+
+        var isIE = false;
+        if(!+[1,]) {
+            isIE = true;
+        }
+        if(isIE) {
+            if(window.clipboardData) {
+                window.clipboardData.setData(format, copyText);
+            }
+        }else{
+
+        }
+    }
+}
+
 angular.module("index", ['ngAnimate'])
-    .controller("BodyCtrl", ["$scope","ContentService","CookieService","$sce",BodyCtrl])
+    .controller("BodyCtrl", ["$scope","ContentService","CookieService",BodyCtrl])
+    .controller("LibCtrl", ["$scope","ContentService","CookieService",LibCtrl])
+    .controller("WriteCtrl", ["$scope","ContentService","CookieService",WriteCtrl])
     .factory("ContentService", ['$http', function ($http) {
         var service = {};
         service.getList = function (data) {
