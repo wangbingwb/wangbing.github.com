@@ -52,6 +52,10 @@
       {"time":"2016-04-13","title":"学习-Android应用资源-animator属性动画","type":"android"},
       {"time":"2016-04-14","title":"学习-Android应用资源-anim补间动画资源","type":"android"},
       {"time":"2016-04-15","title":"学习-Android应用资源-raw资源","type":"android"},
+      {"time":"2016-04-16","title":"学习-Bitmap对象和BitmapFactory","type":"android"},
+      {"time":"2016-04-17","title":"SharedPreferences对象存储","type":"android"},
+      {"time":"2016-04-18","title":"Android绘图基础和Canvas对象","type":"android"},
+      {"time":"2016-04-20","title":"WebView简单介绍","type":"android"},
       {"time":"2016-01-01","title":"HOLD","type":"other"}
     ],
     "uppublish":[
