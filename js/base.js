@@ -385,6 +385,26 @@ angular.module("index", ['ngAnimate'])
                     $scope.direction = "right";
                     $scope.exc();
                 }
+                $scope.show = function(index){
+                    var to = new Date();
+                    var t = to.getFullYear()+"-"+((to.getMonth()+1)<10?"0"+(to.getMonth()+1):(to.getMonth()+1))+"-"+(to.getDate()<10?"0"+to.getDate():to.getDate());
+
+                    if($scope.dateList[index].time == t){
+                        if($scope.dateList[index].isWrite){
+                            util.showSlideMessage("我今天写了，怎么了?")
+                        }else{
+                            util.showSlideMessage("我今天没写，怎么了?")
+                        }
+                    }else if($scope.dateList[index].time < t){
+                        if($scope.dateList[index].isWrite){
+                            util.showSlideMessage("我那天写了，怎么了?")
+                        }else{
+                            util.showSlideMessage("我那天没写，怎么了?")
+                        }
+                    }else{
+                        util.showSlideMessage("这天还没到我怎么写啊?")
+                    }
+                }
 
             }],
             template: '<div class="wb-calender">' +
@@ -397,7 +417,8 @@ angular.module("index", ['ngAnimate'])
             '</ul>' +
             '</div>' +
             '<div class="nav"><ul><li>Su</li><li>Mo</li><li>Tu</li><li>We</li><li>Th</li><li>Fr</li><li>Sa</li></ul></div>' +
-            '<div class="content" ng-view><ul><li ng-class="{true:&quot;tag&quot;}[date.isWrite]" class="{{direction}}" ng-repeat="date in dateList"><a ng-class="{false:&quot;cover&quot;}[date.isCurrent]">{{ date.day}}</a></li></ul></div></div>',
+            '<div class="content" ng-view><ul><li ng-click="show($index)" ng-class="{true:&quot;tag&quot;}[date.isWrite]" class="{{direction}}" ng-repeat="date in dateList">' +
+            '<a ng-class="{false:&quot;cover&quot;}[date.isCurrent]">{{ date.day}}</a></li></ul></div></div>',
         }
     })
 

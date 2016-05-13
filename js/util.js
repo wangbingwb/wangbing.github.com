@@ -16,27 +16,26 @@ var util = {
                 cb();
             });
         },800)
-    }
-    ,
-    showDialog: function () {
-
     },
-    showError: function (msg) {
-        var html = "<div class='wb-ut-show-error'>"
-            + "<div class='title'>"
-            + "<div class='title-icon'></div>"
-            + "</div>"
-            + "<div class='content'>"
-            + "<div class='text'>" + (msg + "")
-            + "</div>"
-            + "</div>"
-            + "</div>"
+    showSlideMessage: function(msg,cb){
+        var html = "<div id='wb-tip' style='position:fixed;height: 100%;width: 100%; z-index: 99999;display: table'>"+
+            "<div style='display:table-cell;vertical-align: middle;text-align:center;'>" +
+            "<div style='width:100%;background-color: rgba(0, 0, 0, 0.5);display: inline-block;'>" +
+            "<p class='msg' style='color:white;line-height: 40px;font-size:25px;pxtext-align:center;transform: translateX(-999px);transition:all 1s'>"+msg+"</div>" +
+            "</div></div></div>"
         $(document.body).prepend(html);
-        $(".wb-ut-show-error").each(function () {
-            $(this).fadeIn("slow").delay(1000).fadeOut(400, function () {
-                $(this).remove();
-            })
-        })
+        setTimeout(function(){
+            $("#wb-tip .msg").css("transform","translateX(0px)")
+        },0)
+        setTimeout(function(){
+            $("#wb-tip .msg").css("transform","translateX(999px)");
+        },2000)
+        setTimeout(function(){
+            $("#wb-tip").remove();
+            if(cb instanceof Function){
+                cb();
+            }
+        },3000)
     },
     /**
      * js动态加载js，css文件
