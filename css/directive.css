@@ -16,11 +16,18 @@
     width: 30px;
     display: inline-block;
 }
-.wb-calender .content ul li.ng-enter{
+.wb-calender .content ul li.left.ng-enter{
     transform: translateX(-30px);
     transition: all 0.2s;
 }
-.wb-calender .content ul li.ng-enter.ng-enter-active{
+.wb-calender .content ul li.left.ng-enter.ng-enter-active{
+    transform: translateX(0px);
+}
+.wb-calender .content ul li.right.ng-enter{
+    transform: translateX(30px);
+    transition: all 0.2s;
+}
+.wb-calender .content ul li.right.ng-enter.ng-enter-active{
     transform: translateX(0px);
 }
 .wb-calender .content ul li a{

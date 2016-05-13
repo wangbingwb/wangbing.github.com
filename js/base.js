@@ -364,20 +364,25 @@ angular.module("index", ['ngAnimate'])
                     }
                 };
                 $scope.exc();
+                $scope.direction = "";
                 $scope.lastMonth = function(){
                     $scope.now = new Date($scope.now.getFullYear(),$scope.now.getMonth()-1,$scope.now.getDate());
+                    $scope.direction = "left";
                     $scope.exc();
                 }
                 $scope.nextMonth = function(){
                     $scope.now = new Date($scope.now.getFullYear(),$scope.now.getMonth()+1,$scope.now.getDate());
+                    $scope.direction = "right";
                     $scope.exc();
                 }
                 $scope.lastYear = function(){
                     $scope.now = new Date($scope.now.getFullYear()-1,$scope.now.getMonth(),$scope.now.getDate());
+                    $scope.direction = "left";
                     $scope.exc();
                 }
                 $scope.nextYear = function(){
                     $scope.now = new Date($scope.now.getFullYear()+1,$scope.now.getMonth(),$scope.now.getDate());
+                    $scope.direction = "right";
                     $scope.exc();
                 }
 
@@ -392,7 +397,7 @@ angular.module("index", ['ngAnimate'])
             '</ul>' +
             '</div>' +
             '<div class="nav"><ul><li>Su</li><li>Mo</li><li>Tu</li><li>We</li><li>Th</li><li>Fr</li><li>Sa</li></ul></div>' +
-            '<div class="content" ng-view><ul><li ng-class="{true:&quot;tag&quot;}[date.isWrite]" ng-repeat="date in dateList"><a ng-class="{false:&quot;cover&quot;}[date.isCurrent]">{{ date.day}}</a></li></ul></div></div>',
+            '<div class="content" ng-view><ul><li ng-class="{true:&quot;tag&quot;}[date.isWrite]" class="{{direction}}" ng-repeat="date in dateList"><a ng-class="{false:&quot;cover&quot;}[date.isCurrent]">{{ date.day}}</a></li></ul></div></div>',
         }
     })
 
