@@ -149,7 +149,9 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
         console.log($scope.pages)
     };
 
-    $scope.navshow = CookieService.getNavShow(true);
+    $scope.navshow = CookieService.getNavShow("true");
+    console.log($scope.navshow)
+    console.log($scope.navshow == "true")
     if($scope.navshow == "true"){
         $scope.navshow = true;
         $scope.nav.hidetip = "隐藏"

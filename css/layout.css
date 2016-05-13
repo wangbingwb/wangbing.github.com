@@ -125,7 +125,7 @@ body{
     /*animation:icon 2s infinite;*/
 }
 #sidebar img:hover{
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 
 #main .content-wrapper{
@@ -462,6 +462,22 @@ body{
     line-height: 30px;
     border: 1px solid #777777;
     border-radius: 5px;
+    transition: all 0.5s;
+}
+.lib_list .list_sub ul li:hover{
+    animation:sliedup 1s 1;
+    -webkit-animation:slide 0.5s 1;
+}
+@keyframes slide {
+    0%{
+        transform: translateX(0px);
+    }
+    70%{
+        transform: translateX(30px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
 }
 .lib_list .list_sub ul li a{
     display: block;
