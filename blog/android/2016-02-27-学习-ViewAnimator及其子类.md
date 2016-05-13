@@ -1,6 +1,6 @@
 ViewAnimator是一个基类，它继承了FrameLayout，因此它表现出FrameLayout的特征，可以将多个view叠加在一起。另外ViewAnimatore额外增加的功能，在View切换时可以表现出动画效果。
 ##### ViewAnimator及其子类继承图如下:
-![](http://osswb.oss-cn-shanghai.aliyuncs.com/image/e61190ef76c6a7ef70345787f9faaf51f3de6605.png)
+![](http://osswb.oss-cn-shanghai.aliyuncs.com/image/20160401220828.png)
 
 ##### 实例代码
 ###### 布局文件
@@ -72,4 +72,4 @@ slide_in_right.xml
 
 ```
 效果如下
-![](http://osswb.oss-cn-shanghai.aliyuncs.com/image/QQ%E6%88%AA%E5%9B%BE20160301230541.jpg)
+![](http://osswb.oss-cn-shanghai.aliyuncs.com/image/20160301230541.jpg)
