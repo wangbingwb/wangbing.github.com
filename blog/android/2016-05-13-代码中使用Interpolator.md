@@ -73,7 +73,7 @@ mFactor是什么了，好像是个成员变量，先不管，往下看。
 
 ```
 咦，这里好像有点意思mFactor也给了个默认值。getInterpolation会接受参数，仔细看下面计算分明就是使用的一个一元二次函数嘛。
-![](http://osswb.oss-cn-shanghai.aliyuncs.com/image/20160513211356.jpg)
+![](http://osswb.oss-cn-shanghai.aliyuncs.com/image/20160513134539.jpg)
 
 当input为0~1时返回值也是0~1，且是有速率变化的。我们根据返回值的0~1的比值与我们实际需要的值相乘便可得到我们要的值。
 
