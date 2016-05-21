@@ -8,7 +8,7 @@ var GlobalCtrl = function($scope,ContentService,CookieService) {
     }
 
     $scope.navshow = CookieService.getNavShow("true");
-    console.log($scope.navshow)
+    Log.i("导航是否显示:"+$scope.navshow)
     console.log($scope.navshow == "true")
     if($scope.navshow == "true"){
         $scope.navshow = true;
@@ -108,7 +108,9 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
             }
             window.location.href = window.location.href+"#!"+encodeURI(url.substring(5,url.length));
             //$scope.article.content = $sce.trustAsHtml(markdown.toHTML(data));
-            //console.log(data)
+            Log.d("文章正文-----start");
+            Log.d(data);
+            Log.d("文章正文-----end");
             setTimeout("toHtmlView()",10)
             $scope.vm.isFinish = true;
         }).error(function(){
@@ -137,7 +139,9 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
                     $scope.article.time = href.match("/[0-9]{4}-[0-9]{2}-[0-9]{2}")[0].substring(1,href.match("/[0-9]{4}-[0-9]{2}-[0-9]{2}")[0].length);
                     $scope.article.type = href.match("#!.*/")[0].substring(2,href.match("#!.*/")[0].length-1);
                     //$scope.article.content = $sce.trustAsHtml(markdown.toHTML(data));
-                    console.log( $scope.article)
+                    Log.i("url查找文章");
+                    Log.d($scope.article)
+
                     setTimeout("toHtmlView()",10)
                     $scope.vm.isFinish = true;
                 }).error(function(){
@@ -188,7 +192,9 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
             }
         }
         $scope.pages.push({action:count,name:">>",isSelect:false});
-        console.log($scope.pages)
+        Log.d("分页对象-----start");
+        Log.d(JSON.stringify($scope.pages));
+        Log.d("分页对象-----end");
     };
 
 }
@@ -267,14 +273,32 @@ angular.module("index", ['ngAnimate'])
             document.cookie = cookie;
         };
         service.getNavShow = function (def) {
-            console.log(document.cookie)
+            Log.d("NavShow find")
             var ck = document.cookie.split(";");
             for (var i in ck){
-                if(ck[i].split("=")[0] == "NavShow"){
+                if(/NavShow/.test(ck[i].split("=")[0])){
+                    Log.d(ck[i]);
                     return ck[i].split("=")[1]
                 }
             }
             return def;
+        };
+        service.setClockPostion = function (postion) {
+            var now=new Date();
+            now.setTime(now.getTime()+30*24*60*60*1000)
+            var cookie= "ClockPostion="+JSON.stringify(postion)+";path=/;expires="+now.toUTCString();
+            document.cookie = cookie;
+        };
+        service.getClockPostion = function () {
+            Log.d("ClockPostion find")
+            var ck = document.cookie.split(";");
+            for (var i in ck){
+                if(/ClockPostion/.test(ck[i].split("=")[0])){
+                    Log.d(ck[i]);
+                    return JSON.parse(ck[i].split("=")[1]);
+                }
+            }
+            return {top:0,left:0};
         };
         return service;
     }])
@@ -309,7 +333,7 @@ angular.module("index", ['ngAnimate'])
                     var daysCount= new Date($scope.now.getFullYear(),($scope.now.getMonth()+1),0).getDate();
                     //当月第一天星期
                     var dayStart = new Date($scope.now.getFullYear(),($scope.now.getMonth()),1).getDay();
-                    console.log("第一天是星期"+ dayStart)
+                    Log.d("第一天是星期"+ dayStart)
                     for (var i = dayStart;i>0;i--){
                         var cursor = new Date($scope.now.getFullYear(),($scope.now.getMonth()),(-i));
                         $scope.dateList.push({
@@ -331,7 +355,7 @@ angular.module("index", ['ngAnimate'])
                         });
                     }
                     var dayEnd =new Date($scope.now.getFullYear(),($scope.now.getMonth()),daysCount).getDay();
-                    console.log("最后一天是星期"+ dayEnd)
+                    Log.d("最后一天是星期"+ dayEnd)
                     for(var i = 1;i < 7-dayEnd;i++){
                         var cursor = new Date($scope.now.getFullYear(),($scope.now.getMonth()+1),i);
                         $scope.dateList.push({
@@ -406,7 +430,45 @@ angular.module("index", ['ngAnimate'])
             restrict: 'E',
             replace: true,
             scope: true,
-            controller: ["$scope", function($scope){
+            controller: ["$scope","CookieService", function($scope,CookieService){
+                $scope.position = CookieService.getClockPostion();
+                Log.d("clock位置:("+$scope.position.left+","+$scope.position.top+")")
+
+                $scope.clockMousedown = function(event){
+                    $scope.pressPostionX = event.clientX;
+                    $scope.pressPostionY = event.clientY;
+                    $scope.pressed = true;
+                    Log.d("鼠标down:("+$scope.pressPostionX+","+$scope.pressPostionY+")")
+                }
+
+                $scope.clockMousemove = function(event){
+                    if($scope.pressed){
+                        $scope.position.left += (event.clientX - $scope.pressPostionX);
+                        $scope.position.top += (event.clientY- $scope.pressPostionY);
+
+                        $scope.pressPostionX = event.clientX;
+                        $scope.pressPostionY = event.clientY;
+
+                        Log.d("鼠标drag:("+$scope.position.left+","+$scope.position.top+")")
+                    }
+                }
+
+                $scope.clockMouseup = function(event){
+                    Log.d("鼠标up:("+event.clientX+","+event.clientY+")")
+                    $scope.pressPostionX = "";
+                    $scope.pressPostionY = "";
+                    $scope.pressed = false;
+                    CookieService.setClockPostion($scope.position);
+                }
+
+                $scope.clockMouseout = function(event){
+                    Log.d("鼠标out:("+event.clientX+","+event.clientY+")")
+                    $scope.pressPostionX = "";
+                    $scope.pressPostionY = "";
+                    $scope.pressed = false;
+                    CookieService.setClockPostion($scope.position);
+                }
+
                 var now = new Date();
                 $scope.hour = [now.getHours()<10?("0"+now.getHours()):now.getHours()];
                 $scope.minute = [now.getMinutes()<10?("0"+now.getMinutes()):now.getMinutes()];
@@ -427,8 +489,8 @@ angular.module("index", ['ngAnimate'])
                     $scope.updateSecond();
                 },1000);
             }],
-            template: '<div class="wb-clock">'+
-            '<div class="background">'+
+            template: '<div class="wb-clock" style="top:{{position.top}}px;left:{{position.left}}px;" ng-mousedown="clockMousedown($event)" ng-mouseup="clockMouseup($event)" ng-mousemove="clockMousemove($event)" ng-mouseout="clockMouseout($event)">'+
+            '<a><div class="background">'+
             '<div class="second" ng-if="showSecond"></div>' +
             '<div class="center"><div class="content">' +
             '<span class="h"><span ng-repeat="h in  hour">{{h}}</span></span>' +
@@ -436,7 +498,7 @@ angular.module("index", ['ngAnimate'])
             '<span class="m"><span ng-repeat="m in minute">{{m}}</span></span>' +
             '<span>:</span>' +
             '<span class="s"><span ng-repeat="s in second">{{s}}</span></span>' +
-            '</div></div></div></div>',
+            '</div></div></div></a></div>',
         }
     })
 

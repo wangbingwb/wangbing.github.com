@@ -100,6 +100,17 @@
     width: 80px;
     height: 80px;
     position: absolute;
+    -moz-user-select:none;/*火狐*/
+    -webkit-user-select:none;/*webkit浏览器*/
+    -ms-user-select:none;/*IE10*/
+    -khtml-user-select:none;/*早期浏览器*/
+    user-select:none;
+}
+.wb-clock>a{
+    color: #bababa;
+}
+.wb-clock>a:hover{
+    color: #ffffff;
 }
 .wb-clock.normal{
     transform: scale(1);
@@ -117,6 +128,10 @@
     border-radius: 50px;
     overflow: hidden;
     position: relative;
+    transition: all 1s;
+}
+.wb-clock>a:hover .background{
+    background-color: #dfdce0;
 }
 .wb-clock .background .second{
     width: 0px;
@@ -125,6 +140,9 @@
     position: absolute;
     border: 40px solid transparent;
     border-top: 40px solid #dfdce0;
+}
+.wb-clock>a:hover .background .second{
+    border-top: 40px solid #3a3a3a;
 }
 .wb-clock .background  .second.ng-enter{
     transition: all 1s;
@@ -142,6 +160,10 @@
     left: 2px;
     border-radius: 38px;
     display: table;
+    transition: all 1s;
+}
+.wb-clock>a:hover .background .center{
+    background-color: #6b746c;
 }
 .wb-clock .background .center .content{
     display: table-cell;
