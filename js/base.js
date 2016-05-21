@@ -401,7 +401,44 @@ angular.module("index", ['ngAnimate'])
             '<a ng-class="{false:&quot;cover&quot;}[date.isCurrent]">{{ date.day}}</a></li></ul></div></div>',
         }
     })
+    .directive("clock",function(){
+        return {
+            restrict: 'E',
+            replace: true,
+            scope: true,
+            controller: ["$scope", function($scope){
+                var now = new Date();
+                $scope.hour = [now.getHours()<10?("0"+now.getHours()):now.getHours()];
+                $scope.minute = [now.getMinutes()<10?("0"+now.getMinutes()):now.getMinutes()];
+                $scope.second = [now.getSeconds()<10?("0"+now.getSeconds()):now.getSeconds()];
+                $scope.showSecond = true;
 
+                $scope.updateSecond = function(){
+                    var now = new Date();
+                    $scope.hour = [now.getHours()<10?("0"+now.getHours()):now.getHours()];
+                    $scope.minute = [now.getMinutes()<10?("0"+now.getMinutes()):now.getMinutes()];
+                    $scope.second = [now.getSeconds()<10?("0"+now.getSeconds()):now.getSeconds()];
+                    $scope.showSecond = true;
+                    $scope.$apply();
+                }
+                setInterval(function(){
+                    $scope.showSecond = false;
+                    $scope.$apply();
+                    $scope.updateSecond();
+                },1000);
+            }],
+            template: '<div class="wb-clock">'+
+            '<div class="background">'+
+            '<div class="second" ng-if="showSecond"></div>' +
+            '<div class="center"><div class="content">' +
+            '<span class="h"><span ng-repeat="h in  hour">{{h}}</span></span>' +
+            '<span>:</span>' +
+            '<span class="m"><span ng-repeat="m in minute">{{m}}</span></span>' +
+            '<span>:</span>' +
+            '<span class="s"><span ng-repeat="s in second">{{s}}</span></span>' +
+            '</div></div></div></div>',
+        }
+    })
 
 function toHtmlView(){
     var target = $("#articleBody").val();

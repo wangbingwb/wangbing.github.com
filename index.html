@@ -29,6 +29,14 @@
 
         <div id="header" ng-mousemove="header.mousemove($event)" ng-mouseout="header.mouseout()">
             <div ng-repeat="v in header.viewflag" class="ripple" style="left:{{v.x}}px;top:{{v.y}}px;"></div>
+            <clock></clock>
+            <!--<div class="wb-clock">-->
+                <!--<div class="background">-->
+                    <!--<div class="second" ng-model="second">-->
+                        <!--<div class="center"></div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
             <div class="nav" ng-class="{true:'show'}[navshow]">
                 <ul>
                     <li><a href="index.html">主页</a></li>

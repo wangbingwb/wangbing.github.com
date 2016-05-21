@@ -1,3 +1,4 @@
+/*日历控件开始*/
 .wb-calender{
     width: 210px;
     overflow: hidden;
@@ -92,5 +93,92 @@
 .wb-calender .ctrl ul li:nth-last-child(1) a{
     border-top-right-radius: 5px;
 }
+/*日历控件结束*/
 
-
+/*时钟控件开始*/
+.wb-clock{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+}
+.wb-clock.normal{
+    transform: scale(1);
+}
+.wb-clock.small{
+    transform: scale(0.5);
+}
+.wb-clock.large{
+    transform: scale(2);
+}
+.wb-clock .background{
+    width: 100%;
+    height: 100%;
+    background-color: #292929;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+}
+.wb-clock .background .second{
+    width: 0px;
+    height: 0px;
+    border-radius: 40px;
+    position: absolute;
+    border: 40px solid transparent;
+    border-top: 40px solid #dfdce0;
+}
+.wb-clock .background  .second.ng-enter{
+    transition: all 1s;
+    transform: rotate(0deg);
+}
+.wb-clock .background  .second.ng-enter.ng-enter-active{
+    transform: rotate(360deg);
+}
+.wb-clock .background .center {
+    width: 76px;
+    height: 76px;
+    position: absolute;
+    background-color: #8F9890;
+    top: 2px;
+    left: 2px;
+    border-radius: 38px;
+    display: table;
+}
+.wb-clock .background .center .content{
+    display: table-cell;
+    vertical-align: middle;
+}
+.wb-clock .background .center .content>span{
+    vertical-align: top;
+}
+.wb-clock .background .center .content>span.h,
+.wb-clock .background .center .content>span.m,
+.wb-clock .background .center .content>span.s{
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+.wb-clock .background .center .content>span>span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+.wb-clock .background .center .content>span>span.ng-enter{
+    transition: all 0.1s;
+    transform: translateY(15px);
+}
+.wb-clock .background .center .content>span>span.ng-enter.ng-enter-active{
+    transform: translateY(0px);
+}
+.wb-clock .background .center .content>span>span.ng-leave{
+    transition: all 0.1s;
+    transform: translateY(0px);
+}
+.wb-clock .background .center .content>span>span.ng-leave.ng-leave-active{
+    transform: translateY(-15px);
+}
+/*时钟控件结束*/
