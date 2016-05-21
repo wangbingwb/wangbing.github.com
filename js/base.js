@@ -1,6 +1,52 @@
 //日志目录api接口
 var rootUrl = "http://api.github.com/repos/wangbingwb/wb/contents/blog"
 
+var GlobalCtrl = function($scope,ContentService,CookieService) {
+
+    $scope.nav = {
+
+    }
+
+    $scope.navshow = CookieService.getNavShow("true");
+    console.log($scope.navshow)
+    console.log($scope.navshow == "true")
+    if($scope.navshow == "true"){
+        $scope.navshow = true;
+        $scope.nav.hidetip = "隐藏"
+    }else{
+        $scope.navshow = false;
+        $scope.nav.hidetip = "显示"
+    }
+    $scope.dohide = function(){
+        $scope.navshow = !$scope.navshow;
+        CookieService.setNavShow($scope.navshow);
+        if($scope.navshow){
+            $scope.nav.hidetip = "隐藏"
+        }else{
+            $scope.nav.hidetip = "显示"
+        }
+    }
+
+    $scope.header = {
+        lastTime:0,
+        viewflag:[],
+        mousemove:function(e){
+            if(new Date().getTime() - $scope.header.lastTime < 100){
+                return;
+            }
+            if($scope.header.viewflag.length > 0){
+                $scope.header.viewflag.splice(0,1,{x:e.clientX,y:e.clientY});
+            }else{
+                $scope.header.viewflag.push({x:e.clientX,y:e.clientY});
+            }
+            $scope.header.lastTime = new Date().getTime();
+        },
+        mouseout:function(){
+            $scope.header.viewflag.splice(0,1, {x:-999,y:-999});
+        }
+    }
+}
+
 var BodyCtrl = function ($scope,ContentService,CookieService) {
     $scope.vm = {
         isDoFind:true,
@@ -8,10 +54,6 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
         pageSize:10,
         pageNumber:1,
         key:""
-    }
-
-    $scope.nav = {
-
     }
 
     $scope.doFind = function(){
@@ -149,50 +191,9 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
         console.log($scope.pages)
     };
 
-    $scope.navshow = CookieService.getNavShow("true");
-    console.log($scope.navshow)
-    console.log($scope.navshow == "true")
-    if($scope.navshow == "true"){
-        $scope.navshow = true;
-        $scope.nav.hidetip = "隐藏"
-    }else{
-        $scope.navshow = false;
-        $scope.nav.hidetip = "显示"
-    }
-    $scope.dohide = function(){
-        $scope.navshow = !$scope.navshow;
-        CookieService.setNavShow($scope.navshow);
-        if($scope.navshow){
-            $scope.nav.hidetip = "隐藏"
-        }else{
-            $scope.nav.hidetip = "显示"
-        }
-    }
 }
 
 var LibCtrl = function ($scope,ContentService,CookieService) {
-    $scope.nav = {
-
-    }
-
-    $scope.navshow = CookieService.getNavShow(true);
-    if($scope.navshow == "true"){
-        $scope.navshow = true;
-        $scope.nav.hidetip = "隐藏"
-    }else{
-        $scope.navshow = false;
-        $scope.nav.hidetip = "显示"
-    }
-    $scope.dohide = function(){
-        $scope.navshow = !$scope.navshow;
-        CookieService.setNavShow($scope.navshow);
-        if($scope.navshow){
-            $scope.nav.hidetip = "隐藏"
-        }else{
-            $scope.nav.hidetip = "显示"
-        }
-    }
-
     $scope.androidLibList = [
         {name:"文本TextView",type:"textview",checked:true},
         {name:"对话框Dialog",type:"dialog",checked:false},
@@ -217,28 +218,6 @@ var LibCtrl = function ($scope,ContentService,CookieService) {
 }
 
 var WriteCtrl = function ($scope,ContentService,CookieService) {
-    $scope.nav = {
-
-    }
-
-    $scope.navshow = CookieService.getNavShow(true);
-    if($scope.navshow == "true"){
-        $scope.navshow = true;
-        $scope.nav.hidetip = "隐藏"
-    }else{
-        $scope.navshow = false;
-        $scope.nav.hidetip = "显示"
-    }
-    $scope.dohide = function(){
-        $scope.navshow = !$scope.navshow;
-        CookieService.setNavShow($scope.navshow);
-        if($scope.navshow){
-            $scope.nav.hidetip = "隐藏"
-        }else{
-            $scope.nav.hidetip = "显示"
-        }
-    }
-
     $scope.clip = function(){
 
         var copyText = $("span.cm-cm-overlay.cm-matchhighlight").text();
@@ -258,6 +237,7 @@ var WriteCtrl = function ($scope,ContentService,CookieService) {
 }
 
 angular.module("index", ['ngAnimate'])
+    .controller("GlobalCtrl", ["$scope","ContentService","CookieService",GlobalCtrl])
     .controller("BodyCtrl", ["$scope","ContentService","CookieService",BodyCtrl])
     .controller("LibCtrl", ["$scope","ContentService","CookieService",LibCtrl])
     .controller("WriteCtrl", ["$scope","ContentService","CookieService",WriteCtrl])

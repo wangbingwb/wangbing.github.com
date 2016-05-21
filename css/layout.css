@@ -9,6 +9,7 @@ body{
     background-color:#2e7bcf;
     position: relative;
     text-align: center;
+    overflow: hidden;
     box-shadow: 0px 2px 12px 0px;
 }
 
@@ -557,3 +558,28 @@ body{
 #layout{
     margin-top: 15px;
 }
+.ripple{
+    height: 2px;
+    width: 2px;
+    border-radius: 1px;
+    background-color: rgba(114, 180, 236, 0.63);
+    position: absolute;
+}
+.ripple.ng-leave{
+    transform: scale(1.0) ;
+    background-color: rgba(114, 180, 236, 0.63);
+    transition: all 2s;
+}
+.ripple.ng-leave.ng-leave-active{
+    transform: scale(100);
+    background-color: rgba(114, 180, 236, 0);
+}
+/*.ripple.ng-enter{*/
+    /*transform: scale(1.0) ;*/
+    /*background-color: rgba(114, 180, 236, 0.63);*/
+    /*transition: all 1s;*/
+/*}*/
+/*.ripple.ng-enter.ng-enter-active{*/
+    /*transform: scale(2.0);*/
+    /*background-color: rgba(114, 180, 236, 0);*/
+/*}*/

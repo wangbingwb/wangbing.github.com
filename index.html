@@ -1,4 +1,4 @@
-<html ng-app="index">
+<html ng-app="index" ng-controller="GlobalCtrl">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +27,8 @@
 </head>
     <body ng-controller="BodyCtrl">
 
-        <div id="header">
+        <div id="header" ng-mousemove="header.mousemove($event)" ng-mouseout="header.mouseout()">
+            <div ng-repeat="v in header.viewflag" class="ripple" style="left:{{v.x}}px;top:{{v.y}}px;"></div>
             <div class="nav" ng-class="{true:'show'}[navshow]">
                 <ul>
                     <li><a href="index.html">主页</a></li>
