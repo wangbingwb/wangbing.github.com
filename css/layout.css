@@ -280,6 +280,9 @@ body{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+#main .content-wrapper #content #list .page ul>li:nth-child(2n-1){
+    transform: translateY(0px);
+}
 #main .content-wrapper #content #list .page ul>li:nth-child(2n){
     transform: translateY(5px);
 }
