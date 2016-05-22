@@ -1,6 +1,14 @@
-/**
- * Created by bingwang on 2016/5/22.
- */
+#### prototype定义和用法
+prototype 属性使您有能力向对象添加属性和方法。
+
+#### 语法
+object.prototype.name=value
+
+
+#### 以下一些常用prototype扩展：
+
+##### 1.时间对象format
+```java
 Date.prototype.format = function (fmt) { //author: meizz
     var o = {
         "M+": this.getMonth() + 1, //月份
@@ -19,23 +27,16 @@ Date.prototype.format = function (fmt) { //author: meizz
     }
     return fmt;
 }
-Log = {
-    i : function(str){
-        console.log(new Date().format("MM-dd HH:mm:ss")+" "+str)
-    },
-    e : function(str){
-        console.error(new Date().format("MM-dd HH:mm:ss")+" "+str)
-    },
-    d : function(str){
-        if (window.debug) console.log(new Date().format("MM-dd HH:mm:ss")+" "+str)
+
+```
+
+##### 2.数组对象操作
+```java
+Array.prototype.remove = function(s) {
+    for (var i = 0; i < this.length; i++) {
+        if (s == this[i])
+            this.splice(i, 1);
     }
 }
 
-window.debug = true;
-
-Log.i("Log初始化成功...");
-if(window.debug){
-    Log.i("当前模式: DEBUG");
-}else{
-    Log.i("当前模式: NORMAL");
-}
+```

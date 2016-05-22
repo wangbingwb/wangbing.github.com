@@ -105,6 +105,10 @@
     -ms-user-select:none;/*IE10*/
     -khtml-user-select:none;/*早期浏览器*/
     user-select:none;
+    transition: all 0.3s;
+}
+.wb-clock:hover{
+    transform: rotate(360deg);
 }
 .wb-clock>a{
     color: #bababa;
