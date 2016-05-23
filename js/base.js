@@ -45,6 +45,22 @@ var GlobalCtrl = function($scope,ContentService,CookieService) {
             $scope.header.viewflag.splice(0,1, {x:-999,y:-999});
         }
     }
+    $scope.themeEmum={
+        normal:1,
+        night:2
+    }
+
+    $scope.theme = Number(CookieService.getTheme());
+
+    $scope.themeChange = function(){
+        $scope.theme = $scope.theme%2+1;
+        CookieService.setTheme($scope.theme);
+        if ($scope.theme == Number(CookieService.getTheme())){
+            Log.d("theme cookie save successed")
+        }else{
+            Log.d("theme cookie save failed")
+        }
+    }
 }
 
 var BodyCtrl = function ($scope,ContentService,CookieService) {
@@ -299,6 +315,23 @@ angular.module("index", ['ngAnimate'])
                 }
             }
             return {top:0,left:0};
+        };
+        service.setTheme = function (value) {
+            var now=new Date();
+            now.setTime(now.getTime()+30*24*60*60*1000)
+            var cookie= "Theme="+value+";path=/;expires="+now.toUTCString();
+            document.cookie = cookie;
+        };
+        service.getTheme = function () {
+            Log.d("Theme find")
+            var ck = document.cookie.split(";");
+            for (var i in ck){
+                if(/Theme/.test(ck[i].split("=")[0])){
+                    Log.d(ck[i]);
+                    return ck[i].split("=")[1];
+                }
+            }
+            return 1;
         };
         return service;
     }])

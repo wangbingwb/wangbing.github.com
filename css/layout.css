@@ -1,9 +1,12 @@
 body{
     padding: 0px;
     margin: 0px;
-    background-color: #fff;
+    background-color: #FFFFFF;
+    transition: all 2s;
 }
-
+.night-theme a{
+    color: #1f1f1f;
+}
 #header{
     height: 150px;
     background-color:#2e7bcf;
@@ -11,6 +14,7 @@ body{
     text-align: center;
     overflow: hidden;
     box-shadow: 0px 2px 12px 0px;
+    transition: all 2s;
 }
 
 #header .search{
@@ -24,8 +28,8 @@ body{
     padding-left: 20px;
     border-radius: 5px;
     border: 1px solid #808080;
-    background: url(../images/search-icon.png) no-repeat left center white;
-    transition: width 1s;
+    background: url(../images/search-icon.png) no-repeat left center #FFFFFF;
+    transition: all 2s, width 1s;
 }
 #header .search #key:focus{
     width: 150px;
@@ -104,16 +108,13 @@ body{
 
 }
 #main{
-    border-top: solid 1px #fff;
+    border-top: solid 1px #FFFFFF;
     padding-top: 30px;
 }
 #main .content-wrapper{
     margin: 0px auto;
 }
 #sidebar{
-    /*box-shadow: 1px 2px 3px #ddd;*/
-    /*border-radius: 5px;*/
-    /*background-color: #fff;*/
     padding: 20px;
     width: 210px;
     height: 500px;
@@ -172,8 +173,8 @@ body{
     margin-bottom: 1px;
     padding-left: 1em;
     padding-bottom: 5px;
-    background-color: #fff;
     display: block;
+    transition: all 2s;
 }
 #main .content-wrapper #content #list .title-list ul>li a{
     transition: all 1s;
@@ -221,6 +222,7 @@ body{
     position: relative;
     border-bottom: 1px solid #EAEAEA;
     position: relative;
+    transition: all 2s;
 }
 #main .content-wrapper #content #list .title-list.left-out{
     width:100px;
@@ -247,6 +249,7 @@ body{
     margin-left:2px;
 }
 #main .content-wrapper #content #list .page ul>li.selected a{
+    transition: all 2s;
     background-color: #5B6673;
     color: #FFFFFF;
 }
@@ -258,6 +261,7 @@ body{
     position: relative;
     border-radius: 15px;
     background-color: #E2E2E2;
+    transition: all 2s;
 }
 #main .content-wrapper #content #list .page ul>li>a .g{
     position: absolute;
@@ -426,7 +430,6 @@ body{
     height: 0px;
     overflow: hidden;
     white-space: nowrap;
-    background-color: white;
     transition: all .5s;
 }
 #footer>ul>li:hover ul li{
@@ -577,12 +580,142 @@ body{
     transform: scale(100);
     background-color: rgba(114, 180, 236, 0);
 }
-/*.ripple.ng-enter{*/
-    /*transform: scale(1.0) ;*/
-    /*background-color: rgba(114, 180, 236, 0.63);*/
-    /*transition: all 1s;*/
-/*}*/
-/*.ripple.ng-enter.ng-enter-active{*/
-    /*transform: scale(2.0);*/
-    /*background-color: rgba(114, 180, 236, 0);*/
-/*}*/
+
+/*主题部分*/
+.normal-theme{
+
+}
+.night-theme{
+    background-color: #47484A;
+}
+.night-theme a{
+    color: #777777;
+}
+.night-theme a:hover{
+    color: #DDDDDD;
+}
+.night-theme #header{
+    background-color: #292929;;
+}
+.night-theme #header .search #key {
+    background: url(../images/search-icon.png) no-repeat left center #5A5A5A;
+}
+.night-theme #main{
+    border-top: solid 1px #101010;
+}
+.night-theme #main .content-wrapper #content #list .title-list ul>li{
+    background-color: transparent;
+}
+
+.night-theme #main .content-wrapper #content #list .title-list ul>li .time {
+    border-bottom: 1px solid transparent;
+}
+.night-theme #main .content-wrapper #content  #list .title-list ul>li:before{
+    background-color: #505052;
+}
+.night-theme #main .content-wrapper #content  #list .title-list ul>li:hover:before{
+    height: 100%;
+}
+.night-theme .ripple{
+    height: 2px;
+    width: 2px;
+    border-radius: 1px;
+    background-color: rgba(20, 20, 20, 0.8);
+    position: absolute;
+}
+.night-theme .ripple.ng-leave{
+    transform: scale(1.0) ;
+    background-color: rgba(84, 84, 84, 0.83);
+    transition: all 2s;
+}
+.night-theme .ripple.ng-leave.ng-leave-active{
+    transform: scale(100);
+    background-color: rgba(84, 84, 84, 0);
+}
+.night-theme #footer{
+    border-top: 1px solid #717171;
+}
+.night-theme #main .content-wrapper #content #list .page ul>li.selected a{
+    background-color: #5B6673;
+    color: #FFFFFF;
+}
+.night-theme #main .content-wrapper #content #list .page ul>li>a{
+    background-color: #1b1b1b;
+    color: #DDDDDD;
+}
+.night-theme #main .content-wrapper #content #list .page ul>li>a .g{
+    background-color: #5B6673;
+}
+.night-theme #footer>ul>li ul li{
+    color: #EEEEEE;
+}
+
+/*日历颜色反转持续时间*/
+.wb-calender,
+.wb-calender .content,
+.wb-calender .content ul li a,
+.wb-calender .content ul li a.cover,
+.wb-calender .nav,
+.wb-calender .nav ul li,
+.wb-calender .ctrl{
+    transition: all 2s;
+}
+/*日历颜色反转*/
+.night-theme .wb-calender{
+    box-shadow: 3px 3px 6px 0px #333333;
+}
+.night-theme .wb-calender .content{
+    background-color: #412f20;;
+}
+.night-theme .wb-calender .content ul li a{
+    color: #a6a494;
+}
+.night-theme .wb-calender .content ul li a.cover{
+    color: #312518;
+}
+.night-theme .wb-calender .nav{
+    background-color: #1f2f1d;
+    border-bottom: 1px solid #424242;
+}
+.night-theme .wb-calender .nav ul li{
+    color: #3a3a3a;
+}
+.night-theme .wb-calender .ctrl{
+    background-color: #130909;
+}
+
+/*时钟颜色反转持续时间*/
+.wb-clock>a,
+.wb-clock>a:hover,
+.wb-clock .background,
+.wb-clock>a:hover .background,
+.wb-clock>a:hover .background .second,
+.wb-clock .background .center ,
+.wb-clock>a:hover .background .center{
+    transition: all 2s;
+}
+/*时钟颜色反转*/
+.night-theme .wb-clock>a{
+    color: #d6d6d6;
+}
+.night-theme .wb-clock>a:hover{
+    color: #474747;
+}
+.night-theme .wb-clock .background{
+    background-color: #757575;
+}
+.night-theme .wb-clock>a:hover .background{
+    background-color: #7e7e81;
+}
+.night-theme .wb-clock .background .second{
+    border-top: 40px solid #000000;
+}
+.night-theme .wb-clock>a:hover .background .second{
+    border-top: 40px solid #3a3a3a;
+}
+.night-theme .wb-clock .background .center {
+    background-color: #384139;
+}
+.night-theme .wb-clock>a:hover .background .center{
+    background-color: #6b746c;
+}
