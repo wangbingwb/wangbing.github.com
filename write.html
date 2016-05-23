@@ -31,7 +31,7 @@
     <script src="js/lib/jquery-2.1.4.min.js"></script>
     <script src="js/lib/editormd.min.js"></script>
 </head>
-<body ng-controller="WriteCtrl">
+<body ng-controller="WriteCtrl" ng-class="{1:'normal-theme',2:'night-theme'}[theme]">
     <div id="header" ng-mousemove="header.mousemove($event)" ng-mouseout="header.mouseout()">
         <div ng-repeat="v in header.viewflag" class="ripple" style="left:{{v.x}}px;top:{{v.y}}px;"></div>
         <clock></clock>
