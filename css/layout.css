@@ -111,9 +111,6 @@ body{
     border-top: solid 1px #FFFFFF;
     padding-top: 30px;
 }
-#main .content-wrapper{
-    margin: 0px auto;
-}
 #sidebar{
     padding: 20px;
     width: 210px;
@@ -131,7 +128,8 @@ body{
 }
 
 #main .content-wrapper{
-    width: 950px;
+    width: 1000px;
+    margin: 0px auto;
 }
 #main .content-wrapper #content{
     padding-left: 1em;
@@ -365,20 +363,22 @@ body{
 .article .title{
     position: relative;
     font-size: 240%;
-    /*font-weight: bolder;*/
+}
+.article .time{
+    margin-right: 100px;
+    text-align: left;
     display: inline-block;
-}
-.article .title .time{
-    position: absolute;
-    left:0px;
-    bottom: -12px;
     font-size: 12px;
 }
-.article .title .type{
-    position: absolute;
-    right: 0px;
-    bottom: -12px;
+.article .type{
+    margin-left: 100px;
+    text-align: right;
+    display: inline-block;
     font-size: 12px;
+}
+#articleBody-view{
+    width: 96%;
+    padding: 2%;
 }
 .title-list.ng-enter{
     transition: 0.7s linear all;
@@ -705,17 +705,127 @@ body{
     background-color: #757575;
 }
 .night-theme .wb-clock>a:hover .background{
-    background-color: #7e7e81;
+    background-color: #7E7E81;
 }
 .night-theme .wb-clock .background .second{
     border-top: 40px solid #000000;
 }
 .night-theme .wb-clock>a:hover .background .second{
-    border-top: 40px solid #3a3a3a;
+    border-top: 40px solid #3A3A3A;
 }
 .night-theme .wb-clock .background .center {
     background-color: #384139;
 }
 .night-theme .wb-clock>a:hover .background .center{
-    background-color: #6b746c;
+    background-color: #6B746C;
+}
+
+/*文章查看*/
+.night-theme .markdown-body a{
+    color: #C3A1A1;
+}
+.night-theme .article .title{
+    color: #E1DEDE;
+}
+.night-theme .article .time{
+    color: #A8A5A5;
+}
+.night-theme .article .type{
+    color: #A8A5A5;
+}
+.night-theme #articleBody-view{
+    background-color: #757678;
+}
+.night-theme .prettyprint.linenums.prettyprinted{
+    background-color: #47484A;
+}
+.night-theme .linenums .L1,
+.night-theme .linenums .L3,
+.night-theme .linenums .L5,
+.night-theme .linenums .L7,
+.night-theme .linenums .L9{
+    background: #616161;
+}
+.night-theme .linenums .typ,
+.night-theme .linenums .pun,
+.night-theme .linenums .pln,
+.night-theme .linenums .lit,
+.night-theme .linenums .pun{
+    color: #F1F1F1;
+}
+.night-theme .linenums .str{
+    color: #111111;
+}
+.night-theme .linenums .com{
+    color:#B1CEAE;
+}
+
+/*写文章*/
+.night-theme .editormd-menu > li > a{
+    color: #F1F1F1;
+}
+.night-theme .editormd-menu > li > a:hover{
+    background: #232323;
+}
+.night-theme .editormd-toolbar .editormd-toolbar-container{
+    background-color: #555555;
+}
+.night-theme .CodeMirror .CodeMirror-scroll{
+    background-color: #555555;
+}
+.night-theme .CodeMirror-activeline .CodeMirror-linebackground{
+    background-color: #252525;
+}
+.night-theme .editormd .CodeMirror pre{
+    color: #EAEAEA;
+}
+.night-theme .editormd-preview{
+    background-color: #555555;
+}
+.night-theme .CodeMirror-gutters{
+    background-color:#423939;
+}
+
+.night-theme .CodeMirror-gutter-elt{
+    color: #EAEAEA;
+}
+
+.night-theme .editormd-preview-container{
+    background-color: #777879;
+}
+
+/*库*/
+.night-theme .lib_list{
+    border-left: 1px solid #ffffff;
+}
+.night-theme .lib_list .list_sub ul li a{
+    color: #FFFFFF;
+}
+.night-theme .lib_list .list_name{
+    color: #FFFFFF;
+}
+.night-theme .lib_list .list_sub{
+    border-left: 1px solid #FFFFFF;
+}
+.night-theme .lib_list .list_sub ul li{
+    border: 1px solid #e1e1e1;
+}
+.night-theme .lib_list .list_sub ul li:before{
+    background-color: #f4f4f4;
+}
+.night-theme .lib_list .list_sub ul li:after{
+    background-color: #d8d8d8;
+}
+.night-theme #content .list_index ul li .info{
+    background-color: rgba(167, 167, 167, 0.68);
+}
+.night-theme #content.lib{
+    border-left: 1px solid #d1d1d1;;
+}
+.night-theme #content .list_index ul li .info .title,
+.night-theme #content .list_index ul li .info .down_url{
+    color: #d1d1d1;
+}
+.night-theme #content .list_index ul li .info a:hover{
+    color: #FFFFFF;
 }

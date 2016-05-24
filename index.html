@@ -85,11 +85,10 @@
 
                     <!-- 文章-->
                     <div ng-if="!vm.isDoFind && vm.isFinish">
-                        <div class="article table size-full text-center h_60">
-                            <div class="title table-cell">{{ article.title }}
-                                <div class="time">{{ article.time }}</div>
-                                <div class="type">标签 <span ng-class="{'java':'color_red','other':'color_blue','android':'color_green'}[article.type]">{{ article.type }}</span></div>
-                            </div>
+                        <div class="article size-full text-center">
+                            <div class="title size-fulll">{{ article.title }}</div>
+                            <div class="time">{{ article.time }}</div>
+                            <div class="type">标签 <span ng-class="{'java':'color_red','other':'color_blue','android':'color_green'}[article.type]">{{ article.type }}</span></div>
                         </div>
                         <textarea id="articleBody" style="display:none;"  ng-model="article.content" ng-change="toView()"></textarea>
                         <div id="articleBody-view"></div>
