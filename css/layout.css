@@ -689,7 +689,6 @@ body{
 .wb-clock>a:hover,
 .wb-clock .background,
 .wb-clock>a:hover .background,
-.wb-clock>a:hover .background .second,
 .wb-clock .background .center ,
 .wb-clock>a:hover .background .center{
     transition: all 2s;
