@@ -64,7 +64,8 @@
       {"time":"2016-05-19","title":"js中prototype及常用扩展","type":"javascript"},
       {"time":"2016-05-21","title":"angularjs数据模型被改变，视图确不变问题","type":"javascript"},
       {"time":"2016-05-22","title":"Android一个好用的Logger","type":"android"},
-      {"time":"2016-05-26","title":"使用Canvas类绘制基本图形、渐变及阴影","type":"android"},
+      {"time":"2016-05-25","title":"使用Canvas类绘制基本图形、渐变及阴影","type":"android"},
+      {"time":"2016-05-26","title":"RSA长字节分段加解密","type":"java"},
       {"time":"2016-01-01","title":"HOLD","type":"other"}
     ],
     "uppublish":[
