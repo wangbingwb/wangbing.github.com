@@ -67,6 +67,7 @@
       {"time":"2016-05-25","title":"使用Canvas类绘制基本图形、渐变及阴影","type":"android"},
       {"time":"2016-05-26","title":"RSA长字节分段加解密","type":"java"},
       {"time":"2016-05-30","title":"图像扭曲drawBitmapMesh的简单使用","type":"android"},
+      {"time":"2016-06-01","title":"windowSoftInputMode键盘的交互模式分析","type":"android"},
       {"time":"2016-01-01","title":"HOLD","type":"other"}
     ],
     "uppublish":[
