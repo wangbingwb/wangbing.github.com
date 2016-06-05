@@ -61,31 +61,13 @@
                 <div id="content" class="table-cell lib">
                     <div class="list_index">
                         <ul>
-                            <li>
-                                <div class="gif"><img src="images/ask.png"></div>
+                            <li ng-repeat="item in result">
+                                <div class="gif"><img src="{{item.picture_url}}"></div>
                                 <div class="info">
-                                    <a class="title">自定义View</a>
-                                    <a class="down_url">下载</a>
+                                    <a class="title">{{item.title}}</a>
+                                    <a class="down_url" href="{{item.down_url}}">下载</a>
                                 </div>
-                            </li><li>
-                            <div class="gif"><img src="images/ask.png"></div>
-                            <div class="info">
-                                <a class="title">自定义View</a>
-                                <a class="down_url">下载</a>
-                            </div>
-                        </li><li>
-                            <div class="gif"><img src="images/ask.png"></div>
-                            <div class="info">
-                                <a class="title">自定义View</a>
-                                <a class="down_url">下载</a>
-                            </div>
-                        </li><li>
-                            <div class="gif"><img src="images/ask.png"></div>
-                            <div class="info">
-                                <a class="title">自定义View</a>
-                                <a class="down_url">下载</a>
-                            </div>
-                        </li>
+                            </li>
                         </ul>
                     </div>
 

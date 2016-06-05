@@ -80,6 +80,36 @@
   },
   "lib":{
     "resultList":[
+      {
+        "title":"Avtivity切换效果","type":"otherview",
+        "picture_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160513161614.gif",
+        "down_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160513161614.zip"
+      },
+      {
+        "title":"可越界回弹ListView","type":"listview",
+        "picture_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160514161308.gif",
+        "down_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160514161308.zip"
+      },
+      {
+        "title":"圆环加载控件","type":"process",
+        "picture_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160514223723.gif",
+        "down_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160514223723.zip"
+      },
+      {
+        "title":"火柴形加载控件","type":"process",
+        "picture_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160514230426.gif",
+        "down_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160514230426.zip"
+      },
+      {
+        "title":"底部弹出确认框","type":"dialog",
+        "picture_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160519220421.gif",
+        "down_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160519220421.zip"
+      },
+      {
+        "title":"简单的引导页切换","type":"tabview",
+        "picture_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160519221339.gif",
+        "down_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160519221339.zip"
+      },
       {"time":"2016-01-01","title":"HOLD","type":"other","picture_url":"","down_url":""}
     ],
     "uppublish":[

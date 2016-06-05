@@ -521,12 +521,19 @@ body{
 }
 #content .list_index ul li{
     vertical-align: top;
-    height: 300px;
-    width: 220px;
+    height: 330px;
+    width: 198px;
     margin:0px 5px 5px 0px;
     display: inline-block;
     position: relative;
     overflow: hidden;
+}
+#content .list_index ul li.ng-enter{
+    transition: all 1s;
+    transform: rotateY(-180deg);
+}
+#content .list_index ul li.ng-enter.ng-enter-active{
+    transform: rotateY(0deg);
 }
 #content .list_index ul li .gif{
     height: 100%;

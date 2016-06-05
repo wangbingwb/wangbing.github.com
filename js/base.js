@@ -217,8 +217,8 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
 
 var LibCtrl = function ($scope,ContentService,CookieService) {
     $scope.androidLibList = [
-        {name:"文本TextView",type:"textview",checked:true},
-        {name:"对话框Dialog",type:"dialog",checked:false},
+        {name:"文本TextView",type:"textview",checked:false},
+        {name:"对话框Dialog",type:"dialog",checked:true},
         {name:"图片ImageView",type:"imageview",checked:false},
         {name:"按钮Button",type:"button",checked:false},
         {name:"滚动ScrollView",type:"scrollview",checked:false},
@@ -229,13 +229,36 @@ var LibCtrl = function ($scope,ContentService,CookieService) {
         {name:"文本TextView",type:"textview",checked:false},
         {name:"时间控件",type:"dateview",checked:false},
         {name:"其他控件",type:"otherview",checked:false}
-    ]
+    ];
+
+    ContentService.getList({}).success(function (data) {
+        if(data.lib && data.lib.resultList.length > 0){
+            $scope.allList = data.lib.resultList;
+            $scope.obtain();
+        }
+    });
+
+    $scope.obtain = function(){
+        for(var i in $scope.androidLibList){
+            if($scope.androidLibList[i].checked){
+                $scope.result = [];
+                for(var j in $scope.allList){
+                    if($scope.androidLibList[i].type ==$scope.allList[j].type){
+                        $scope.result.push($scope.allList[j]);
+                    }
+                }
+                console.log($scope.result);
+                break;
+            }
+        }
+    }
 
     $scope.selectlib = function(index){
         $scope.androidLibList.forEach(function(item){
             item.checked=false;
         })
         $scope.androidLibList[index].checked=true;
+        $scope.obtain();
     }
 }
 
