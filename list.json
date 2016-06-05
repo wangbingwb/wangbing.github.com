@@ -69,6 +69,7 @@
       {"time":"2016-05-30","title":"图像扭曲drawBitmapMesh的简单使用","type":"android"},
       {"time":"2016-06-01","title":"windowSoftInputMode键盘的交互模式分析","type":"android"},
       {"time":"2016-06-04","title":"简单的TextView切换动画实现","type":"android"},
+      {"time":"2016-06-05","title":"用drawBitmapMesh实现柱面效果","type":"android"},
       {"time":"2016-01-01","title":"HOLD","type":"other"}
     ],
     "uppublish":[
