@@ -217,8 +217,8 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
 
 var LibCtrl = function ($scope,ContentService,CookieService) {
     $scope.androidLibList = [
-        {name:"文本TextView",type:"textview",checked:false},
-        {name:"对话框Dialog",type:"dialog",checked:true},
+        {name:"文本TextView",type:"textview",checked:true},
+        {name:"对话框Dialog",type:"dialog",checked:false},
         {name:"图片ImageView",type:"imageview",checked:false},
         {name:"按钮Button",type:"button",checked:false},
         {name:"滚动ScrollView",type:"scrollview",checked:false},
@@ -226,7 +226,6 @@ var LibCtrl = function ($scope,ContentService,CookieService) {
         {name:"布局类Layout",type:"layout",checked:false},
         {name:"页卡切换TabView",type:"tabview",checked:false},
         {name:"进度条Process",type:"process",checked:false},
-        {name:"文本TextView",type:"textview",checked:false},
         {name:"时间控件",type:"dateview",checked:false},
         {name:"其他控件",type:"otherview",checked:false}
     ];

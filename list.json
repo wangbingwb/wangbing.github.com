@@ -70,6 +70,7 @@
       {"time":"2016-06-01","title":"windowSoftInputMode键盘的交互模式分析","type":"android"},
       {"time":"2016-06-04","title":"简单的TextView切换动画实现","type":"android"},
       {"time":"2016-06-05","title":"用drawBitmapMesh实现柱面效果","type":"android"},
+      {"time":"2016-06-07","title":"简单的图片模糊BlurImage","type":"android"},
       {"time":"2016-01-01","title":"HOLD","type":"other"}
     ],
     "uppublish":[
@@ -109,6 +110,16 @@
         "title":"简单的引导页切换","type":"tabview",
         "picture_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160519221339.gif",
         "down_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160519221339.zip"
+      },
+      {
+        "title":"TextView向上滚动切换","type":"textview",
+        "picture_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160606213535.gif",
+        "down_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160606213535.zip"
+      },
+      {
+        "title":"TextView向上滚动切换","type":"textview",
+        "picture_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160606215625.gif",
+        "down_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160606215625.zip"
       },
       {"time":"2016-01-01","title":"HOLD","type":"other","picture_url":"","down_url":""}
     ],
