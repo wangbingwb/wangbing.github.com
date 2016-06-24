@@ -208,3 +208,38 @@
     transform: translateY(-15px);
 }
 /*时钟控件结束*/
+
+/*导航控件开始*/
+.wb-nav{
+    position: fixed;
+    right: 0px;
+    bottom: 200px;
+    width: 35px;
+    transition: all 1s;
+    border-left: 1px solid #dddddd;
+    /*transform: translateX(35px);*/
+}
+.wb-nav ul li{
+    display: block;
+    height: 35px;
+    width: 35px;
+    border-bottom: 1px solid #dddddd;
+    background-color: #ffffff;
+    line-height: 35px;
+    text-align: center;
+    list-style: none;
+}
+.wb-nav ul li:first-child{
+    border-top: 1px solid #dddddd;
+}
+.wb-nav ul li:hover{
+    background-color: #e7e7e7;
+}
+.wb-nav ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.wb-nav ul li:hover a{
+    color: #3A3A3A;
+}

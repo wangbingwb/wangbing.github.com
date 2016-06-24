@@ -108,7 +108,8 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
             }
             $scope.doPage();
         });
-    }
+    };
+    $scope.doFind();
 
     $scope.view = function(index){
         $scope.vm.isDoFind = false;
@@ -172,8 +173,6 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
                     window.location.href = window.location.href.match(".*index.html");
                 })
             }
-        }else{
-            $scope.doFind();
         }
     }
     setTimeout(function(){
@@ -556,6 +555,46 @@ angular.module("index", ['ngAnimate'])
             '</div></div></div></a></div>',
         }
     })
+    .directive("nav",function(){
+        return {
+            restrict: 'E',
+            replace: true,
+            scope: true,
+            controller: ["$scope", function($scope){
+                $scope.wbnavs=[
+                    {name:"主",action:function(){window.location.href="/wb/index.html";}},
+                    {name:"写",action:function(){window.location.href="/wb/write.html";}},
+                    {name:"库",action:function(){window.location.href="/wb/lib.html";}},
+                    {name:"转",action:function(){$scope.themeChange();}},
+                    {name:"↑",action:function(){
+                        var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+                        if(scrollTop>5){
+                            window.scrollTo( 0, scrollTop -scrollTop*0.1);
+                            var cb = this;
+                            setTimeout(function(){
+                                cb.action();
+                            },10);
+                        }else{
+                            window.scrollTo( 0, 0);
+                        }
+                    }},
+                ]
+                $scope.wbnavsoffset = -36;
+                window.onscroll = function(){
+                    var scrollTop = -36+(document.documentElement.scrollTop || document.body.scrollTop);
+                    if(scrollTop > 0){
+                        $scope.wbnavsoffset = 0;
+                    }else{
+                        $scope.wbnavsoffset = scrollTop;
+                    }
+                }
+            }],
+            template: '<div class="wb-nav" style="right: {{wbnavsoffset}}px;"><ul>'+
+            '<li ng-repeat="n in wbnavs"><a ng-click="n.action()">{{n.name}}</a></li>'+
+            '</ul></div>',
+        }
+    })
+
 
 function toHtmlView(){
     var target = $("#articleBody").val();
