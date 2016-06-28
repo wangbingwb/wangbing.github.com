@@ -217,6 +217,7 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
 var LibCtrl = function ($scope,ContentService,CookieService) {
     $scope.androidLibList = [
         {name:"文本TextView",type:"textview",checked:true},
+        {name:"消息Toast",type:"toast",checked:false},
         {name:"对话框Dialog",type:"dialog",checked:false},
         {name:"图片ImageView",type:"imageview",checked:false},
         {name:"按钮Button",type:"button",checked:false},

@@ -28,6 +28,12 @@
 </head>
     <body ng-controller="BodyCtrl" ng-class="{1:'normal-theme',2:'night-theme'}[theme]">
 
+        <!--<div class="guide">-->
+            <!--<div class="border">-->
+                <!--<canvas class="canvas"></canvas>-->
+            <!--</div>-->
+        <!--</div>-->
+
         <div id="header" ng-mousemove="header.mousemove($event)" ng-mouseout="header.mouseout()">
             <div ng-repeat="v in header.viewflag" class="ripple" style="left:{{v.x}}px;top:{{v.y}}px;"></div>
             <clock></clock>

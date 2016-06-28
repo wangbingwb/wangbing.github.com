@@ -120,7 +120,7 @@
         "down_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160606213535.zip"
       },
       {
-        "title":"TextView向上滚动切换","type":"textview",
+        "title":"消息提示","type":"toast",
         "picture_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160606215625.gif",
         "down_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160606215625.zip"
       },
