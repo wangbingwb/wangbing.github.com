@@ -124,6 +124,16 @@
         "picture_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160606215625.gif",
         "down_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160606215625.zip"
       },
+      {
+        "title":"圆形图片","type":"imageview",
+        "picture_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160630225936.gif",
+        "down_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160630225936.zip"
+      },
+      {
+        "title":"背景模糊圆形图片","type":"imageview",
+        "picture_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160630225512.gif",
+        "down_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160630225512.zip"
+      },
       {"time":"2016-01-01","title":"HOLD","type":"other","picture_url":"","down_url":""}
     ],
     "uppublish":[
