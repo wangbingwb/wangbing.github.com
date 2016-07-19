@@ -221,6 +221,7 @@ var LibCtrl = function ($scope,ContentService,CookieService) {
         {name:"对话框Dialog",type:"dialog",checked:false},
         {name:"图片ImageView",type:"imageview",checked:false},
         {name:"按钮Button",type:"button",checked:false},
+        {name:"RadioButton",type:"radiobutton",checked:false},
         {name:"滚动ScrollView",type:"scrollview",checked:false},
         {name:"列表ListView",type:"listview",checked:false},
         {name:"布局类Layout",type:"layout",checked:false},

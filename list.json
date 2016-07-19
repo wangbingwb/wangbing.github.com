@@ -139,6 +139,16 @@
         "picture_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160630225512.gif",
         "down_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160630225512.zip"
       },
+      {
+        "title":"自定义RadioButton","type":"radiobutton",
+        "picture_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160717184955.gif",
+        "down_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160717184955.zip"
+      },
+      {
+        "title":"自定义消息提醒","type":"dialog",
+        "picture_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160703174358.gif",
+        "down_url":"http://osswb.oss-cn-shanghai.aliyuncs.com/object/20160703174358.zip"
+      },
       {"time":"2016-01-01","title":"HOLD","type":"other","picture_url":"","down_url":""}
     ],
     "uppublish":[
