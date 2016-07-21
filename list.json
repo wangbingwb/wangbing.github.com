@@ -78,9 +78,11 @@
       {"time":"2016-07-10","title":"java的int与字节数组互转","type":"java"},
       {"time":"2016-07-12","title":"正则表达式常用知识点","type":"java"},
       {"time":"2016-07-13","title":"常用正则表达式","type":"java"},
+      {"time":"2016-07-15","title":"常见的软件设计模式及了解","type":"other"},
       {"time":"2016-01-01","title":"HOLD","type":"other"}
     ],
     "uppublish":[
+
 	  {"time":"2016-05-13","title":"LruCache","type":"android"},
 	  {"time":"2016-05-13","title":"Afinal","type":"android"},
 	  {"time":"2016-05-13","title":"Volley","type":"android"},
