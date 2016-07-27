@@ -469,6 +469,10 @@
             padding-right: 10px;
             padding-left: 10px;
             border-radius: 25px;
+            transition: all 1s;
+        }
+        .project .list .item .pname:hover{
+            transform: scale(1.2);
         }
 
         .project .list .item .info {
@@ -493,8 +497,11 @@
             top: 7px;
         }
 
-        .project.f .info .line {
+        .project.f .info .line:nth-child(2n+1) {
             transform: translateX(700px);
+        }
+        .project.f .info .line:nth-child(2n) {
+            transform: translateX(-700px);
         }
     </style>
 </head>
