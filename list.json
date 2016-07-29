@@ -79,13 +79,15 @@
       {"time":"2016-07-12","title":"正则表达式常用知识点","type":"java"},
       {"time":"2016-07-13","title":"常用正则表达式","type":"java"},
       {"time":"2016-07-15","title":"常见的软件设计模式及了解","type":"other"},
+      {"time":"2016-07-29","title":"Volley的常用方法","type":"android"},
       {"time":"2016-01-01","title":"HOLD","type":"other"}
     ],
     "uppublish":[
 
+	  {"time":"2016-05-13","title":"图片压缩","type":"android"},
+	  {"time":"2016-05-13","title":"3级缓存","type":"android"},
 	  {"time":"2016-05-13","title":"LruCache","type":"android"},
 	  {"time":"2016-05-13","title":"Afinal","type":"android"},
-	  {"time":"2016-05-13","title":"Volley","type":"android"},
 	  {"time":"2016-05-13","title":"RoundRectShape","type":"android"},
 	  {"time":"2016-05-13","title":"StateListDrawable","type":"android"},
 	  {"time":"2016-05-13","title":"TranslateAnimation","type":"android"}

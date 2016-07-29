@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95d729e3-0713-4cd5-a28a-f90437b7a109" name="Default" comment="">
+    <list default="true" id="cf32202d-55a9-4e3a-a28d-a77c1aaa91d7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/android/2016-07-29-Volley的常用方法.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/list.json" afterPath="$PROJECT_DIR$/list.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wb.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,40 +21,78 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="wb" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="list.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list.json">
+      <file leaf-file-name="2016-07-15-常见的软件设计模式及了解.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/other/2016-07-15-常见的软件设计模式及了解.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-64.28125">
-              <caret line="154" column="8" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="207" column="34" selection-start-line="207" selection-start-column="34" selection-end-line="207" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resume.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resume.html">
+      <file leaf-file-name="base.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.687924">
-              <caret line="474" column="34" selection-start-line="474" selection-start-column="34" selection-end-line="474" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="571" column="0" selection-start-line="571" selection-start-column="0" selection-end-line="580" selection-end-column="25" />
               <folding>
-                <element signature="e#110#578#0" expanded="false" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1468753092867" expanded="true" signature="22143:22191" placeholder="..." />
+                <marker date="1468753092867" expanded="true" signature="24493:24519" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="list.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.25">
+              <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-07-29-Volley的常用方法.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/android/2016-07-29-Volley的常用方法.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.8605072">
+              <caret line="67" column="27" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,57 +105,45 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/blog/dome.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-02-29-学习-ViewSwitcher及其子类.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-02-30-学习-ViewFlipper自动播放.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-03-02-Toast显示提示信息.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-03-03-学习-AdapterViewFlipper简单使用.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-03-04-学习-StackView功能与用法实践.md" />
+        <option value="$PROJECT_DIR$/blog/android/aa.md" />
+        <option value="$PROJECT_DIR$/blog/android/asd.md" />
+        <option value="$PROJECT_DIR$/css/base.css" />
+        <option value="$PROJECT_DIR$/blog/android/2016-05-13-代码中使用Interpolator.md" />
+        <option value="$PROJECT_DIR$/blog/android/2016-02-27-学习-ViewAnimator及其子类.md" />
         <option value="$PROJECT_DIR$/js/util.js" />
-        <option value="$PROJECT_DIR$/blog/javascript/2016-03-10-Angularjs简单指令应用.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-03-11-学习-SQLite数据库认识.md" />
-        <option value="$PROJECT_DIR$/blog/java/2015-12-05-javatest.md" />
-        <option value="$PROJECT_DIR$/blog/java/java原生http的get和post请求.md" />
-        <option value="$USER_HOME$/Desktop/index.html" />
-        <option value="$PROJECT_DIR$/blog/android/2016-03-14-学习-AsysncTask使用.md" />
-        <option value="$PROJECT_DIR$/blog/java/2016-03-12-java原生http的get和post请求.md" />
-        <option value="$PROJECT_DIR$/blog/java/2016-03-13-学习-HttpURLConnection了解.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-03-20-在布局文件中声明Click事件.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-03-21-学习-popupWindow的简单使用.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-03-22-使用base64上传文件.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-03-23-android基于监听的处理模型.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-03-24-android基于监听处理的几种方式整理.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-03-25-android基于回调的事件处理.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-03-26-Configuration类简单认识.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-03-27-学习-简单的监听屏幕方向变化.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-03-28-学习-Handler消息传递简介.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-03-30-学习-Handler的工作原理.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-04-05-学习-Activity生命周期理解.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-04-06-学习-Activity加载模式.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-04-08-学习-Intent-filter简单应用.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-04-09-系统标准Action与Category常量整理.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-04-11-学习-Android应用资源.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-04-11-学习-Android应用资源-简单值定义.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-04-10-学习-Android应用资源.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-04-12-学习-Android应用资源-原始XML资源.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-04-13-学习-Android应用资源-animator属性动画.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-04-14-学习-Android应用资源-anim补间动画资源.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-04-02-gradle刷不到maven库最新jar包.md" />
-        <option value="$PROJECT_DIR$/css/directive.css" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/blog/java/2016-05-15-一些关于时间的计算标准.md" />
+        <option value="$PROJECT_DIR$/blog/javascript/2016-05-21-angularjs数据模型被改变，视图确不变问题.md" />
+        <option value="$PROJECT_DIR$/js/Log.js" />
+        <option value="$PROJECT_DIR$/blog/javascript/2016-05-19-js中prototype及常用扩展.md" />
+        <option value="$PROJECT_DIR$/blog/java/2016-05-22-RSA算法加密解密签名验签入门.md" />
+        <option value="$PROJECT_DIR$/css/editormd.preview.min.css" />
+        <option value="$PROJECT_DIR$/blog/android/2016-05-26-使用Canvas类绘制基本图形、渐变及阴影.md" />
+        <option value="$PROJECT_DIR$/blog/android/2016-05-30-图像扭曲drawBitmapMesh的简单使用.md" />
+        <option value="$PROJECT_DIR$/blog/android/2016-06-01-windowSoftInputMode键盘的交互模式分析.md" />
+        <option value="$PROJECT_DIR$/blog/android/2016-06-04-简单的TextView切换动画实现.md" />
+        <option value="$PROJECT_DIR$/blog/android/2016-06-05-用drawBitmapMesh实现柱面效果.md" />
+        <option value="$PROJECT_DIR$/blog/android/2016-05-09-Android自定义圆形图片.md" />
+        <option value="$PROJECT_DIR$/blog/android/2016-06-07-简单的图片模糊BlurImage.md" />
+        <option value="$PROJECT_DIR$/blog/java/2016-06-14-java代码中实现邮件的发送.md" />
+        <option value="$PROJECT_DIR$/blog/java/2016-06-17-java反射使用整理.md" />
+        <option value="$PROJECT_DIR$/blog/java/2016-06-18-java反射使用整理1.md" />
         <option value="$PROJECT_DIR$/css/layout.css" />
         <option value="$PROJECT_DIR$/lib.html" />
-        <option value="$PROJECT_DIR$/js/base.js" />
         <option value="$PROJECT_DIR$/write.html" />
-        <option value="$PROJECT_DIR$/blog/android/2016-04-15-学习-Bitmap对象和BitmapFactory.md" />
-        <option value="$PROJECT_DIR$/css/base.css" />
-        <option value="$PROJECT_DIR$/blog/android/2016-04-17-SharedPreferences对象存储.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-04-18-Android绘图基础和Canvas对象.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-04-20-WebView简单介绍.md" />
-        <option value="$PROJECT_DIR$/blog/android/2016-04-21-更换壁纸与WallpaperManager.md" />
-        <option value="$USER_HOME$/Desktop/新建文本文档.html" />
-        <option value="$PROJECT_DIR$/list.json" />
+        <option value="$PROJECT_DIR$/css/directive.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$USER_HOME$/Desktop/react-demos-master/build/browser.min.js" />
+        <option value="$USER_HOME$/Desktop/index.html" />
+        <option value="$PROJECT_DIR$/blog/javascript/2016-07-06-React.js入门及实例.md" />
+        <option value="$PROJECT_DIR$/blog/java/2016-07-10-java的int与字节数组互转.md" />
+        <option value="$PROJECT_DIR$/js/base.js" />
+        <option value="$USER_HOME$/Desktop/resume.html" />
         <option value="$PROJECT_DIR$/resume.html" />
+        <option value="$PROJECT_DIR$/blog/java/2016-07-12-正则表达式常用表达.md" />
+        <option value="$PROJECT_DIR$/blog/java/2016-07-13-常用正则表达式处理字符.md" />
+        <option value="$PROJECT_DIR$/blog/other/2016-07-15-常见的软件设计模式及了解.md" />
+        <option value="$PROJECT_DIR$/blog/android/2016-07-29-Volley的常用方法.md" />
+        <option value="$PROJECT_DIR$/list.json" />
       </list>
     </option>
   </component>
@@ -141,9 +170,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="639" />
-    <option name="width" value="1145" />
-    <option name="height" value="1040" />
+    <option name="x" value="107" />
+    <option name="width" value="1373" />
+    <option name="height" value="971" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -168,8 +197,9 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -198,7 +228,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -215,50 +245,51 @@
               <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java" />
     <property name="FullScreen" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="71" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="107" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="77" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="137" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="76" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="136" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="812" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="930" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="71" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="124" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="78" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="131" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="77" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="131" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="823" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="924" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\wb\blog\android" />
-      <recent name="D:\workspace\wb\js\lib" />
-      <recent name="D:\workspace\wb\js" />
-      <recent name="D:\workspace\wb" />
+      <recent name="D:\workspace\wb\blog\other" />
       <recent name="D:\workspace\wb\blog\java" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\wb\js\lib" />
+      <recent name="D:\workspace\wb" />
+      <recent name="D:\workspace\wb\blog\javascript" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -276,16 +307,7 @@
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
           <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/android/2016-02-27-学习-ViewAnimator及其子类.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/base.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/directive.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/layout.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/base.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/util.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/lib.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/list.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/write.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/resume.html</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -293,30 +315,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/android/2016-05-09-Android自定义圆形图片.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/android/2016-05-13-代码中使用Interpolator.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/android/2016-05-22-Android一个好用的Logger.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/android/2016-05-25-使用Canvas类绘制基本图形、渐变及阴影.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/android/2016-05-30-图像扭曲drawBitmapMesh的简单使用.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/android/2016-06-01-windowSoftInputMode键盘的交互模式分析.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/android/2016-06-04-简单的TextView切换动画实现.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/android/2016-06-05-用drawBitmapMesh实现柱面效果.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/android/2016-06-07-简单的图片模糊BlurImage.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/java/2016-05-15-RSA算法加密解密签名验签入门.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/java/2016-05-17-一些关于时间的计算标准.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/java/2016-05-26-RSA长字节分段加解密.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/java/2016-06-14-java代码中实现邮件的发送.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/java/2016-06-17-java反射使用整理.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/java/2016-06-18-java反射使用整理1.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/java/2016-07-10-java的int与字节数组互转.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/java/2016-07-12-正则表达式常用知识点.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/java/2016-07-13-常用正则表达式.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/javascript/2016-05-19-js中prototype及常用扩展.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/javascript/2016-05-21-angularjs数据模型被改变，视图确不变问题.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/javascript/2016-07-06-React.js入门及实例.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/blog/other/2016-07-15-常见的软件设计模式及了解.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/Log.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/resume.html</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -324,9 +322,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/editor/lib/codemirror/addon/display/fullscreen.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/editor/lib/codemirror/addon/display/fullscreen.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/editor/lib/codemirror/addon/display/rulers.js</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -409,47 +404,6 @@
     </UpdatedFiles>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -652,338 +606,340 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="95d729e3-0713-4cd5-a28a-f90437b7a109" name="Default" comment="" />
-      <created>1456643149558</created>
+      <changelist id="cf32202d-55a9-4e3a-a28d-a77c1aaa91d7" name="Default" comment="" />
+      <created>1462894796221</created>
       <option name="number" value="Default" />
-      <updated>1456643149558</updated>
-      <workItem from="1456643153195" duration="4303000" />
-      <workItem from="1456655968448" duration="5093000" />
-      <workItem from="1456744599417" duration="16048000" />
-      <workItem from="1456927625676" duration="8963000" />
-      <workItem from="1457019262457" duration="895000" />
-      <workItem from="1457182010920" duration="4700000" />
-      <workItem from="1457235393901" duration="29121000" />
-      <workItem from="1457360462163" duration="6052000" />
-      <workItem from="1457436970773" duration="7555000" />
-      <workItem from="1457529968951" duration="8874000" />
-      <workItem from="1457611138774" duration="14312000" />
-      <workItem from="1457708893617" duration="2048000" />
-      <workItem from="1457790950990" duration="2205000" />
-      <workItem from="1457796830547" duration="781000" />
-      <workItem from="1457867205902" duration="13001000" />
-      <workItem from="1457970407973" duration="755000" />
-      <workItem from="1458054023385" duration="1746000" />
-      <workItem from="1458228821701" duration="67000" />
-      <workItem from="1458397695212" duration="273000" />
-      <workItem from="1458571982843" duration="1481000" />
-      <workItem from="1458653041901" duration="1333000" />
-      <workItem from="1458736701905" duration="1805000" />
-      <workItem from="1458828457572" duration="2414000" />
-      <workItem from="1459086215565" duration="1372000" />
-      <workItem from="1459257499794" duration="3080000" />
-      <workItem from="1459344213500" duration="2058000" />
-      <workItem from="1459866082601" duration="1415000" />
-      <workItem from="1459950101597" duration="1382000" />
-      <workItem from="1460259489998" duration="385000" />
-      <workItem from="1460298960289" duration="1212000" />
-      <workItem from="1460382432580" duration="4177000" />
-      <workItem from="1460469581463" duration="3047000" />
-      <workItem from="1460562162789" duration="334000" />
-      <workItem from="1460640523171" duration="3847000" />
-      <workItem from="1460734367081" duration="807000" />
-      <workItem from="1460785505295" duration="29000" />
-      <workItem from="1461463929884" duration="11181000" />
-      <workItem from="1461499361352" duration="6773000" />
-      <workItem from="1461588710544" duration="4612000" />
-      <workItem from="1461682598206" duration="1337000" />
-      <workItem from="1462068814310" duration="731000" />
-      <workItem from="1462115440166" duration="837000" />
-      <workItem from="1462156177910" duration="1175000" />
-      <workItem from="1469577041339" duration="2584000" />
+      <updated>1462894796221</updated>
+      <workItem from="1462894799041" duration="106000" />
+      <workItem from="1463059427309" duration="1166000" />
+      <workItem from="1463060616942" duration="2043000" />
+      <workItem from="1463076248065" duration="548000" />
+      <workItem from="1463127887658" duration="3322000" />
+      <workItem from="1463147704549" duration="2163000" />
+      <workItem from="1463150960835" duration="11132000" />
+      <workItem from="1463671006580" duration="1538000" />
+      <workItem from="1463753425688" duration="9838000" />
+      <workItem from="1463797037810" duration="17072000" />
+      <workItem from="1463835138519" duration="15792000" />
+      <workItem from="1463892498554" duration="5186000" />
+      <workItem from="1463912461909" duration="831000" />
+      <workItem from="1463923170659" duration="838000" />
+      <workItem from="1464007670646" duration="10133000" />
+      <workItem from="1464091892442" duration="7415000" />
+      <workItem from="1464189762137" duration="96000" />
+      <workItem from="1464189874350" duration="193000" />
+      <workItem from="1464190104997" duration="159000" />
+      <workItem from="1464192547371" duration="342000" />
+      <workItem from="1464268608068" duration="892000" />
+      <workItem from="1464272772240" duration="43000" />
+      <workItem from="1464275642324" duration="599000" />
+      <workItem from="1464532150013" duration="632000" />
+      <workItem from="1464622004541" duration="255000" />
+      <workItem from="1464798461363" duration="192000" />
+      <workItem from="1464950684812" duration="2443000" />
+      <workItem from="1465049163698" duration="1128000" />
+      <workItem from="1465118548094" duration="1087000" />
+      <workItem from="1465136976660" duration="4385000" />
+      <workItem from="1465218609287" duration="631000" />
+      <workItem from="1465305236045" duration="1888000" />
+      <workItem from="1465914760198" duration="38000" />
+      <workItem from="1465919173628" duration="734000" />
+      <workItem from="1466166608984" duration="862000" />
+      <workItem from="1466169206268" duration="5741000" />
+      <workItem from="1466249294446" duration="4327000" />
+      <workItem from="1466341747429" duration="2867000" />
+      <workItem from="1466428425067" duration="3371000" />
+      <workItem from="1466649884577" duration="20000" />
+      <workItem from="1466730646975" duration="13328000" />
+      <workItem from="1467035330900" duration="3300000" />
+      <workItem from="1467123775971" duration="1423000" />
+      <workItem from="1467299891868" duration="311000" />
+      <workItem from="1467820190679" duration="969000" />
+      <workItem from="1467894700592" duration="4934000" />
+      <workItem from="1468642733517" duration="252000" />
+      <workItem from="1468671485452" duration="642000" />
+      <workItem from="1468680761880" duration="1446000" />
+      <workItem from="1468721448767" duration="1039000" />
+      <workItem from="1468752468686" duration="10777000" />
+      <workItem from="1468811569492" duration="16656000" />
+      <workItem from="1468834380787" duration="18824000" />
+      <workItem from="1468901608398" duration="7938000" />
+      <workItem from="1468946830738" duration="57000" />
+      <workItem from="1468982272159" duration="7762000" />
+      <workItem from="1469089804724" duration="7459000" />
+      <workItem from="1469107771495" duration="602000" />
+      <workItem from="1469803792925" duration="1976000" />
     </task>
     <task id="LOCAL-00001" summary="do">
-      <created>1456669913989</created>
+      <created>1463130958140</created>
       <option name="number" value="00001" />
       <option name="project" value="LOCAL" />
-      <updated>1456669913989</updated>
+      <updated>1463130958140</updated>
     </task>
     <task id="LOCAL-00002" summary="do">
-      <created>1456761607749</created>
+      <created>1463148997368</created>
       <option name="number" value="00002" />
       <option name="project" value="LOCAL" />
-      <updated>1456761607749</updated>
+      <updated>1463148997368</updated>
     </task>
     <task id="LOCAL-00003" summary="do">
-      <created>1456845253045</created>
+      <created>1463154256664</created>
       <option name="number" value="00003" />
       <option name="project" value="LOCAL" />
-      <updated>1456845253045</updated>
+      <updated>1463154256664</updated>
     </task>
     <task id="LOCAL-00004" summary="do">
-      <created>1456845413007</created>
+      <created>1463162458227</created>
       <option name="number" value="00004" />
       <option name="project" value="LOCAL" />
-      <updated>1456845413007</updated>
+      <updated>1463162458227</updated>
     </task>
     <task id="LOCAL-00005" summary="do">
-      <created>1456846260834</created>
+      <created>1463673678421</created>
       <option name="number" value="00005" />
       <option name="project" value="LOCAL" />
-      <updated>1456846260834</updated>
+      <updated>1463673678421</updated>
     </task>
     <task id="LOCAL-00006" summary="do">
-      <created>1456846474633</created>
+      <created>1463806875015</created>
       <option name="number" value="00006" />
       <option name="project" value="LOCAL" />
-      <updated>1456846474633</updated>
+      <updated>1463806875015</updated>
     </task>
     <task id="LOCAL-00007" summary="do">
-      <created>1457019312172</created>
+      <created>1463843119834</created>
       <option name="number" value="00007" />
       <option name="project" value="LOCAL" />
-      <updated>1457019312172</updated>
+      <updated>1463843119834</updated>
     </task>
     <task id="LOCAL-00008" summary="do">
-      <created>1457020248428</created>
+      <created>1463851937635</created>
       <option name="number" value="00008" />
       <option name="project" value="LOCAL" />
-      <updated>1457020248428</updated>
+      <updated>1463851937635</updated>
     </task>
     <task id="LOCAL-00009" summary="do">
-      <created>1457187493880</created>
+      <created>1463896992839</created>
       <option name="number" value="00009" />
       <option name="project" value="LOCAL" />
-      <updated>1457187493880</updated>
+      <updated>1463896992839</updated>
     </task>
     <task id="LOCAL-00010" summary="do">
-      <created>1457192604280</created>
+      <created>1463912892759</created>
       <option name="number" value="00010" />
       <option name="project" value="LOCAL" />
-      <updated>1457192604280</updated>
+      <updated>1463912892759</updated>
     </task>
     <task id="LOCAL-00011" summary="do">
-      <created>1457275788865</created>
+      <created>1463928775428</created>
       <option name="number" value="00011" />
       <option name="project" value="LOCAL" />
-      <updated>1457275788865</updated>
+      <updated>1463928775428</updated>
     </task>
     <task id="LOCAL-00012" summary="do">
-      <created>1457280033744</created>
+      <created>1464018666314</created>
       <option name="number" value="00012" />
       <option name="project" value="LOCAL" />
-      <updated>1457280033744</updated>
+      <updated>1464018666314</updated>
     </task>
     <task id="LOCAL-00013" summary="do">
-      <created>1457360792143</created>
+      <created>1464018735748</created>
       <option name="number" value="00013" />
       <option name="project" value="LOCAL" />
-      <updated>1457360792143</updated>
+      <updated>1464018735748</updated>
     </task>
     <task id="LOCAL-00014" summary="do">
-      <created>1457366939991</created>
+      <created>1464018775514</created>
       <option name="number" value="00014" />
       <option name="project" value="LOCAL" />
-      <updated>1457366939991</updated>
+      <updated>1464018775514</updated>
     </task>
     <task id="LOCAL-00015" summary="do">
-      <created>1457543670264</created>
+      <created>1464099035077</created>
       <option name="number" value="00015" />
       <option name="project" value="LOCAL" />
-      <updated>1457543670264</updated>
+      <updated>1464099035077</updated>
     </task>
     <task id="LOCAL-00016" summary="do">
-      <created>1457624802699</created>
+      <created>1464099201181</created>
       <option name="number" value="00016" />
       <option name="project" value="LOCAL" />
-      <updated>1457624802699</updated>
+      <updated>1464099201181</updated>
     </task>
     <task id="LOCAL-00017" summary="do">
-      <created>1457626326467</created>
+      <created>1464192840718</created>
       <option name="number" value="00017" />
       <option name="project" value="LOCAL" />
-      <updated>1457626326467</updated>
+      <updated>1464192840718</updated>
     </task>
     <task id="LOCAL-00018" summary="do">
-      <created>1457711151870</created>
+      <created>1464622173724</created>
       <option name="number" value="00018" />
       <option name="project" value="LOCAL" />
-      <updated>1457711151870</updated>
+      <updated>1464622173724</updated>
     </task>
     <task id="LOCAL-00019" summary="do">
-      <created>1457796639002</created>
+      <created>1464622255055</created>
       <option name="number" value="00019" />
       <option name="project" value="LOCAL" />
-      <updated>1457796639002</updated>
+      <updated>1464622255055</updated>
     </task>
     <task id="LOCAL-00020" summary="do">
-      <created>1457796933302</created>
+      <created>1464798636872</created>
       <option name="number" value="00020" />
       <option name="project" value="LOCAL" />
-      <updated>1457796933302</updated>
+      <updated>1464798636872</updated>
     </task>
     <task id="LOCAL-00021" summary="do">
-      <created>1457973411830</created>
+      <created>1465049692101</created>
       <option name="number" value="00021" />
       <option name="project" value="LOCAL" />
-      <updated>1457973411830</updated>
+      <updated>1465049692101</updated>
     </task>
     <task id="LOCAL-00022" summary="do">
-      <created>1458056893045</created>
+      <created>1465122800455</created>
       <option name="number" value="00022" />
       <option name="project" value="LOCAL" />
-      <updated>1458056893045</updated>
+      <updated>1465122800455</updated>
     </task>
     <task id="LOCAL-00023" summary="do">
-      <created>1458228862199</created>
+      <created>1465122834697</created>
       <option name="number" value="00023" />
       <option name="project" value="LOCAL" />
-      <updated>1458228862199</updated>
+      <updated>1465122834697</updated>
     </task>
     <task id="LOCAL-00024" summary="do">
-      <created>1458397775107</created>
+      <created>1465142110409</created>
       <option name="number" value="00024" />
       <option name="project" value="LOCAL" />
-      <updated>1458397775107</updated>
+      <updated>1465142110409</updated>
     </task>
     <task id="LOCAL-00025" summary="do">
-      <created>1458575189717</created>
+      <created>1465142150684</created>
       <option name="number" value="00025" />
       <option name="project" value="LOCAL" />
-      <updated>1458575189717</updated>
+      <updated>1465142150684</updated>
     </task>
     <task id="LOCAL-00026" summary="do">
-      <created>1458658279068</created>
+      <created>1465308458909</created>
       <option name="number" value="00026" />
       <option name="project" value="LOCAL" />
-      <updated>1458658279068</updated>
+      <updated>1465308458909</updated>
     </task>
     <task id="LOCAL-00027" summary="do">
-      <created>1458738715026</created>
+      <created>1465919259414</created>
       <option name="number" value="00027" />
       <option name="project" value="LOCAL" />
-      <updated>1458738715026</updated>
+      <updated>1465919259414</updated>
     </task>
     <task id="LOCAL-00028" summary="do">
-      <created>1458828807886</created>
+      <created>1465919287515</created>
       <option name="number" value="00028" />
       <option name="project" value="LOCAL" />
-      <updated>1458828807886</updated>
+      <updated>1465919287515</updated>
     </task>
     <task id="LOCAL-00029" summary="do">
-      <created>1458831161010</created>
+      <created>1466176866748</created>
       <option name="number" value="00029" />
       <option name="project" value="LOCAL" />
-      <updated>1458831161010</updated>
+      <updated>1466176866748</updated>
     </task>
     <task id="LOCAL-00030" summary="do">
-      <created>1459088703591</created>
+      <created>1466432377477</created>
       <option name="number" value="00030" />
       <option name="project" value="LOCAL" />
-      <updated>1459088703591</updated>
+      <updated>1466432377477</updated>
     </task>
     <task id="LOCAL-00031" summary="do">
-      <created>1459264865314</created>
+      <created>1466749555209</created>
       <option name="number" value="00031" />
       <option name="project" value="LOCAL" />
-      <updated>1459264865314</updated>
+      <updated>1466749555209</updated>
     </task>
     <task id="LOCAL-00032" summary="do">
-      <created>1459348676081</created>
+      <created>1467124975082</created>
       <option name="number" value="00032" />
       <option name="project" value="LOCAL" />
-      <updated>1459348676081</updated>
+      <updated>1467124975082</updated>
     </task>
     <task id="LOCAL-00033" summary="do">
-      <created>1459956991574</created>
+      <created>1467300168544</created>
       <option name="number" value="00033" />
       <option name="project" value="LOCAL" />
-      <updated>1459956991574</updated>
+      <updated>1467300168544</updated>
     </task>
     <task id="LOCAL-00034" summary="do">
-      <created>1460390819993</created>
+      <created>1468671502427</created>
       <option name="number" value="00034" />
       <option name="project" value="LOCAL" />
-      <updated>1460390819993</updated>
+      <updated>1468671502427</updated>
     </task>
     <task id="LOCAL-00035" summary="do">
-      <created>1460476941392</created>
+      <created>1468680878266</created>
       <option name="number" value="00035" />
       <option name="project" value="LOCAL" />
-      <updated>1460476941392</updated>
+      <updated>1468680878266</updated>
     </task>
     <task id="LOCAL-00036" summary="do">
-      <created>1460562352493</created>
+      <created>1468683356377</created>
       <option name="number" value="00036" />
       <option name="project" value="LOCAL" />
-      <updated>1460562352493</updated>
+      <updated>1468683356377</updated>
     </task>
     <task id="LOCAL-00037" summary="do">
-      <created>1460646930730</created>
+      <created>1468909426663</created>
       <option name="number" value="00037" />
       <option name="project" value="LOCAL" />
-      <updated>1460646930731</updated>
+      <updated>1468909426663</updated>
     </task>
     <task id="LOCAL-00038" summary="do">
-      <created>1460734896260</created>
+      <created>1469010931217</created>
       <option name="number" value="00038" />
       <option name="project" value="LOCAL" />
-      <updated>1460734896260</updated>
+      <updated>1469010931217</updated>
     </task>
     <task id="LOCAL-00039" summary="do">
-      <created>1461511870644</created>
+      <created>1469097352756</created>
       <option name="number" value="00039" />
       <option name="project" value="LOCAL" />
-      <updated>1461511870644</updated>
+      <updated>1469097352756</updated>
     </task>
-    <task id="LOCAL-00040" summary="do">
-      <created>1461599016324</created>
-      <option name="number" value="00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1461599016324</updated>
-    </task>
-    <task id="LOCAL-00041" summary="do">
-      <created>1469597104680</created>
-      <option name="number" value="00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1469597104680</updated>
-    </task>
-    <option name="localTasksCounter" value="42" />
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186200000" />
+    <option name="totallyTimeSpent" value="221743000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="639" y="0" width="1145" height="1040" extended-state="0" />
+    <frame x="107" y="0" width="1373" height="971" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27863047" sideWeight="0.61392885" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09130913" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21670267" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27863047" sideWeight="0.38607115" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27376118" sideWeight="0.51073444" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32258064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28084785" sideWeight="0.48926553" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975152" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981949" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07350801" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896304" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293556" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -1001,6 +957,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="do" />
     <option name="LAST_COMMIT_MESSAGE" value="do" />
   </component>
@@ -1013,397 +971,388 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07723577">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-02-28-学习-ViewSwitcher.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6576923">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-02-29-学习-ViewSwitcher及其子类.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7076923">
-          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-03-01-学习-ViewFlipper自动播放.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7755102">
-          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-03-02-Toast显示提示信息.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5377358">
-          <caret line="60" column="71" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-03-03-学习-AdapterViewFlipper简单使用.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6871069">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-03-04-学习-StackView功能与用法实践.md">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-05-09-Android自定义圆形图片.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/function.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/javascript/2016-03-10-Angularjs简单指令应用.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9115442">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-03-11-学习-SQLite数据库认识.md">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9716981">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-03-14-学习-AsysncTask使用.md">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9402516">
-          <caret line="70" column="3" selection-start-line="70" selection-start-column="3" selection-end-line="70" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-03-20-在布局文件中声明Click事件.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43120566">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/java/2016-03-13-学习-HttpURLConnection了解.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5092199">
-          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/java/2016-03-12-java原生http的get和post请求.md">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48794326">
-          <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-03-21-学习-popupWindow的简单使用.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7272727">
-          <caret line="64" column="71" selection-start-line="64" selection-start-column="71" selection-end-line="64" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-03-22-使用base64上传文件.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1605114">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-03-23-android基于监听的处理模型.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64772725">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-03-24-android基于监听处理的几种方式整理.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7556818">
-          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-03-25-android基于回调的事件处理.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78267044">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-03-26-Configuration类简单认识.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-03-27-学习-简单的监听屏幕方向变化.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83903134">
-          <caret line="31" column="129" selection-start-line="31" selection-start-column="129" selection-end-line="31" selection-end-column="129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-03-28-学习-Handler消息传递简介.md">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16964285">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-02-13-仿ios回弹listview.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-04-05-学习-Activity生命周期理解.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94586897">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-03-30-学习-Handler的工作原理.md">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83760685">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-04-06-学习-Activity加载模式.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57081544">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-04-08-学习-Intent-filter简单应用.md">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-04-09-系统标准Action与Category常量整理.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0600859">
-          <caret line="39" column="73" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-04-10-学习-Android应用资源.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-04-11-学习-Android应用资源-简单值定义.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-04-13-学习-Android应用资源-animator属性动画.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="74" selection-start-line="66" selection-start-column="74" selection-end-line="66" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-04-12-学习-Android应用资源-原始XML资源.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.977027">
-          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-02-20-学习-简单的Service使用.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-04-14-学习-Android应用资源-anim补间动画资源.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="138" column="73" selection-start-line="138" selection-start-column="73" selection-end-line="138" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-04-02-gradle刷不到maven库最新jar包.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94685316">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/directive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45174825">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0848287">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="251" column="14" selection-start-line="251" selection-start-column="14" selection-end-line="251" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78303427">
-          <caret line="540" column="20" selection-start-line="540" selection-start-column="20" selection-end-line="540" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22735043">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/write.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-04-17-SharedPreferences对象存储.md">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-05-09-Android自定义圆形图片.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.033333">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-04-18-Android绘图基础和Canvas对象.md">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-03-28-学习-Handler消息传递简介.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37202796">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-04-20-WebView简单介绍.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94899327">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/android/2016-04-21-更换壁纸与WallpaperManager.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.403183">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state vertical-scroll-proportion="-3.3">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list.json">
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-04-16-学习-Bitmap对象和BitmapFactory.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-64.28125">
-          <caret line="154" column="8" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="8" />
+        <state vertical-scroll-proportion="-0.77680796">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-04-20-WebView简单介绍.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.11346634">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-04-18-Android绘图基础和Canvas对象.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-04-14-学习-Android应用资源-anim补间动画资源.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3503741">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-04-17-SharedPreferences对象存储.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.20822942">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-05-13-代码中使用Interpolator.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.95140666">
+          <caret line="111" column="23" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-02-27-学习-ViewAnimator及其子类.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26284584">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1607362">
+          <caret line="30" column="67" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/java/2016-03-15-MD5摘要算法简单使用.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/java/2016-05-17-一些关于时间的计算标准.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8551461">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33251533">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33251533">
+          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18829517">
+          <caret line="1189" column="28" selection-start-line="1189" selection-start-column="17" selection-end-line="1189" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/javascript/2016-05-21-angularjs数据模型被改变，视图确不变问题.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9498681">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/javascript/2016-05-19-js中prototype及常用扩展.md">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23809524">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Log.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11214953">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/java/2016-05-15-RSA算法加密解密签名验签入门.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8623188">
+          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/dome.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/editormd.preview.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.3900966">
+          <caret line="4" column="7478" selection-start-line="4" selection-start-column="7478" selection-end-line="4" selection-end-column="7478" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-05-30-图像扭曲drawBitmapMesh的简单使用.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93014705">
+          <caret line="84" column="71" selection-start-line="84" selection-start-column="71" selection-end-line="84" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-06-01-windowSoftInputMode键盘的交互模式分析.md">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15398887">
+          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-06-04-简单的TextView切换动画实现.md">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.92607003">
+          <caret line="71" column="42" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-06-05-用drawBitmapMesh实现柱面效果.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93014705">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-05-09-Android自定义圆形图片.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9217557">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-06-07-简单的图片模糊BlurImage.md">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/java/2016-06-14-java代码中实现邮件的发送.md">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.554717">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/java/2016-06-17-java反射使用整理.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/javascript/2016-07-06-React.js入门及实例.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.4236312">
+          <caret line="290" column="3" selection-start-line="290" selection-start-column="3" selection-end-line="290" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7809798">
+          <caret line="842" column="0" selection-start-line="842" selection-start-column="0" selection-end-line="842" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/java/2016-07-10-java的int与字节数组互转.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="71" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/java/2016-06-18-java反射使用整理1.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28230616">
+          <caret line="143" column="3" selection-start-line="143" selection-start-column="3" selection-end-line="143" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/write.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/directive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="234" column="20" selection-start-line="234" selection-start-column="20" selection-end-line="234" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="571" column="0" selection-start-line="571" selection-start-column="0" selection-end-line="580" selection-end-column="25" />
+          <folding>
+            <marker date="1468753092867" expanded="true" signature="22143:22191" placeholder="..." />
+            <marker date="1468753092867" expanded="true" signature="24493:24519" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/resume.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15680474">
+          <caret line="3170" column="14" selection-start-line="3170" selection-start-column="14" selection-end-line="3170" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/lib/jquery-2.1.4.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="378.60715">
+          <caret line="4" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resume.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.687924">
-          <caret line="474" column="34" selection-start-line="474" selection-start-column="34" selection-end-line="474" selection-end-column="34" />
-          <folding>
-            <element signature="e#110#578#0" expanded="false" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="22.788162">
+          <caret line="780" column="0" selection-start-line="780" selection-start-column="0" selection-end-line="780" selection-end-column="0" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/java/2016-07-13-常用正则表达式.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/java/2016-07-12-正则表达式常用知识点.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8492063">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/other/2016-07-15-常见的软件设计模式及了解.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="207" column="34" selection-start-line="207" selection-start-column="34" selection-end-line="207" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.25">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-07-29-Volley的常用方法.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.8605072">
+          <caret line="67" column="27" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>
@@ -1446,7 +1395,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1471,7 +1420,6 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
