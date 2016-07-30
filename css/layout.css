@@ -593,6 +593,22 @@ body{
     background-color: rgba(114, 180, 236, 0);
 }
 
+/*统计部分*/
+.statistics{
+    width: 100%;
+}
+.statistics>ul{
+    list-style: none;
+    padding: 10px 0px 10px 15px;
+}
+.statistics>ul>li{
+    margin: 5px 0px;
+}
+
+.statistics>ul>li .count{
+    color: #79a7ff;
+}
+
 /*主题部分*/
 .normal-theme{
 

@@ -61,6 +61,16 @@
                     <img ng-click="doFind()" src="images/favorite.jpg">
 
                     <div class="cal"><div calender></div></div>
+
+                    <div class="statistics">
+                        <ul>
+                            <li><a>Android(<span class="count">{{typeCount.android}}</span>)</a></li>
+                            <li><a>javascript(<span class="count">{{typeCount.javascript}}</span>)</a></li>
+                            <li><a>Java(<span class="count">{{typeCount.java}}</span>)</a></li>
+                            <li><a>其他(<span class="count">{{typeCount.other}}</span>)</a></li>
+                            <li><a>总共(<span class="count">{{typeCount.all}}</span>)</a></li>
+                        </ul>
+                    </div>
                 </aside>
                 <div id="content" class="table-cell">
 

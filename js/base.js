@@ -69,7 +69,14 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
         isFinish:false,
         pageSize:10,
         pageNumber:1,
-        key:""
+        key:"",
+    }
+    $scope.typeCount = {
+        android:0,
+        javascript:0,
+        java:0,
+        other:0,
+        all:0,
     }
 
     $scope.doFind = function(){
@@ -83,7 +90,18 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
                 $scope.writedataList = [];
                 for(var i in data.blog.resultList){
                     $scope.writedataList.push(data.blog.resultList[i].time);
+                    if (data.blog.resultList[i].type == "android"){
+                        $scope.typeCount.android ++;
+                    }else if(data.blog.resultList[i].type == "javascript"){
+                        $scope.typeCount.javascript ++;
+                    }else if(data.blog.resultList[i].type == "java"){
+                        $scope.typeCount.java ++;
+                    }else if(data.blog.resultList[i].type == "other"){
+                        $scope.typeCount.other ++;
+                    }
+                    $scope.typeCount.all ++;
                 }
+                Log.d("总共"+$scope.typeCount.all);
 
                 //过滤
                 var temp = [];

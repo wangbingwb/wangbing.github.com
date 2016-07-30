@@ -31,7 +31,12 @@ Log = {
     }
 }
 
-window.debug = true;
+//默认当本地为调试模式
+if(location.hostname == "localhost" || location.hostname == "127.0.0.1"){
+    window.debug = true
+}else{
+    window.debug = false;
+}
 
 Log.i("Log初始化成功...");
 if(window.debug){
