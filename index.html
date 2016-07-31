@@ -75,8 +75,8 @@
                 <div id="content" class="table-cell">
 
                     <!-- list-->
-                    <div id="list" ng-show="vm.isFinish && vm.isDoFind">
-                        <div class="title-list" ng-if="vm.isFinish">
+                    <div id="list" ng-show="!vm.waiting && !vm.isView">
+                        <div class="title-list">
                             <ul>
                                 <li ng-repeat="item in result" ng-click="view($index)">
 
@@ -101,7 +101,7 @@
                     </div>
 
                     <!-- 文章-->
-                    <div ng-if="!vm.isDoFind && vm.isFinish">
+                    <div ng-if="!vm.waiting && vm.isView">
                         <div class="article size-full text-center">
                             <div class="title size-fulll">{{ article.title }}</div>
                             <div class="time">{{ article.time }}</div>
@@ -111,10 +111,12 @@
                         <div id="articleBody-view"></div>
                     </div>
 
-                    <div ng-if="!vm.isFinish" class="loader text-center">
-                        <div class="block"></div>
-                        <div class="block"></div>
-                        <div class="block"></div>
+                    <div ng-if="vm.waiting" class="loader text-center">
+                        <div>
+                            <div class="block"></div>
+                            <div class="block"></div>
+                            <div class="block"></div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -65,8 +65,8 @@ var GlobalCtrl = function($scope,ContentService,CookieService) {
 
 var BodyCtrl = function ($scope,ContentService,CookieService) {
     $scope.vm = {
-        isDoFind:true,
-        isFinish:false,
+        waiting:true,
+        isView:false,
         pageSize:10,
         pageNumber:1,
         key:"",
@@ -80,8 +80,7 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
     }
 
     $scope.doFind = function(){
-        $scope.vm.isDoFind = true;
-        $scope.vm.isFinish = false;
+        $scope.vm.waiting = true;
         ContentService.getList($scope.vm).success(function (data) {
             if (data.blog.resultList.length > 0){
 
@@ -121,8 +120,7 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
 
                 $scope.result = (data.blog.resultList.slice(startIndex,endIndex));
 
-                $scope.vm.isFinish = true;
-                $scope.vm.isDoFind = true;
+                $scope.vm.waiting = false;
             }
             $scope.doPage();
         });
@@ -130,8 +128,7 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
     $scope.doFind();
 
     $scope.view = function(index){
-        $scope.vm.isDoFind = false;
-        $scope.vm.isFinish = false;
+        $scope.vm.waiting = true;
         var obj = $scope.result[index]
         var url ="blog/"+obj.type+"/"+obj.time+"-"+obj.title+".md"
         ContentService.getContent(url).success(function (data) {
@@ -147,7 +144,8 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
             Log.d(data);
             Log.d("文章正文-----end");
             setTimeout("toHtmlView()",10)
-            $scope.vm.isFinish = true;
+            $scope.vm.waiting = false;
+            $scope.vm.isView = true;
         }).error(function(){
             util.showMessage("提示","未能获取到内容",function(){
                 $scope.doFind();
@@ -159,8 +157,7 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
         var href = window.location.href;
         if (/html#!.*/.test(href)){
             if(/#!.*\.md/.test(href)){
-                $scope.vm.isDoFind = false;
-                $scope.vm.isFinish = false;
+                $scope.vm.waiting = true;
                 var url = href.match("#!.*\\.md")[0];
                 url = url.substring(2,url.length);
                 url ="blog/"+ url
@@ -178,7 +175,7 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
                     Log.d($scope.article)
 
                     setTimeout("toHtmlView()",10)
-                    $scope.vm.isFinish = true;
+                    $scope.vm.waiting = false;
                 }).error(function(){
                     util.showMessage("提示","未能获取到内容",function(){
                         $scope.doFind();

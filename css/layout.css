@@ -172,7 +172,6 @@ body{
     padding-left: 1em;
     padding-bottom: 5px;
     display: block;
-    transition: all 2s;
 }
 #main .content-wrapper #content #list .title-list ul>li a{
     transition: all 1s;
@@ -225,6 +224,31 @@ body{
 #main .content-wrapper #content #list .title-list.left-out{
     width:100px;
 }
+.title-list ul>li:nth-child(2n).ng-enter{
+    transition: 0.1s linear all;
+    transform: translateX(100px);
+    opacity: 0;
+}
+.title-list ul>li:nth-child(2n).ng-enter.ng-enter-active {
+    opacity: 1;
+    transform: translateX(0px);
+}
+.title-list ul>li:nth-child(2n-1).ng-enter{
+    transition: 0.1s linear all;
+    transform: translateX(-100px);
+    opacity: 0;
+}
+.title-list ul>li:nth-child(2n-1).ng-enter.ng-enter-active {
+    opacity: 1;
+    transform: translateX(0px);
+}
+/*.title-list.ng-leave {*/
+/*transition: 1s linear all;*/
+/*opacity: 1;*/
+/*}*/
+/*.title-list.ng-leave.ng-leave-active {*/
+/*opacity: 0;*/
+/*}*/
 
 /*分页*/
 #main .content-wrapper #content #list .page{
@@ -274,6 +298,9 @@ body{
 #main .content-wrapper #content #list .page ul>li>a:hover .g{
     top: 0px;
 }
+#main .content-wrapper #content #list .page ul>li>a:active{
+    transform: scale(1.1);
+}
 #main .content-wrapper #content #list .page ul>li:nth-child(1){
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -289,57 +316,38 @@ body{
     transform: translateY(5px);
 }
 .loader{
-    height: 100px;
+    height: 400px;
+    width: 100%;
+    display: table;
 }
-.loader .block{
+.loader>div{
+    display: table-cell;
+    vertical-align: middle;
+    animation: middle 1s infinite linear;
+}
+.loader>div .block{
+    line-height: 500px;
     border-radius: 50px;
     display: inline-block;
-    background-color: #929292;;
+    border: 2px solid #66a8ff;
     height: 15px;
     width: 15px;
+    vertical-align: middle;
+
 }
-.loader .block:nth-child(1){
-    animation: left 2s infinite;
-}
-.loader .block:nth-child(2){
-    animation: middle 2s infinite;
-}
-.loader .block:nth-child(3){
-    animation: right 2s infinite;
-}
-@keyframes left {
-    0%{
-        transform: translateX(0px);
-    }
-    50%{
-        transform: translateX(-50px);
-    }
-    100%{
-        transform: translateX(0px);
-    }
+.loader>div .block:nth-child(2){
+    height: 40px;
+    width: 40px;
 }
 @keyframes middle {
     0%{
-        transform: scale(1);
-    }
-    50%{
-        transform: scale(2);
+        transform: rotate(0deg);
     }
     100%{
-        transform: scale(1);
+        transform: rotate(360deg);
     }
 }
-@keyframes right {
-    0%{
-        transform: translateX(0px);
-    }
-    50%{
-        transform: translateX(50px);
-    }
-    100%{
-        transform: translateX(0px);
-    }
-}
+
 @keyframes icon {
     0%{
         transform: rotate(0deg);
@@ -380,27 +388,6 @@ body{
     width: 96%;
     padding: 2%;
 }
-.title-list.ng-enter{
-    transition: 0.7s linear all;
-    opacity: 0;
-}
-.title-list.ng-enter.ng-enter-active {
-    opacity: 1;
-}
-/*.title-list.ng-leave {*/
-    /*transition: 1s linear all;*/
-    /*opacity: 1;*/
-/*}*/
-/*.title-list.ng-leave.ng-leave-active {*/
-    /*opacity: 0;*/
-/*}*/
-/*.title-list.ng-move{*/
-    /*transition: 5s linear all;*/
-    /*opacity: 0;*/
-/*}*/
-/*.title-list.ng-move.ng-move-active {*/
-    /*opacity: 1;*/
-/*}*/
 #footer{
     border-top: 1px solid #DCDCDC;
     height: 100px;
