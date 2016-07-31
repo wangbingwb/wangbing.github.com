@@ -71,13 +71,7 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
         pageNumber:1,
         key:"",
     }
-    $scope.typeCount = {
-        android:0,
-        javascript:0,
-        java:0,
-        other:0,
-        all:0,
-    }
+    $scope.typeCount = {};
 
     $scope.doFind = function(){
         $scope.vm.waiting = true;
@@ -87,6 +81,15 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
                 //按时间倒序
                 data.blog.resultList.sort(function(a,b){return a.time< b.time?1:-1});
                 $scope.writedataList = [];
+
+                //初始化
+                $scope.typeCount = {
+                    android:0,
+                    javascript:0,
+                    java:0,
+                    other:0,
+                    all:0,
+                }
                 for(var i in data.blog.resultList){
                     $scope.writedataList.push(data.blog.resultList[i].time);
                     if (data.blog.resultList[i].type == "android"){

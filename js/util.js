@@ -13,7 +13,9 @@ var util = {
         $(document.body).prepend(html);
         setTimeout(function(){
             $("#wb-tip").slideUp(400,function(){
-                cb();
+                if (cb instanceof Function){
+                    cb();
+                }
             });
         },800)
     },
