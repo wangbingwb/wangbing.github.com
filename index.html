@@ -26,7 +26,7 @@
     <script src="js/base.js" type="text/javascript"></script>
     <script src="js/util.js" type="text/javascript"></script>
 </head>
-    <body ng-controller="BodyCtrl" ng-class="{1:'normal-theme',2:'night-theme'}[theme]">
+    <body ng-controller="BodyCtrl" ng-class="{1:'normal-theme',2:'night-theme'}[theme]" ng-keyup="dokey($event)">
 
         <!--<div class="guide">-->
             <!--<div class="border">-->
@@ -58,7 +58,7 @@
         <div id="main">
             <div class="content-wrapper table">
                 <aside id="sidebar" class="table-cell">
-                    <img ng-click="doFind()" src="images/favorite.jpg">
+                    <img ng-click="find()" src="images/favorite.jpg">
 
                     <div class="cal"><div calender></div></div>
 

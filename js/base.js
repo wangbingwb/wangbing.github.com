@@ -74,7 +74,10 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
     $scope.typeCount = {};
 
     $scope.doFind = function(){
+        //做一些初始化工作
         $scope.vm.waiting = true;
+        $scope.vm.isView = false;
+
         ContentService.getList($scope.vm).success(function (data) {
             if (data.blog.resultList.length > 0){
 
@@ -130,6 +133,11 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
     };
     $scope.doFind();
 
+    $scope.find = function(){
+        window.history.replaceState({},0,"index.html");
+        $scope.doFind();
+    };
+
     $scope.view = function(index){
         $scope.vm.waiting = true;
         var obj = $scope.result[index]
@@ -158,6 +166,11 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
 
     $scope.init = function(){
         var href = window.location.href;
+        if(!href.match(".*html.*")){
+            window.history.replaceState ({},0,"index.html");
+        }
+        href = window.location.href;
+
         if (/html#!.*/.test(href)){
             Log.d("url后参数存在");
             if(/#!.*\.md/.test(href)){
@@ -193,11 +206,18 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
                     window.location.href = window.location.href.match(".*index.html");
                 })
             }
+        }else{
+            $scope.doFind();
         }
     }
     setTimeout(function(){
         $scope.init();
     },10);
+
+    //地址变化监听
+    window.onpopstate = function () {
+        $scope.init();
+    }
 
     $scope.doSearch = function(e){
         if (e.keyCode == 13){
