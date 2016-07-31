@@ -141,10 +141,10 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
                 type:$scope.result[index].type,
                 content:data
             }
-            window.location.href = window.location.href+"#!"+encodeURI(url.substring(5,url.length));
+            window.location.href = window.location.pathname+"#!"+encodeURI(url.substring(5,url.length));
             //$scope.article.content = $sce.trustAsHtml(markdown.toHTML(data));
             Log.d("文章正文-----start");
-            Log.d(data);
+            //Log.d(data);
             Log.d("文章正文-----end");
             setTimeout("toHtmlView()",10)
             $scope.vm.waiting = false;
@@ -159,6 +159,7 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
     $scope.init = function(){
         var href = window.location.href;
         if (/html#!.*/.test(href)){
+            Log.d("url后参数存在");
             if(/#!.*\.md/.test(href)){
                 $scope.vm.waiting = true;
                 var url = href.match("#!.*\\.md")[0];
@@ -176,18 +177,19 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
                     //$scope.article.content = $sce.trustAsHtml(markdown.toHTML(data));
                     Log.i("url查找文章");
                     Log.d($scope.article)
-
                     setTimeout("toHtmlView()",10)
                     $scope.vm.waiting = false;
+                    $scope.vm.isView = true;
                 }).error(function(){
                     util.showMessage("提示","未能获取到内容",function(){
-                        $scope.doFind();
+                        //$scope.doFind();
                         window.location.href = window.location.href.match(".*index.html");
                     })
                 });
             }else{
+                Log.d("url后参数不合法");
                 util.showMessage("提示","未能获取到内容",function(){
-                    $scope.doFind();
+                    //$scope.doFind();
                     window.location.href = window.location.href.match(".*index.html");
                 })
             }
