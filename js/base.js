@@ -149,7 +149,7 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
                 type:$scope.result[index].type,
                 content:data
             }
-            window.location.href = window.location.pathname+"#!"+encodeURI(url.substring(5,url.length));
+            window.history.replaceState ({},0,window.location.pathname+"#!"+encodeURI(url.substring(5,url.length)));
             //$scope.article.content = $sce.trustAsHtml(markdown.toHTML(data));
             Log.d("文章正文-----start");
             //Log.d(data);
@@ -189,7 +189,6 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
                     $scope.article.type = href.match("#!.*/")[0].substring(2,href.match("#!.*/")[0].length-1);
                     //$scope.article.content = $sce.trustAsHtml(markdown.toHTML(data));
                     Log.i("url查找文章");
-                    Log.d($scope.article)
                     setTimeout("toHtmlView()",10)
                     $scope.vm.waiting = false;
                     $scope.vm.isView = true;
