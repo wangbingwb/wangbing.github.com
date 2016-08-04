@@ -65,6 +65,7 @@ var GlobalCtrl = function($scope,ContentService,CookieService) {
 
 var BodyCtrl = function ($scope,ContentService,CookieService) {
     $scope.vm = {
+        showsearcher:false,
         waiting:true,
         isView:false,
         pageSize:10,
@@ -251,6 +252,19 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
         Log.d("分页对象-----end");
     };
 
+
+    $scope.dokey = function(e){
+        if(e.keyCode == 16){
+            $scope.vm.showsearcher = !$scope.vm.showsearcher;
+        }
+    }
+    $scope.dohide = function(){
+        $scope.vm.showsearcher = !$scope.vm.showsearcher;
+    }
+    $scope.hold = function(e){
+        //阻止事件相外传播
+        e.stopPropagation();
+    }
 }
 
 var LibCtrl = function ($scope,ContentService,CookieService) {
@@ -430,7 +444,7 @@ angular.module("index", ['ngAnimate'])
                     var dayStart = new Date($scope.now.getFullYear(),($scope.now.getMonth()),1).getDay();
                     Log.d("第一天是星期"+ dayStart)
                     for (var i = dayStart;i>0;i--){
-                        var cursor = new Date($scope.now.getFullYear(),($scope.now.getMonth()),(-i));
+                        var cursor = new Date($scope.now.getFullYear(),($scope.now.getMonth()),(-i+1));
                         $scope.dateList.push({
                             year:cursor.getFullYear(),
                             month:cursor.getMonth()+1,

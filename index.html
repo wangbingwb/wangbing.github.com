@@ -34,6 +34,19 @@
             <!--</div>-->
         <!--</div>-->
 
+        <div class="searcher" ng-if="vm.showsearcher" ng-click="dohide()">
+            <div class="table-cell">
+                <div class="box" ng-click="hold($event)">
+                    <div class="key">
+                        <input type="text" placeholder="搜索">
+                    </div>
+                    <div class="msg">
+                        <a>按Shift隐去搜索框</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div id="header" ng-mousemove="header.mousemove($event)" ng-mouseout="header.mouseout()">
             <div ng-repeat="v in header.viewflag" class="ripple" style="left:{{v.x}}px;top:{{v.y}}px;"></div>
             <clock></clock>
