@@ -84,6 +84,8 @@
       {"time":"2016-07-30","title":"Runtime获取运行时内存信息","type":"java"},
       {"time":"2016-08-04","title":"String、StringBuffer与StringBuilder","type":"java"},
       {"time":"2016-08-22","title":"Repository test has failed","type":"other"},
+      {"time":"2016-08-23","title":"Genymotion模拟器控制台","type":"android"},
+      {"time":"2016-08-24","title":"可以自适应大小的ImageButton","type":"android"},
       {"time":"2016-01-01","title":"HOLD","type":"other"}
     ],
     "uppublish":[
