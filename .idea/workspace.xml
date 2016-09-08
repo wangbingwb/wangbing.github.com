@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf32202d-55a9-4e3a-a28d-a77c1aaa91d7" name="Default" comment="do">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/android/2016-08-23-Genymotion模拟器控制台.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/android/2016-08-24-可以自适应大小的ImageButton.md" />
+    <list default="true" id="cf32202d-55a9-4e3a-a28d-a77c1aaa91d7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/android/2016-09-03-Android Studio编译安装后乱码问题.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/android/2016-09-05-Titlebar制作一个全局自定义标题栏.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/java/2016-07-13-常用正则表达式.md" afterPath="$PROJECT_DIR$/blog/java/2016-07-13-常用正则表达式.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/list.json" afterPath="$PROJECT_DIR$/list.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -43,85 +44,9 @@
       <file leaf-file-name="list.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/list.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65800864">
-              <caret line="89" column="6" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.33406594">
+              <caret line="89" column="56" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="56" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-08-24-可以自适应大小的ImageButton.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/android/2016-08-24-可以自适应大小的ImageButton.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-08-23-Genymotion模拟器控制台.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/android/2016-08-23-Genymotion模拟器控制台.md">
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.866667">
-              <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/layout.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="643" column="30" selection-start-line="643" selection-start-column="30" selection-end-line="643" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Log.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Log.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/base.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="357" column="7" selection-start-line="357" selection-start-column="7" selection-end-line="357" selection-end-column="7" />
-              <folding>
-                <element signature="e#148#1800#0" expanded="false" />
-                <element signature="e#2079#4305#0" expanded="false" />
-                <element signature="e#4357#4445#0" expanded="false" />
-                <element signature="e#4481#5472#0" expanded="false" />
-                <element signature="e#5502#7560#0" expanded="false" />
-                <element signature="e#9084#10792#0" expanded="false" />
-                <element signature="e#10857#11215#0" expanded="false" />
-                <element signature="e#11646#12049#0" expanded="false" />
-                <element signature="e#12109#14103#0" expanded="false" />
-                <element signature="e#14142#20740#0" expanded="false" />
-                <element signature="e#20775#24494#0" expanded="false" />
-                <element signature="e#24527#26281#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -188,8 +113,10 @@
         <option value="$PROJECT_DIR$/blog/java/2016-08-04-String、StringBuffer与StringBuilder.md" />
         <option value="$PROJECT_DIR$/blog/other/2016-08-22-Repository test has failed.md" />
         <option value="$PROJECT_DIR$/blog/android/2016-08-23-Genymotion模拟器控制台.md" />
-        <option value="$PROJECT_DIR$/list.json" />
         <option value="$PROJECT_DIR$/blog/android/2016-08-24-可以自适应大小的ImageButton.md" />
+        <option value="$PROJECT_DIR$/list.json" />
+        <option value="$PROJECT_DIR$/blog/android/2016-09-05-Titlebar制作一个全局自定义标题栏.md" />
+        <option value="$PROJECT_DIR$/blog/android/2016-09-03-Android Studio编译安装后乱码问题.md" />
       </list>
     </option>
   </component>
@@ -216,10 +143,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-1" />
+    <option name="y" value="50" />
+    <option name="width" value="1370" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -245,6 +172,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -326,7 +254,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -686,7 +613,11 @@
       <workItem from="1471869574464" duration="2054000" />
       <workItem from="1472006335016" duration="172000" />
       <workItem from="1472042891446" duration="17000" />
-      <workItem from="1472436404473" duration="2927000" />
+      <workItem from="1472436404473" duration="3568000" />
+      <workItem from="1472609221442" duration="21000" />
+      <workItem from="1472887287904" duration="1005000" />
+      <workItem from="1473233649766" duration="13000" />
+      <workItem from="1473300915498" duration="1094000" />
     </task>
     <task id="LOCAL-00001" summary="do">
       <created>1463130958140</created>
@@ -964,40 +895,46 @@
       <option name="project" value="LOCAL" />
       <updated>1471871594761</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="do">
+      <created>1472439341888</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1472439341888</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255770000" />
+    <option name="totallyTimeSpent" value="258544000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-1" y="50" width="1370" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15196079" sideWeight="0.6490166" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1509121" sideWeight="0.65801525" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21670267" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15196079" sideWeight="0.35098335" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1509121" sideWeight="0.34198472" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27376118" sideWeight="0.51073444" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22995462" sideWeight="0.48926553" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2534351" sideWeight="0.48926553" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975152" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981949" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896304" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293556" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1031,20 +968,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-04-16-学习-Bitmap对象和BitmapFactory.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.77680796">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-04-20-WebView简单介绍.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.11346634">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/android/2016-04-18-Android绘图基础和Canvas对象.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1123,13 +1046,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/javascript/2016-05-19-js中prototype及常用扩展.md">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23809524">
           <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
@@ -1168,23 +1091,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/android/2016-06-01-windowSoftInputMode键盘的交互模式分析.md">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15398887">
           <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-06-04-简单的TextView切换动画实现.md">
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-06-04-简单的TextView切换动画实现.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.92607003">
           <caret line="71" column="42" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/android/2016-06-05-用drawBitmapMesh实现柱面效果.md">
@@ -1202,23 +1125,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/android/2016-06-07-简单的图片模糊BlurImage.md">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/java/2016-06-14-java代码中实现邮件的发送.md">
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/java/2016-06-14-java代码中实现邮件的发送.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.554717">
           <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/java/2016-06-17-java反射使用整理.md">
@@ -1285,13 +1208,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/android/2016-07-29-Volley的常用方法.md">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-23.233334">
           <caret line="67" column="27" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/html/2015-12-05-htmltest">
@@ -1333,7 +1256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1341,7 +1263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="643" column="30" selection-start-line="643" selection-start-column="30" selection-end-line="643" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1349,20 +1270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="357" column="7" selection-start-line="357" selection-start-column="7" selection-end-line="357" selection-end-column="7" />
-          <folding>
-            <element signature="e#148#1800#0" expanded="false" />
-            <element signature="e#2079#4305#0" expanded="false" />
-            <element signature="e#4357#4445#0" expanded="false" />
-            <element signature="e#4481#5472#0" expanded="false" />
-            <element signature="e#5502#7560#0" expanded="false" />
-            <element signature="e#9084#10792#0" expanded="false" />
-            <element signature="e#10857#11215#0" expanded="false" />
-            <element signature="e#11646#12049#0" expanded="false" />
-            <element signature="e#12109#14103#0" expanded="false" />
-            <element signature="e#14142#20740#0" expanded="false" />
-            <element signature="e#20775#24494#0" expanded="false" />
-            <element signature="e#24527#26281#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1370,7 +1277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1402,29 +1308,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-08-23-Genymotion模拟器控制台.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog/android/2016-08-24-可以自适应大小的ImageButton.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-09-05-Titlebar制作一个全局自定义标题栏.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.9503105">
+          <caret line="75" column="3" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-08-23-Genymotion模拟器控制台.md">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-09-03-Android Studio编译安装后乱码问题.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.866667">
-          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.7080745">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/list.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65800864">
-          <caret line="89" column="6" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.33406594">
+          <caret line="89" column="56" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="56" />
           <folding />
         </state>
       </provider>

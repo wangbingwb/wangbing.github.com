@@ -86,6 +86,8 @@
       {"time":"2016-08-22","title":"Repository test has failed","type":"other"},
       {"time":"2016-08-23","title":"Genymotion模拟器控制台","type":"android"},
       {"time":"2016-08-24","title":"可以自适应大小的ImageButton","type":"android"},
+	  {"time":"2016-09-03","title":"Android Studio编译安装后乱码问题","type":"android"},
+	  {"time":"2016-09-05","title":"Titlebar制作一个全局自定义标题栏","type":"android"},
       {"time":"2016-01-01","title":"HOLD","type":"other"}
     ],
     "uppublish":[
