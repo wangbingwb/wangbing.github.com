@@ -88,6 +88,7 @@
       {"time":"2016-08-24","title":"可以自适应大小的ImageButton","type":"android"},
 	  {"time":"2016-09-03","title":"Android Studio编译安装后乱码问题","type":"android"},
 	  {"time":"2016-09-05","title":"Titlebar制作一个全局自定义标题栏","type":"android"},
+      {"time":"2016-09-09","title":"RoundRectShape","type":"android"},
       {"time":"2016-01-01","title":"HOLD","type":"other"}
     ],
     "uppublish":[
@@ -98,7 +99,6 @@
 	  {"time":"2016-05-13","title":"Afinal","type":"android"},
 	  {"time":"2016-05-13","title":"StateListDrawable","type":"android"},
 	  {"time":"2016-05-13","title":"ColorStateList","type":"android"},
-      {"time":"2016-05-13","title":"RoundRectShape","type":"android"},
 	  {"time":"2016-05-13","title":"TranslateAnimation","type":"android"}
     ]
   },

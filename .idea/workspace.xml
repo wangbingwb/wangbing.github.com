@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf32202d-55a9-4e3a-a28d-a77c1aaa91d7" name="Default" comment="do">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/android/2016-09-09-RoundRectShape.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/android/2016-09-05-Titlebar制作一个全局自定义标题栏.md" afterPath="$PROJECT_DIR$/blog/android/2016-09-05-Titlebar制作一个全局自定义标题栏.md" />
+    <list default="true" id="cf32202d-55a9-4e3a-a28d-a77c1aaa91d7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/android/2016-09-09-RoundRectShape.md" afterPath="$PROJECT_DIR$/blog/android/2016-09-09-RoundRectShape.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/list.json" afterPath="$PROJECT_DIR$/list.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -40,31 +39,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="list.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="list.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/list.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+            <state vertical-scroll-proportion="-2.4806035">
+              <caret line="92" column="6" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-09-05-Titlebar制作一个全局自定义标题栏.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/android/2016-09-05-Titlebar制作一个全局自定义标题栏.md">
+      <file leaf-file-name="2016-08-24-可以自适应大小的ImageButton.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/android/2016-08-24-可以自适应大小的ImageButton.md">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="71" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-09-09-RoundRectShape.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2016-09-09-RoundRectShape.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/android/2016-09-09-RoundRectShape.md">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -134,9 +133,9 @@
         <option value="$PROJECT_DIR$/blog/android/2016-08-23-Genymotion模拟器控制台.md" />
         <option value="$PROJECT_DIR$/blog/android/2016-08-24-可以自适应大小的ImageButton.md" />
         <option value="$PROJECT_DIR$/blog/android/2016-09-03-Android Studio编译安装后乱码问题.md" />
+        <option value="$PROJECT_DIR$/blog/android/2016-09-05-Titlebar制作一个全局自定义标题栏.md" />
         <option value="$PROJECT_DIR$/blog/android/2016-09-09-RoundRectShape.md" />
         <option value="$PROJECT_DIR$/list.json" />
-        <option value="$PROJECT_DIR$/blog/android/2016-09-05-Titlebar制作一个全局自定义标题栏.md" />
       </list>
     </option>
   </component>
@@ -640,7 +639,7 @@
       <workItem from="1473300915498" duration="1148000" />
       <workItem from="1473302160042" duration="597000" />
       <workItem from="1473391992953" duration="2762000" />
-      <workItem from="1473665339365" duration="663000" />
+      <workItem from="1473665339365" duration="2884000" />
     </task>
     <task id="LOCAL-00001" summary="do">
       <created>1463130958140</created>
@@ -930,11 +929,17 @@
       <option name="project" value="LOCAL" />
       <updated>1473302039630</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="do">
+      <created>1473666008264</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1473666008264</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262620000" />
+    <option name="totallyTimeSpent" value="264841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -942,6 +947,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896304" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14869282" sideWeight="0.6649017" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -961,7 +967,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896304" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -1340,13 +1345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-08-24-可以自适应大小的ImageButton.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/android/2016-09-03-Android Studio编译安装后乱码问题.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7080745">
@@ -1354,18 +1352,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list.json">
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-09-05-Titlebar制作一个全局自定义标题栏.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.57520324">
+          <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/android/2016-09-05-Titlebar制作一个全局自定义标题栏.md">
+    <entry file="file://$PROJECT_DIR$/blog/android/2016-08-24-可以自适应大小的ImageButton.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="71" />
           <folding />
         </state>
       </provider>
@@ -1373,7 +1371,15 @@
     <entry file="file://$PROJECT_DIR$/blog/android/2016-09-09-RoundRectShape.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4806035">
+          <caret line="92" column="6" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
           <folding />
         </state>
       </provider>
