@@ -96,8 +96,9 @@
 	  {"time":"2016-05-13","title":"3级缓存","type":"android"},
 	  {"time":"2016-05-13","title":"LruCache","type":"android"},
 	  {"time":"2016-05-13","title":"Afinal","type":"android"},
-	  {"time":"2016-05-13","title":"RoundRectShape","type":"android"},
 	  {"time":"2016-05-13","title":"StateListDrawable","type":"android"},
+	  {"time":"2016-05-13","title":"ColorStateList","type":"android"},
+      {"time":"2016-05-13","title":"RoundRectShape","type":"android"},
 	  {"time":"2016-05-13","title":"TranslateAnimation","type":"android"}
     ]
   },
