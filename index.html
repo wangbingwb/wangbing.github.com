@@ -38,10 +38,16 @@
             <div class="table-cell">
                 <div class="box" ng-click="hold($event)">
                     <div class="key">
-                        <input type="text" ng-model="vm.shiftKey" placeholder="搜索">
+                        <input type="text" id="shiftKey" ng-model="vm.shiftKey" placeholder="搜索">
+                        <a class="search"></a>
                     </div>
                     <div class="msg">
                         <a>双击Shift隐去搜索框</a>
+                    </div>
+                    <div class="search-list">
+                        <ul>
+                            <li ng-repeat="item in shiftKeyList"><a>{{item.title}}</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>

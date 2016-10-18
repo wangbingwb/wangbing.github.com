@@ -258,6 +258,11 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
         var now = new Date().getTime();
         if(e.keyCode == 16 && (now - $scope.vm.lastShiftTime) < 500){
             $scope.vm.showsearcher = !$scope.vm.showsearcher;
+            if($scope.vm.showsearcher){
+                setTimeout(function(){
+                    $("#shiftKey").focus();
+                },500)
+            }
         }else if (e.keyCode == 16){
             $scope.vm.lastShiftTime = now;
         }
