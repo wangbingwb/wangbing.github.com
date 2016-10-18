@@ -38,10 +38,10 @@
             <div class="table-cell">
                 <div class="box" ng-click="hold($event)">
                     <div class="key">
-                        <input type="text" placeholder="搜索">
+                        <input type="text" ng-model="vm.shiftKey" placeholder="搜索">
                     </div>
                     <div class="msg">
-                        <a>按Shift隐去搜索框</a>
+                        <a>双击Shift隐去搜索框</a>
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@
                 <div class="switch"></div>
             </div>
             <div class="search">
-                <input type="text" id="key" ng-model="vm.key" placeholder="搜索" ng-keypress="doSearch($event)">
+                <a class="tip">双击Shift打开搜索框</a><input type="text" id="key" ng-model="vm.key" placeholder="搜索" ng-keypress="doSearch($event)" ng-change="ss()">
             </div>
         </div>
         <nav></nav>

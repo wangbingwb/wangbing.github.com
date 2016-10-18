@@ -66,6 +66,7 @@ var GlobalCtrl = function($scope,ContentService,CookieService) {
 var BodyCtrl = function ($scope,ContentService,CookieService) {
     $scope.vm = {
         showsearcher:false,
+        lastShiftTime:0,
         waiting:true,
         isView:false,
         pageSize:10,
@@ -254,8 +255,11 @@ var BodyCtrl = function ($scope,ContentService,CookieService) {
 
 
     $scope.dokey = function(e){
-        if(e.keyCode == 16){
+        var now = new Date().getTime();
+        if(e.keyCode == 16 && (now - $scope.vm.lastShiftTime) < 500){
             $scope.vm.showsearcher = !$scope.vm.showsearcher;
+        }else if (e.keyCode == 16){
+            $scope.vm.lastShiftTime = now;
         }
     }
     $scope.dohide = function(){
