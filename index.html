@@ -27,13 +27,6 @@
     <script src="js/util.js" type="text/javascript"></script>
 </head>
     <body ng-controller="BodyCtrl" ng-class="{1:'normal-theme',2:'night-theme'}[theme]" ng-keyup="dokey($event)">
-
-        <!--<div class="guide">-->
-            <!--<div class="border">-->
-                <!--<canvas class="canvas"></canvas>-->
-            <!--</div>-->
-        <!--</div>-->
-
         <div class="searcher" ng-if="vm.showsearcher" ng-click="dohide()">
             <div class="table-cell">
                 <div class="box" ng-click="hold($event)">
@@ -77,7 +70,9 @@
         <div id="main">
             <div class="content-wrapper table">
                 <aside id="sidebar" class="table-cell">
-                    <img ng-click="find()" src="images/favorite.jpg">
+                    <div class="icon">
+                        <img ng-click="find()" src="images/favorite.jpg">
+                    </div>
 
                     <div class="cal"><div calender></div></div>
 
@@ -142,25 +137,7 @@
         </div>
         <!--页脚开始-->
         <div id="footer">
-            <ul>
-                <li><a href="javascript:void(0)">关于我</a>
-                    <ul><li></li></ul>
-                </li>
-                <li><a href="javascript:void(0)">联系我</a>
-                    <ul><li class="text-left">QQ:295490665</li>
-                        <li class="text-left">Mail:wangbingit@outlook.com</li>
-                    </ul>
-                </li>
-                <li><a href="javascript:void(0)">免责申明</a>
-                    <ul>
-                        <li class="text-left">以上内容有部分从书籍中学</li>
-                        <li class="text-left">来,部分是自己理解,如果内</li>
-                        <li class="text-left">容侵犯您的权益，请联系我</li>
-                        <li class="text-left">删除内容!</li>
-                    </ul>
-                </li>
-            </ul>
-
+            <iframe src="footer.html"></iframe>
         </div>
         <!--页脚结束-->
     </body>
