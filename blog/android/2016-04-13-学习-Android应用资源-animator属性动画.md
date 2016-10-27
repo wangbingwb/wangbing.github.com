@@ -56,4 +56,4 @@ btn.setOnClickListener(new View.OnClickListener() {
 });
 ```
 ##### 实际动画效果如下：
-![](http://osswb.oss-cn-shanghai.aliyuncs.com/image/20160413%20233920.gif)
+![](http://osswb.oss-cn-shanghai.aliyuncs.com/image/20160413233920.gif)
