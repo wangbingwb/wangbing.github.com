@@ -83,6 +83,7 @@
       {"time":"2016-07-29","title":"Volley的常用方法","type":"android"},
       {"time":"2016-07-30","title":"Runtime获取运行时内存信息","type":"java"},
       {"time":"2016-08-04","title":"String、StringBuffer与StringBuilder","type":"java"},
+      {"time":"2016-08-10","title":"简单的自定义XML属性","type":"android"},
       {"time":"2016-08-22","title":"Repository test has failed","type":"other"},
       {"time":"2016-08-23","title":"Genymotion模拟器控制台","type":"android"},
       {"time":"2016-08-24","title":"可以自适应大小的ImageButton","type":"android"},
@@ -94,6 +95,7 @@
       {"time":"2016-10-17","title":"java中的换行符的坑-转义符","type":"java"},
       {"time":"2016-10-19","title":"Android中DOM解析XML文件","type":"android"},
       {"time":"2016-10-21","title":"Android中常用的start和end有什么用","type":"android"},
+      {"time":"2016-10-27","title":"Rebound弹性动画开源动画库基本用法","type":"android"},
       {"time":"2016-01-01","title":"HOLD","type":"other"}
     ],
     "uppublish":[
