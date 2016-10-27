@@ -91,11 +91,13 @@
 	  {"time":"2016-09-05","title":"Titlebar制作一个全局自定义标题栏","type":"android"},
       {"time":"2016-09-09","title":"RoundRectShape","type":"android"},
       {"time":"2016-09-20","title":"TextView的setCompoundDrawables","type":"android"},
+      {"time":"2016-10-05","title":"angularjs监听模型无法检测中文变化","type":"javascript"},
       {"time":"2016-10-10","title":"使用SpannableString定义字体样式","type":"android"},
       {"time":"2016-10-17","title":"java中的换行符的坑-转义符","type":"java"},
       {"time":"2016-10-19","title":"Android中DOM解析XML文件","type":"android"},
       {"time":"2016-10-21","title":"Android中常用的start和end有什么用","type":"android"},
       {"time":"2016-10-27","title":"Rebound弹性动画开源动画库基本用法","type":"android"},
+      {"time":"2016-10-28","title":"Rebound弹性动画开源动画库高级连锁动画用法","type":"android"},
       {"time":"2016-01-01","title":"HOLD","type":"other"}
     ],
     "uppublish":[
