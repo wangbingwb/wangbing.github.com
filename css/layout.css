@@ -442,6 +442,9 @@ body{
     padding-left: 0px;
     padding-right: 4px;
 }
+.footer .photos .big-photo a{
+    margin: 2px;
+}
 .footer .photos .big-photo a,
 .footer .photos .big-photo a img{
     position: absolute;
