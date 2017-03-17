@@ -101,6 +101,7 @@
       {"time":"2016-11-01","title":"SpringMVC中多个同类型注入方式","type":"java"},
       {"time":"2016-11-04","title":"java动态代理初探之动态实现接口","type":"java"},
       {"time":"2016-12-10","title":"JavaWeb集成单Spring框架","type":"java"},
+      {"time":"2016-12-12","title":"获取Spring上下文的注意点","type":"java"},
       {"time":"2017-03-17","title":"logback配置及输出格式","type":"java"},
       {"time":"2016-01-01","title":"HOLD","type":"other"}
     ],
