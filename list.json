@@ -103,7 +103,9 @@
       {"time":"2016-11-04","title":"java动态代理初探之动态实现接口","type":"java"},
       {"time":"2016-12-10","title":"JavaWeb集成单Spring框架","type":"java"},
       {"time":"2016-12-12","title":"获取Spring上下文的注意点","type":"java"},
+      {"time":"2017-03-05","title":"form标签的enctype属性","type":"java"},
       {"time":"2017-03-17","title":"logback配置及输出格式","type":"java"},
+      {"time":"2017-04-07","title":"form表单几种提交方式及后台获取总结","type":"java"},
       {"time":"2016-01-01","title":"HOLD","type":"other"}
     ],
     "uppublish":[
