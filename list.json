@@ -109,6 +109,7 @@
       {"time":"2017-04-12","title":"Data URI scheme显示base64格式图片","type":"java"},
       {"time":"2017-04-17","title":"Maven 项目指定JDK版本","type":"java"},
       {"time":"2017-04-24","title":"ThreadLocal多线程本地变量","type":"java"},
+      {"time":"2017-07-19","title":"Logback模板配置","type":"java"},
       {"time":"2016-01-01","title":"HOLD","type":"other"}
     ],
     "uppublish":[
