@@ -112,6 +112,8 @@
       {"time":"2017-07-19","title":"Logback模板配置","type":"java"},
       {"time":"2017-08-03","title":"SpringMvc+jQuery Ajax上传文件","type":"java"},
       {"time":"2017-08-18","title":"SpringMvc@ResponseBody报406","type":"java"},
+      {"time":"2017-09-28","title":"Fastjson Long类型转json在js中精度丢失，转字符","type":"java"},
+      {"time":"2017-10-09","title":"Android studio打包apk名称-重命名","type":"java"},
       {"time":"2017-10-17","title":"Linux系统快速删除大量文件","type":"java"},
       {"time":"2016-01-01","title":"HOLD","type":"other"}
     ],
