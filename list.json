@@ -123,6 +123,7 @@
       {"time":"2017-12-20","title":"Semaphore信号量,线程协调","type":"java"},
       {"time":"2018-01-04","title":"Android熄屏亮屏监听","type":"android"},
       {"time":"2018-01-17","title":"SpringMVC静态资源","type":"java"},
+      {"time":"2018-01-25","title":"Logback中LevelFilter和ThresholdFilter使用和不同","type":"java"},
       {"time":"2016-01-01","title":"HOLD","type":"other"}
     ],
     "uppublish":[
